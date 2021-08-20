@@ -15,7 +15,7 @@
     width: 142px;
     height: 79.88px;
     display: block;
-    background: url('/img/logo2.png');
+    background: url('././images/logo2.png');
     animation: logo 5s steps(1) infinite;
     left: 50%;
     top: 10%;

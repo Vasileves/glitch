@@ -1,27 +1,28 @@
 @import url(/css/reset.css);
 
-.logo {
-    width: 142px;
-    height: 79.88px;
-    display: block;
-    background: url('../images/logo.png');
-    animation: logo 5s steps(1) infinite;
-    left: 50%;
-    top: 10%;
-    background-color: #F9F2EB;
+body {
+    background: #F9F2EB;
+    background: #0F0F13;
+    overflow-x: hidden;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
 }
 
-.logo2 {
-    width: 142px;
-    height: 79.88px;
-    display: block;
-    background: url('../images/logo2.png');
-    animation: logo 5s steps(1) infinite;
-    left: 50%;
-    top: 10%;
+h2 {
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    text-transform: uppercase;
+    /* Secondary */
+    color: #12101F;
+    padding-bottom: 16px;
 }
 
-p {
+.row1 a {
+    color:#0F0F13;
     font-family: Euclid Square;
     font-style: normal;
     font-weight: normal;
@@ -34,50 +35,68 @@ p {
     /* Bg */
     padding-left: 32px;
     padding-top: 26px;
+    text-decoration: none;
 }
 
-.row1 p {
-    color:#0F0F13;
-}
-
-.row2 p {
+.row2 a {
     color:#F9F2EB;
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 109%;
+    /* or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    /* Bg */
+    padding-left: 32px;
+    padding-top: 26px;
+    text-decoration: none;
 }
 
 .row1 {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding-left: 780px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 46vw;
 }
 
 .row2 {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding-left: 780px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 46vw;
 }
 
-.s1 {
+.navbar1 {
     display: flex;
     background-color: #F9F2EB;
-    width: 100%;
-    padding-left: 24px;
     padding-top: 48px;
     padding-bottom: 48px;
 }
 
-.s2 {
+.navbar2 {
     display: flex;
     background-color: #0F0F13;
-    width: 100%;
-    padding-left: 24px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: none;
 }
 
+.logo {
+    background-color: #F9F2EB;
+}
+
+.logo2 {
+    width: 142px;
+    height: 79.88px;
+    display: block;
+    background: url('../images/logo2.png');
+    animation: logo 5s steps(1) infinite;
+}
 
 @keyframes logo{
     /* 0% {background-position: 0px 0; opacity:0 ;} */
@@ -191,4 +210,67 @@ padding-left: 780px;
     98% {background-position: -994px -798.8px;}
     99% {background-position: -1136px -798.8px;}
     100% {background-position: -1278px -798.8px;}
+}
+
+.releasesSection {
+    display: flex;
+}
+
+.releasesVideo {
+    height: 20vw;
+    padding-right: 24px;
+    width: 30.5vw;
+}
+
+.releasesVideo:nth-child(1) {
+    background-color: blue;
+}
+
+.releasesVideo:nth-child(2) {
+    background-color: hotpink;
+}
+
+.releasesVideo:nth-child(3) {
+    background-color: orangered;
+}
+
+.showreal {
+    background-color: palegreen;
+    height: 35vw;
+    padding-top: 24px;
+}
+
+.footerMain, .footerTalents, .footerTalentPage, .footerContent {
+    padding-top: 48px;
+}
+
+.footerMain {
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
+.footerCopyright {
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    text-transform: uppercase;
+    /* Teritary */
+    color: #92867B;
+}
+
+.footerSocialMedia {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+}
+
+.footerSocialMedia a {
+    padding-right: 24px;
 }

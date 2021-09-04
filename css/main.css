@@ -76,6 +76,7 @@ h2 {
     background-color: #F9F2EB;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: none;
 }
 
 .navbar2 {
@@ -83,7 +84,7 @@ h2 {
     background-color: #0F0F13;
     padding-top: 48px;
     padding-bottom: 48px;
-    display: none;
+    /* display: none; */
 }
 
 .logo {
@@ -240,14 +241,29 @@ h2 {
     padding-top: 24px;
 }
 
-.footerMain, .footerTalents, .footerTalentPage, .footerContent {
+.footerMain, .footerTalents, .footerTalentPage, .footerContacts {
     padding-top: 48px;
+    padding-bottom: 24px;
 }
 
 .footerMain {
     display: flex;
     flex-direction: row;
     display: none;
+}
+
+.footerTalents {
+    display: none;
+}
+
+.footerTalentPage {
+    display: none;
+}
+
+.footerContacts {
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
 }
 
 .footerCopyright {
@@ -273,4 +289,75 @@ h2 {
 
 .footerSocialMedia a {
     padding-right: 24px;
+}
+
+.footerTalentsContact {
+    position: absolute;
+    right: 0;
+}
+
+.footerTalentsContact a{
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    padding-right: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F9F2EB;
+}
+
+.footerContacts h2 {
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    text-transform: uppercase;
+
+    /* Bg */
+
+    color: #F9F2EB;
+}
+
+.footerContacts h3 {
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    padding-bottom: 16px;
+    /* identical to box height, or 29px */
+
+    text-transform: uppercase;
+
+    color: rgba(249, 242, 235, 0.5);
+}
+
+.footerContacts p {
+    font-family: Euclid Square;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-transform: uppercase;
+
+    color: #F9F2EB;
+}
+
+.footerContactsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 215px;
+}
+
+.footerContactsRow2 p {
+    color: #92867B;
+    padding-top: 230px;
 }

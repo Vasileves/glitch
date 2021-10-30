@@ -1,0 +1,88 @@
+body {
+
+    background: #131313;
+    color: #fff;
+    font-size: 24px;
+    font-family: Euclid Square;
+}
+
+.title {
+    animation: glitch 1s linear infinite;
+}
+
+a {
+    color: #fff;
+    font-size: 24px;
+    font-family: Euclid Square;
+    text-decoration: none;
+}
+
+@keyframes glitch {
+
+    2%,
+    64% {
+        transform: translate(1px, 0) skew(0deg);
+    }
+
+    4%,
+    60% {
+        transform: translate(-1px, 0) skew(0deg);
+    }
+
+    62% {
+        transform: translate(0, 0) skew(5deg);
+    }
+}
+
+.title:before,
+.title:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+}
+
+.title:before {
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+
+    2%,
+    64% {
+        transform: translate(1px, -1px);
+    }
+
+    4%,
+    60% {
+        transform: translate(-1px, 1px);
+    }
+
+    62% {
+        transform: translate(6px, -1px) skew(-12deg);
+    }
+}
+
+.title:after {
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom {
+
+    2%,
+    64% {
+        transform: translate(-1px, 0);
+    }
+
+    4%,
+    60% {
+        transform: translate(-1px, 0);
+    }
+
+    62% {
+        transform: translate(-11px, 3px) skew(20deg);
+    }
+}

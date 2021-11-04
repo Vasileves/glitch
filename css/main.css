@@ -55,14 +55,46 @@ h3 {
   color: #f9f2eb;
 }
 
-.portfolio {
-  position: absolute;
+#dragable {
+  left: 2.7vw;
+  top: 22vw;
 }
-
-#mydiv {
-  position: absolute;
+#dragable2 {
+  left: 27vw;
+  top: 34vw;
 }
-
+#dragable3 {
+  left: 38vw;
+  top: 20vw;
+}
+#dragable4 {
+  left: 67vw;
+  top: 21vw;
+}
+#dragable5 {
+  left: 10vw;
+  top: 45vw;
+}
+#dragable6 {
+  left: 18vw;
+  top: 62vw;
+}
+#dragable7 {
+  left: 11vw;
+  top: 80vw;
+}
+#dragable8 {
+  left: 44vw;
+  top: 62vw;
+}
+#dragable9 {
+  left: 64vw;
+  top: 70vw;
+}
+#dragable10 {
+  left: 54vw;
+  top: 28vw;
+}
 h4 {
   font-family: "IBM Plex Mono";
   font-style: normal;

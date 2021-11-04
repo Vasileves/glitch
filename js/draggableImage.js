@@ -1,45 +1,62 @@
 window.onload = function(){ 
-// Make the DIV element draggable:
-dragElement(document.getElementById("mydiv"));
+  $(function() {
+    $( "#draggable" ).draggable({stack: 'div'});
+    $('#draggable').addClass('shadow');
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    // if present, the header is where you move the DIV from:
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    // otherwise, move the DIV from anywhere inside the DIV:
-    elmnt.onmousedown = dragMouseDown;
-  }
+  });
 
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
+    $(function() {
+	$( "#draggable2" ).draggable({stack: 'div'});
+	$('#draggable2').addClass('shadow');
 
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
+  });
 
-  function closeDragElement() {
-    // stop moving when mouse button is released:
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
+  $(function() {
+    $( "#draggable3" ).draggable({stack: 'div'});
+    $('#draggable3').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable4" ).draggable({stack: 'div'});
+    $('#draggable4').addClass('shadow');
+  
+    });
+  $(function() {
+    $( "#draggable5" ).draggable({stack: 'div'});
+    $('#draggable5').addClass('shadow');
+
+  });
+
+    $(function() {
+	$( "#draggable6" ).draggable({stack: 'div'});
+	$('#draggable6').addClass('shadow');
+
+  });
+
+  $(function() {
+    $( "#draggable7" ).draggable({stack: 'div'});
+    $('#draggable7').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable8" ).draggable({stack: 'div'});
+    $('#draggable8').addClass('shadow');
+  
+    });
+    
+  $(function() {
+    $( "#draggable9" ).draggable({stack: 'div'});
+    $('#draggable9').addClass('shadow');
+
+  });
+
+    $(function() {
+  $( "#draggable10" ).draggable({stack: 'div'});
+  $('#draggable10').addClass('shadow');
+
+  });
+
 };
+

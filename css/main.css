@@ -46,60 +46,181 @@ h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 109%;
-  /* or 17px */
+  font-size: 18px;
+  line-height: 110%;
+  padding-bottom: 8px;
+  /* identical to box height, or 20px */
 
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
 
   /* Bg */
 
   color: #f9f2eb;
 }
 
-/* #dragable {
+.draggable {
+  width: fit-content;
+  position: absolute;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.draggable {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: contrast(555) hue-rotate(31deg) brightness(0.14) saturate(50);
+  width: fit-content;
+  padding: 1px 6px 6px 6px;
+}
+
+.draggable:hover > h3 {
+  animation: glitchtxt 1s 0s 1;
+}
+
+.draggable:hover {
+  animation: glitchdrag 1s 0s 1;
+}
+
+.draggable:active {
+  animation: glitchwork 0.08s 0s infinite;
+}
+
+@keyframes glitchwork {
+  0% {
+    backdrop-filter: contrast(555) hue-rotate(31deg) brightness(0.14)
+      saturate(50);
+  }
+
+  10% {
+    backdrop-filter: contrast(800) hue-rotate(180deg) brightness(0.24)
+      saturate(200);
+  }
+  15% {
+    backdrop-filter: contrast(2) hue-rotate(230deg) brightness(0.19)
+      saturate(500);
+  }
+  18% {
+    backdrop-filter: contrast(5) hue-rotate(230deg) brightness(0.19)
+      saturate(500);
+  }
+
+  20% {
+    backdrop-filter: contrast(10) hue-rotate(120deg) brightness(0.3)
+      saturate(250);
+  }
+  22% {
+    backdrop-filter: contrast(1200) hue-rotate(20deg) brightness(0.2)
+      saturate(300) sepia(90%);
+  }
+  27% {
+    backdrop-filter: contrast(120) hue-rotate(280deg) brightness(0.1)
+      saturate(300);
+  }
+
+  34% {
+    backdrop-filter: contrast(200) hue-rotate(10deg) brightness(0.15)
+      saturate(900);
+  }
+  40% {
+    backdrop-filter: contrast(555) hue-rotate(50deg) brightness(0.04)
+      saturate(80);
+  }
+  43% {
+    backdrop-filter: contrast(100) hue-rotate(300deg) brightness(0.34)
+      saturate(100);
+  }
+}
+
+@keyframes glitchtxt {
+  2%,
+  3% {
+    transform: translate(5px, 0) skew(10deg);
+    color: blue;
+  }
+  4%,
+  6% {
+    transform: translate(-2px, 0) skew(50deg);
+    color: green;
+  }
+  6%,
+  7% {
+    transform: translate(-50px, 5) skew(500deg);
+    color: red;
+  }
+  10%,
+  16% {
+    transform: translate(10px, 0px) skew(-500deg);
+    color: white;
+  }
+  17%,
+  26% {
+    transform: translate(4px, 0px) skew(-10deg);
+  }
+
+  28%,
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+@keyframes glitchdrag {
+  1% {
+    filter: saturate(10%) contrast(50) hue-rotate(80deg);
+    transform: translate(4px, 0px) skew(-3deg);
+  }
+  5% {
+    filter: saturate(100%) contrast(500) hue-rotate(120deg);
+    transform: translate(-5px, 0px) skew(5deg);
+  }
+  8%,
+  100% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+}
+
+#draggable,
+.drag_test {
   left: 2.7vw;
-  top: 22vw;
+  top: 7vw;
 }
-#dragable2 {
+#draggable2 {
   left: 27vw;
-  top: 34vw;
+  top: 19vw;
 }
-#dragable3 {
+#draggable3 {
   left: 38vw;
-  top: 20vw;
+  top: 5vw;
 }
-#dragable4 {
+#draggable4 {
   left: 67vw;
-  top: 21vw;
+  top: 6vw;
 }
-#dragable5 {
+#draggable5 {
   left: 10vw;
-  top: 45vw;
+  top: 30vw;
 }
-#dragable6 {
+#draggable6 {
   left: 18vw;
-  top: 62vw;
+  top: 47vw;
 }
-#dragable7 {
+#draggable7 {
   left: 11vw;
-  top: 80vw;
+  top: 65vw;
 }
-#dragable8 {
+#draggable8 {
   left: 44vw;
-  top: 62vw;
+  top: 47vw;
 }
-#dragable9 {
+#draggable9 {
   left: 64vw;
-  top: 70vw;
+  top: 55vw;
 }
-#dragable10 {
+#draggable10 {
   left: 54vw;
-  top: 28vw;
-} */
+  top: 13vw;
+}
 h4 {
   font-family: "Decima Mono Cyr";
   font-style: normal;

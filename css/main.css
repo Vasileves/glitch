@@ -1,6 +1,11 @@
 @import url(/css/reset.css);
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
+@font-face {
+  font-family: "Decima Mono Cyr";
+  src: url("../fonts/DecimaMonoCyr.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   /* background: #F9F2EB; */
   background: #0f0f13;
@@ -10,7 +15,7 @@ body {
 }
 
 h1 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 34px;
@@ -25,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -38,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -55,7 +60,7 @@ h3 {
   color: #f9f2eb;
 }
 
-#dragable {
+/* #dragable {
   left: 2.7vw;
   top: 22vw;
 }
@@ -94,9 +99,9 @@ h3 {
 #dragable10 {
   left: 54vw;
   top: 28vw;
-}
+} */
 h4 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -110,7 +115,7 @@ h4 {
 
 .row1 a {
   color: #0f0f13;
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -127,7 +132,7 @@ h4 {
 
 .row2 a {
   color: #f9f2eb;
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -646,7 +651,7 @@ h4 {
 a {
   color: #fff;
   font-size: 24px;
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   text-decoration: none;
 }
 
@@ -775,7 +780,7 @@ a {
 }
 
 .aboutText p {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -808,7 +813,7 @@ a {
 }
 
 .crewCard h4 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -822,7 +827,7 @@ a {
 }
 
 .crewCard h5 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -853,7 +858,7 @@ a {
 }
 
 .partners p {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -894,7 +899,7 @@ a {
 }
 
 .talentInfo p {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -915,7 +920,7 @@ a {
 }
 
 .talentInfoContacts a {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -994,7 +999,7 @@ a {
 }
 
 .footerCopyright {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1024,7 +1029,7 @@ a {
 }
 
 .footerTalentsContact a {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1036,7 +1041,7 @@ a {
 }
 
 .footerContacts h2 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -1050,7 +1055,7 @@ a {
 }
 
 .footerContacts h3 {
-  font-family: "IBM Plex Mono";
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;

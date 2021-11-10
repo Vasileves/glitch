@@ -6,133 +6,65 @@
   font-weight: normal;
   font-style: normal;
 }
-.draggable {
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: contrast(555) hue-rotate(31deg) brightness(0.14) saturate(50);
-  width: fit-content;
-  padding: 1px 6px 6px 6px;
-}
-
-.draggable:hover > h3 {
-  animation: glitchtxt 1s 0s 1;
-}
-
-.draggable:hover {
-  animation: glitchdrag 1s 0s 1;
-}
-
-.draggable:active {
-  animation: glitchwork 0.08s 0s infinite;
-}
-h3 {
+.row2 a {
+  color: #f9f2eb;
   font-family: "Decima Mono Cyr";
+  font-size: 18px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 109%;
-  /* or 17px */
-  background: none;
-  width: fit-content;
-  height: 8px;
-  color: white;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-align: left;
 
   display: flex;
   align-items: flex-end;
-  letter-spacing: 0.01em;
   text-transform: uppercase;
-  /* Bg */
+  text-decoration: none;
+  margin-left: 64px;
 }
 
-@keyframes glitchwork {
-  0% {
-    backdrop-filter: contrast(555) hue-rotate(31deg) brightness(0.14)
-      saturate(50);
-  }
-
-  10% {
-    backdrop-filter: contrast(800) hue-rotate(180deg) brightness(0.24)
-      saturate(200);
-  }
-  15% {
-    backdrop-filter: contrast(2) hue-rotate(230deg) brightness(0.19)
-      saturate(500);
-  }
-  18% {
-    backdrop-filter: contrast(5) hue-rotate(230deg) brightness(0.19)
-      saturate(500);
-  }
-
-  20% {
-    backdrop-filter: contrast(10) hue-rotate(120deg) brightness(0.3)
-      saturate(250);
-  }
-  22% {
-    backdrop-filter: contrast(1200) hue-rotate(20deg) brightness(0.2)
-      saturate(300) sepia(90%);
-  }
-  27% {
-    backdrop-filter: contrast(120) hue-rotate(280deg) brightness(0.1)
-      saturate(300);
-  }
-
-  34% {
-    backdrop-filter: contrast(200) hue-rotate(10deg) brightness(0.15)
-      saturate(900);
-  }
-  40% {
-    backdrop-filter: contrast(555) hue-rotate(50deg) brightness(0.04)
-      saturate(80);
-  }
-  43% {
-    backdrop-filter: contrast(100) hue-rotate(300deg) brightness(0.34)
-      saturate(100);
-  }
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 56vw;
 }
 
-@keyframes glitchtxt {
-  2%,
-  3% {
-    transform: translate(5px, 0) skew(10deg);
-    color: blue;
-  }
-  4%,
-  6% {
-    transform: translate(-2px, 0) skew(50deg);
-    color: green;
-  }
-  6%,
-  7% {
-    transform: translate(-50px, 5) skew(500deg);
-    color: red;
-  }
-  10%,
-  16% {
-    transform: translate(10px, 0px) skew(-500deg);
-    color: white;
-  }
-  17%,
-  26% {
-    transform: translate(4px, 0px) skew(-10deg);
-  }
-
-  28%,
-  62% {
-    transform: translate(0, 0) skew(5deg);
-  }
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 52vw;
 }
 
-@keyframes glitchdrag {
-  1% {
-    filter: saturate(10%) contrast(50) hue-rotate(80deg);
-    transform: translate(4px, 0px) skew(-3deg);
-  }
-  5% {
-    filter: saturate(100%) contrast(500) hue-rotate(120deg);
-    transform: translate(-5px, 0px) skew(5deg);
-  }
-  8%,
-  100% {
-    filter: saturate(100%) contrast(1) hue-rotate(0deg);
-    transform: translate(0, 0) skew(0);
-  }
+.navbar1 {
+  display: flex;
+  background-color: #f9f2eb;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  /* display: none; */
+}
+
+.navbar2 {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  padding-top: 48px;
+  padding-bottom: 48px;
+  /* display: none; */
+}
+
+.logoColor {
+  padding-left: 48px;
+}
+
+.navLink {
+  background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
+    no-repeat;
+  transition: 0.5s;
+}
+.navLink:hover {
+  --d: 100%;
+  color: rgb(0, 0, 0);
 }

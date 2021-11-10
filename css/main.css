@@ -8,7 +8,7 @@
 }
 body {
   /* background: #F9F2EB; */
-  background: #0f0f13;
+  background: rgb(0, 0, 0);
   overflow-x: hidden;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
@@ -65,6 +65,7 @@ h3 {
 
 .portfolio {
   position: relative;
+  height: 86vw;
 }
 
 .draggable {
@@ -180,8 +181,7 @@ h3 {
   }
 }
 
-#draggable,
-.drag_test {
+#draggable {
   left: 2.7vw;
   top: 7vw;
 }
@@ -221,21 +221,9 @@ h3 {
   left: 54vw;
   top: 13vw;
 }
-h4 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 120%;
-  /* or 22px */
-
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
 
 .row1 a {
-  color: #0f0f13;
+  color: #fff;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -252,20 +240,20 @@ h4 {
 }
 
 .row2 a {
-  color: #f9f2eb;
+  color: #ffffff;
   font-family: "Decima Mono Cyr";
+  font-size: 18px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 109%;
-  /* or 26px */
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-align: left;
+
   display: flex;
   align-items: flex-end;
   text-transform: uppercase;
-  /* Bg */
-  padding-left: 32px;
-  padding-top: 26px;
   text-decoration: none;
+  margin-left: 64px;
 }
 
 .row1 {
@@ -281,7 +269,8 @@ h4 {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 56vw;
+  margin: 0 0 0 auto;
+  margin-left: auto;
 }
 
 .navbar1 {
@@ -294,13 +283,43 @@ h4 {
 
 .navbar2 {
   display: flex;
-  background-color: #0f0f13;
+  background-color: rgb(0, 0, 0);
   padding-top: 48px;
   padding-bottom: 48px;
   /* display: none; */
 }
+.navbarPortfolio {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+
+#current {
+  background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 100%) 100%
+    no-repeat;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.navbarPortfolio a {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 109%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-right: 64px;
+
+  color: #ffffff;
+}
+
 .navLink {
-  background: linear-gradient(rgb(255, 225, 0) 0 0) left / var(--d, 0%) 100%
+  background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
     no-repeat;
   transition: 0.5s;
 }
@@ -314,11 +333,11 @@ h4 {
 }
 
 .logo2 {
-  width: 142px;
+  /* width: 142px;
   height: 79.88px;
   display: block;
   background: url("../images/logo2.png");
-  animation: logo 5s steps(1) infinite;
+  animation: logo 5s steps(1) infinite; */
 }
 
 @keyframes logo {
@@ -844,78 +863,20 @@ a {
 }
 
 .releasesSection {
+  padding-top: 40px;
   display: flex;
+  overflow-x: scroll;
 }
 
 .releasesVideo {
-  height: 20vw;
-  padding-right: 24px;
-  width: 30.5vw;
-}
-
-.releasesVideo:nth-child(1) {
-  background-color: blue;
-}
-
-.releasesVideo:nth-child(2) {
-  background-color: hotpink;
-}
-
-.releasesVideo:nth-child(3) {
-  background-color: orangered;
+  position: relative;
+  padding-right: 16px;
 }
 
 .showreal {
   background-color: palegreen;
   height: 35vw;
   padding-top: 24px;
-}
-
-.talents h2 {
-  color: #f9f2eb;
-}
-
-.talentsRow {
-}
-
-.talentsRow Img {
-  width: 252px;
-  padding-bottom: 16px;
-}
-
-.talentsRow1 {
-  display: flex;
-  flex-direction: row;
-}
-
-.talentsCard {
-  padding-right: 24px;
-}
-
-.talentsRow2 {
-}
-
-.aboutText {
-  padding-top: 80px;
-  padding-bottom: 64px;
-}
-
-.aboutText p {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 160%;
-  width: 50vw;
-  color: rgba(249, 242, 235, 0.5);
-}
-
-.aboutMainCrew h2 {
-  color: #fefcfa;
-}
-
-.aboutMainCrew {
-  padding-bottom: 144px;
 }
 
 .crewRow {
@@ -960,10 +921,6 @@ a {
   color: #ababab;
 }
 
-.aboutCrew {
-  padding-bottom: 96px;
-}
-
 .partners {
   display: flex;
   flex-direction: column;
@@ -997,93 +954,6 @@ a {
 .partners p:hover {
   transform: scale(1.4);
   cursor: default;
-}
-
-.talentPage {
-  display: flex;
-  flex-direction: row;
-}
-
-.talentInfo {
-  padding-top: 24px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 24px;
-}
-
-.talentNav a {
-  padding-right: 24px;
-}
-
-.talentNav {
-  padding-bottom: 8px;
-}
-
-.talentInfo p {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  width: 46vw;
-  /* or 27px */
-
-  display: flex;
-  align-items: flex-end;
-
-  /* Dark-secondary */
-
-  color: rgba(249, 242, 235, 0.5);
-}
-
-.talentInfoContacts {
-  padding-top: 40px;
-}
-
-.talentInfoContacts a {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 150%;
-  /* identical to box height, or 30px */
-  padding-right: 24px;
-  text-transform: uppercase;
-
-  /* Bg */
-
-  color: #f9f2eb;
-}
-
-.talentWorks {
-  padding-top: 24px;
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-}
-
-.talentWork {
-  padding-right: 24px;
-}
-
-.talentWork:nth-child(1) {
-  width: 412px;
-}
-
-.talentWork:nth-child(2) {
-  width: 450px;
-}
-
-.talentWork:nth-child(3) {
-  width: 632px;
-}
-
-.talentWork:nth-child(4) {
-  width: 764px;
-}
-
-.talentWork:nth-child(5) {
-  width: 470px;
 }
 
 /* 
@@ -1126,39 +996,22 @@ a {
   font-size: 18px;
   line-height: 120%;
   /* identical to box height, or 22px */
-  text-transform: uppercase;
   /* Teritary */
   color: #92867b;
+  margin: 0 0 0 auto;
+  margin-left: auto;
 }
 
 .footerSocialMedia {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  right: 0;
 }
 
 .footerSocialMedia a {
   padding-right: 24px;
-}
-
-.footerTalentsContact {
-  position: absolute;
-  right: 0;
-}
-
-.footerTalentsContact a {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  padding-right: 24px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f9f2eb;
 }
 
 .footerContacts h2 {
@@ -1199,7 +1052,7 @@ a {
 
   text-transform: uppercase;
 
-  color: #f9f2eb;
+  color: #ffffff;
 }
 
 .footerContactsRow {

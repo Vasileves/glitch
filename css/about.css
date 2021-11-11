@@ -13,6 +13,10 @@ body {
   padding-right: 1.5vw;
 }
 
+#moveRight {
+  margin-left: 11.5vw;
+}
+
 h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -57,6 +61,11 @@ h5 {
   color: #ffffff;
 }
 
+.wrapperAbout {
+  display: flex;
+  flex-direction: row;
+}
+
 .aboutText {
   padding-top: 80px;
   padding-bottom: 64px;
@@ -77,7 +86,7 @@ h5 {
 #aboutH2 {
   padding: 4px 8px 0;
   background: #feeb30;
-  width: fit-content;
+  width: 100px;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -218,4 +227,68 @@ h5 {
 .partners p:hover {
   transform: scale(1.4);
   cursor: default;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  /* display: none; */
+}
+.contacts h2 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  text-transform: uppercase;
+
+  /* Bg */
+
+  color: #f9f2eb;
+}
+
+.contacts h3 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 109%;
+  padding-bottom: 24px;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.contacts p {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+
+  color: #7e7e7e;
+}
+
+.contactsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 215px;
+}
+
+.contactsRow2 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 24px;
+  padding-top: 230px;
+}
+
+.contactsRow2 p {
+  color: #92867b;
 }

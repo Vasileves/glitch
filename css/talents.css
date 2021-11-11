@@ -163,11 +163,11 @@ h5 {
 .talentRow {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .talentInfo {
   padding-left: 40px;
-  margin: ;
 }
 
 .talentInfoContacts {
@@ -213,17 +213,6 @@ h5 {
   color: #000000;
 }
 
-.footerTalentsContact a {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 110%;
-  /* identical to box height, or 22px */
-  letter-spacing: 0.05em;
-  color: #000000;
-}
-
 .footerCopyright {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -233,14 +222,11 @@ h5 {
   /* identical to box height, or 22px */
   /* Teritary */
   color: #92867b;
-  margin: 0 0 0 auto;
-  margin-left: auto;
+  margin: 0 auto 0 0;
+  margin-right: auto;
 }
 
-.footerTalents {
+.footerTalent {
   display: flex;
-}
-
-.footerTalents a {
-  padding-right: 16px;
+  padding-top: 80px;
 }

@@ -57,22 +57,6 @@ h2 {
   color: #fff;
 }
 
-.footerContacts h3 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 110%;
-  padding-bottom: 8px;
-  /* identical to box height, or 20px */
-
-  letter-spacing: 0.05em;
-
-  /* Bg */
-
-  color: #ffffff;
-}
-
 .draggable {
   width: fit-content;
   position: absolute;
@@ -897,7 +881,7 @@ a {
 .footerMain,
 .footerTalents,
 .footerTalentPage,
-.footerContacts {
+.contacts {
   padding-top: 48px;
   padding-bottom: 24px;
 }
@@ -913,12 +897,6 @@ a {
 }
 
 .footerTalentPage {
-  /* display: none; */
-}
-
-.footerContacts {
-  display: flex;
-  flex-direction: column;
   /* display: none; */
 }
 
@@ -945,64 +923,4 @@ a {
 
 .footerSocialMedia a {
   padding-right: 24px;
-}
-
-.footerContacts h2 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 120%;
-  /* identical to box height, or 29px */
-  text-transform: uppercase;
-
-  /* Bg */
-
-  color: #f9f2eb;
-}
-
-.footerContacts h3 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 120%;
-  padding-bottom: 16px;
-  /* identical to box height, or 29px */
-
-  text-transform: uppercase;
-
-  color: rgba(249, 242, 235, 0.5);
-}
-
-.footerContacts p {
-  font-family: "IBM Plex Mono";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  /* or 27px */
-
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.footerContactsRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-right: 215px;
-}
-
-.footerContactsRow2 {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 24px;
-  padding-top: 230px;
-}
-
-.footerContactsRow2 p {
-  color: #92867b;
 }

@@ -40,6 +40,7 @@ h4 {
 }
 
 h5 {
+  width: fit-content;
   background: #2400ff;
   padding: 4px 8px 2px;
   font-family: "Decima Mono Cyr";
@@ -47,7 +48,8 @@ h5 {
   font-weight: normal;
   font-size: 18px;
   line-height: 110%;
-  width: 6.2vw;
+  margin-top: 8px;
+  margin-bottom: 8px;
   /* identical to box height, or 20px */
 
   display: flex;
@@ -86,10 +88,6 @@ h5 {
 .talentsRow1 {
 }
 
-.talentsCard {
-  padding-right: 24px;
-}
-
 .talentsRow2 {
 }
 
@@ -98,36 +96,78 @@ h5 {
   flex-direction: row;
 }
 
+.talentsCard {
+  width: fit-content;
+  position: absolute;
+}
+
+.talents {
+  position: relative;
+  height: 90vw;
+}
+
+#talentCard1 {
+  left: 2.8vw;
+  top: 6.5vw;
+}
+
+#talentCard2 {
+  left: 30.6vw;
+  top: 10.6vw;
+}
+
+#talentCard3 {
+  left: 55vw;
+  top: 26.7vw;
+}
+
+#talentCard4 {
+  left: 72.2vw;
+  top: 14vw;
+}
+
+#talentCard5 {
+  left: 5.7vw;
+  top: 37.1vw;
+}
+
+#talentCard6 {
+  left: 25.4vw;
+  top: 45.8vw;
+}
+
+#talentCard7 {
+  left: 46.2vw;
+  top: 52.8vw;
+}
+
+#talentCard8 {
+  left: 75.1vw;
+  top: 41.8vw;
+}
+
+#talentCard9 {
+  left: 14.4vw;
+  top: 67.6vw;
+}
+
+.navBack {
+  display: flex;
+}
+
+.navBack h4 {
+  padding-left: 8px;
+  padding-bottom: 40px;
+}
+
+.talentRow {
+  display: flex;
+  flex-direction: row;
+}
+
 .talentInfo {
-  padding-top: 24px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 24px;
-}
-
-.talentNav a {
-  padding-right: 24px;
-}
-
-.talentNav {
-  padding-bottom: 8px;
-}
-
-.talentInfo p {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  width: 46vw;
-  /* or 27px */
-
-  display: flex;
-  align-items: flex-end;
-
-  /* Dark-secondary */
-
-  color: rgba(249, 242, 235, 0.5);
+  padding-left: 40px;
+  margin: ;
 }
 
 .talentInfoContacts {
@@ -161,7 +201,7 @@ h5 {
 }
 
 .talentWork h3 {
-  font-family: "Decima Mono Cyr";
+  font-family: Decima Mono Cyr;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

@@ -7,11 +7,24 @@
   font-style: normal;
 }
 body {
-  /* background: #F9F2EB; */
   background: #ffffff;
   overflow-x: hidden;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
+}
+
+h3 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 109%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
 }
 
 h4 {
@@ -61,15 +74,29 @@ h5 {
   color: #000000;
 }
 
-.aboutMainCrew h2 {
-  color: #fefcfa;
-}
+#aboutH2 {
+  padding: 4px 8px 0;
+  background: #feeb30;
+  width: fit-content;
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 109%;
+  /* identical to box height, or 20px */
 
-.aboutMainCrew {
-  padding-bottom: 144px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-bottom: 8px;
 }
 
 .aboutCrew {
+  position: relative;
+  height: 228vw;
   padding-bottom: 96px;
 }
 
@@ -92,4 +119,103 @@ h5 {
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 64px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 96px;
+}
+
+.partnersRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 24px;
+}
+
+.partners p {
+  font-family: Decima Mono Cyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.partners p:hover {
+  transform: scale(1.4);
+  cursor: default;
+}
+
+.crewCard {
+  position: absolute;
+  width: fit-content;
+}
+
+.crewCard h4 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+  padding-bottom: 8px;
+  /* or 24px */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.crewCard h5 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  text-transform: uppercase;
+
+  color: #ababab;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 96px;
+}
+
+.partnersRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 24px;
+}
+
+.partners p {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 102%;
+  /* or 20px */
+
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+
+  color: #a0a0a0;
+  transition: transform 0.8s ease-in;
+}
+
+.partners p:hover {
+  transform: scale(1.4);
+  cursor: default;
 }

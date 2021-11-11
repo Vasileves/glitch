@@ -42,7 +42,22 @@ h2 {
   padding-bottom: 16px;
 }
 
-h3 {
+.portfolio h3 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.05em;
+
+  /* Bg */
+
+  color: #fff;
+}
+
+.footerContacts h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -55,7 +70,7 @@ h3 {
 
   /* Bg */
 
-  color: #f9f2eb;
+  color: #ffffff;
 }
 
 .draggable {
@@ -878,88 +893,6 @@ a {
   height: 35vw;
   padding-top: 24px;
 }
-
-.crewRow {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 24px;
-}
-
-.crewCard {
-  padding-right: 24px;
-}
-
-.crewCard Img {
-  width: 252px;
-  padding-bottom: 16px;
-}
-
-.crewCard h4 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 120%;
-  padding-bottom: 8px;
-  /* or 24px */
-
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.crewCard h5 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 140%;
-  /* identical to box height, or 20px */
-
-  text-transform: uppercase;
-
-  color: #ababab;
-}
-
-.partners {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 96px;
-}
-
-.partnersRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-bottom: 24px;
-}
-
-.partners p {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 102%;
-  /* or 20px */
-
-  display: flex;
-  align-items: flex-end;
-  text-transform: uppercase;
-
-  color: #a0a0a0;
-  transition: transform 0.8s ease-in;
-}
-
-.partners p:hover {
-  transform: scale(1.4);
-  cursor: default;
-}
-
-/* 
-.partners:hover p:not(:hover) {
-    opacity: 0;
-} */
 
 .footerMain,
 .footerTalents,

@@ -13,10 +13,6 @@ body {
   padding-right: 1.5vw;
 }
 
-#moveRight {
-  margin-left: 11.5vw;
-}
-
 h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -31,16 +27,119 @@ h3 {
   color: #000000;
 }
 
-h4 {
+#crewCard1 {
+  left: 0.4vw;
+  top: 0vw;
+}
+#crewCard2 {
+  left: 21.2vw;
+  top: 13.5vw;
+}
+#crewCard3 {
+  left: 42.5vw;
+  top: 4.3vw;
+}
+#crewCard4 {
+  left: 62.8vw;
+  top: 17vw;
+}
+#crewCard5 {
+  left: 4.5vw;
+  top: 39.1vw;
+}
+#crewCard6 {
+  left: 10.6vw;
+  top: 58.6vw;
+}
+#crewCard7 {
+  left: 39.1vw;
+  top: 41.3vw;
+}
+#crewCard8 {
+  left: 60vw;
+  top: 61.5vw;
+}
+#crewCard9 {
+  left: 0.4vw;
+  top: 85.2vw;
+}
+#crewCard10 {
+  left: 24.7vw;
+  top: 100.2vw;
+}
+#crewCard11 {
+  left: 51.8vw;
+  top: 82.3vw;
+}
+#crewCard12 {
+  left: 4.5vw;
+  top: 122.2vw;
+}
+#crewCard13 {
+  left: 39.1vw;
+  top: 125.7vw;
+}
+#crewCard14 {
+  left: 58.4vw;
+  top: 112.4vw;
+}
+#crewCard15 {
+  left: 12vw;
+  top: 156.9vw;
+}
+#crewCard16 {
+  left: 32.8vw;
+  top: 148.8vw;
+}
+#crewCard17 {
+  left: 65.8vw;
+  top: 160vw;
+}
+#crewCard18 {
+  left: 1vw;
+  top: 188.7vw;
+}
+#crewCard19 {
+  left: 27vw;
+  top: 202.6vw;
+}
+#crewCard20 {
+  left: 41.4vw;
+  top: 178.9vw;
+}
+#crewCard21 {
+  left: 61.1vw;
+  top: 191.6vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  height: fit-content;
+  width: 12vw;
+}
+
+.header h2 {
+  padding: 4px 8px 0;
+  background: #feeb30;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 110%;
+  line-height: 109%;
+  width: fit-content;
   /* identical to box height, or 20px */
-  letter-spacing: 0.05em;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 
   color: #000000;
+  margin-bottom: 8px;
 }
 
 h5 {
@@ -67,8 +166,6 @@ h5 {
 }
 
 .aboutText {
-  padding-top: 80px;
-  padding-bottom: 64px;
 }
 
 .aboutText p {
@@ -83,29 +180,9 @@ h5 {
   color: #000000;
 }
 
-#aboutH2 {
-  padding: 4px 8px 0;
-  background: #feeb30;
-  width: 100px;
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 109%;
-  /* identical to box height, or 20px */
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-
-  color: #000000;
-  margin-bottom: 8px;
-}
-
 .aboutCrew {
   position: relative;
-  height: 228vw;
+  height: 250vw;
   padding-bottom: 96px;
 }
 
@@ -171,27 +248,26 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 120%;
+  font-size: 18px;
+  line-height: 110%;
   padding-bottom: 8px;
-  /* or 24px */
+  /* identical to box height, or 20px */
 
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
 
-  color: #ffffff;
+  color: #000000;
 }
 
 .crewCard h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 140%;
-  /* identical to box height, or 20px */
-
-  text-transform: uppercase;
-
-  color: #ababab;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  width: fit-content;
+  color: #ffffff;
+  margin-bottom: 8px;
 }
 
 .partners {
@@ -232,6 +308,7 @@ h5 {
 .contacts {
   display: flex;
   flex-direction: column;
+
   /* display: none; */
 }
 .contacts h2 {
@@ -279,7 +356,6 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-right: 215px;
 }
 
 .contactsRow2 {

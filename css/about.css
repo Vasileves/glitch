@@ -112,9 +112,96 @@ h3 {
   top: 191.6vw;
 }
 
+#crewCard1 img {
+  width: 15.954vw;
+  height: auto;
+}
+#crewCard2 img {
+  width: 17.688vw;
+  height: auto;
+}
+#crewCard3 img {
+  width: 16.59vw;
+  height: auto;
+}
+#crewCard4 img {
+  width: 19.942vw;
+  height: auto;
+}
+#crewCard5 img {
+  width: 18.786vw;
+  height: auto;
+}
+#crewCard6 img {
+  width: 21.734vw;
+  height: auto;
+}
+#crewCard7 img {
+  width: 16.358vw;
+  height: auto;
+}
+#crewCard8 img {
+  width: 20.52vw;
+  height: auto;
+}
+#crewCard9 img {
+  width: 18.324vw;
+  height: auto;
+}
+#crewCard10 img {
+  width: 22.023vw;
+  height: auto;
+}
+#crewCard11 img {
+  width: 18.497vw;
+  height: auto;
+}
+#crewCard12 img {
+  width: 22.312vw;
+  height: auto;
+}
+#crewCard13 img {
+  width: 17.919vw;
+  height: auto;
+}
+#crewCard14 img {
+  width: 18.844vw;
+  height: auto;
+}
+#crewCard15 img {
+  width: 17.919vw;
+  height: auto;
+}
+#crewCard16 img {
+  width: 22.89vw;
+  height: auto;
+}
+#crewCard17 img {
+  width: 15.549vw;
+  height: auto;
+}
+#crewCard18 img {
+  width: 16.127vw;
+  height: auto;
+}
+#crewCard19 img {
+  width: 14.913vw;
+  height: auto;
+}
+#crewCard20 img {
+  width: 18.208vw;
+  height: auto;
+}
+#crewCard21 img {
+  width: 22.197vw;
+  height: auto;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .header {
@@ -123,7 +210,7 @@ h3 {
 }
 
 .header h2 {
-  padding: 4px 8px 0;
+  padding: 4px 4px 0px 4px;
   background: #feeb30;
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -165,9 +252,6 @@ h5 {
   flex-direction: row;
 }
 
-.aboutText {
-}
-
 .aboutText p {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -182,8 +266,7 @@ h5 {
 
 .aboutCrew {
   position: relative;
-  height: 250vw;
-  padding-bottom: 96px;
+  height: 230vw;
 }
 
 .navbar2 {
@@ -211,6 +294,7 @@ h5 {
   display: flex;
   flex-direction: column;
   padding-bottom: 96px;
+  width: 100%;
 }
 
 .partnersRow {
@@ -307,7 +391,7 @@ h5 {
 
 .contacts {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   /* display: none; */
 }
@@ -363,6 +447,10 @@ h5 {
   flex-direction: row;
   padding-bottom: 24px;
   padding-top: 230px;
+}
+
+.contactsRowItem {
+  padding-right: 96px;
 }
 
 .contactsRow2 p {

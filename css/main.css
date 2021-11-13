@@ -43,6 +43,19 @@ h2 {
   padding-bottom: 16px;
 }
 
+.releases h3 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  padding-bottom: 8px;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
 .portfolio h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -354,6 +367,7 @@ h2 {
   font-weight: normal;
   font-size: 18px;
   line-height: 109%;
+  padding: 4px 0px 0px 4px;
   /* identical to box height, or 20px */
 
   display: flex;
@@ -924,12 +938,13 @@ a {
   background-color: palegreen;
   height: 35vw;
   padding-top: 24px;
+  padding-left: 0vw;
+  padding-right: 0vw;
 }
 
 .footerMain,
 .footerTalents,
-.footerTalentPage,
-.contacts {
+.footerTalentPage {
   padding-top: 48px;
   padding-bottom: 24px;
 }
@@ -948,6 +963,11 @@ a {
   /* display: none; */
 }
 
+.footerContactsRow2 {
+  padding-top: 96px;
+  padding-bottom: 48px;
+  display: flex;
+}
 .footerCopyright {
   font-family: "Decima Mono Cyr";
   font-style: normal;

@@ -18,7 +18,7 @@ h1 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 1.618vw;
   line-height: 110%;
   /* identical to box height, or 31px */
 
@@ -31,7 +31,7 @@ h4 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
   /* identical to box height, or 20px */
   letter-spacing: 0.05em;
@@ -42,14 +42,14 @@ h4 {
 h5 {
   width: fit-content;
   background: #2400ff;
-  padding: 4px 8px 2px;
+  padding: 0.231vw 0.462vw 0.116vw;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 0.462vw;
+  margin-bottom: 0.462vw;
   /* identical to box height, or 20px */
 
   display: flex;
@@ -66,10 +66,10 @@ h5 {
 .row2 a {
   color: #000000;
   font-family: "Decima Mono Cyr";
-  font-size: 18px;
+  font-size: 1.04vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.156vw;
   letter-spacing: 0.18em;
   text-align: left;
 
@@ -77,12 +77,13 @@ h5 {
   align-items: flex-end;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 64px;
+  margin-left: 3.699vw;
 }
 
 .talentsRow Img {
-  width: 252px;
-  padding-bottom: 16px;
+  width: 14.566vw;
+  height: auto;
+  padding-bottom: 0.925vw;
 }
 
 .talentsRow1 {
@@ -151,13 +152,58 @@ h5 {
   top: 67.6vw;
 }
 
+#talentCard1 img {
+  width: 17.11vw;
+  height: auto;
+}
+
+#talentCard2 img {
+  width: 19.133vw;
+  height: auto;
+}
+
+#talentCard3 img {
+  width: 12.543vw;
+  height: auto;
+}
+
+#talentCard4 img {
+  width: 19.422vw;
+  height: auto;
+}
+
+#talentCard5 img {
+  width: 12.543vw;
+  height: auto;
+}
+
+#talentCard6 img {
+  width: 12.89vw;
+  height: auto;
+}
+
+#talentCard7 img {
+  width: 19.364vw;
+  height: auto;
+}
+
+#talentCard8 img {
+  width: 12.543vw;
+  height: auto;
+}
+
+#talentCard9 img {
+  width: 14.971vw;
+  height: auto;
+}
+
 .navBack {
   display: flex;
 }
 
 .navBack h4 {
-  padding-left: 8px;
-  padding-bottom: 40px;
+  padding-left: 0.462vw;
+  padding-bottom: 2.312vw;
 }
 
 .talentRow {
@@ -167,44 +213,44 @@ h5 {
 }
 
 .talentInfo {
-  padding-left: 40px;
+  padding-left: 2.312vw;
 }
 
 .talentInfoContacts {
-  padding-top: 40px;
+  padding-top: 2.312vw;
 }
 
 .talentInfoContacts a {
   font-family: Decima Mono Cyr;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.156vw;
   line-height: 150%;
   /* identical to box height, or 30px */
 
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding-right: 64px;
+  padding-right: 3.699vw;
 
   color: #000000;
 }
 
 .talentWorks {
-  padding-top: 24px;
+  padding-top: 1.387vw;
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
 }
 
 .talentWork {
-  padding-right: 24px;
+  padding-right: 1.387vw;
 }
 
 .talentWork h3 {
   font-family: Decima Mono Cyr;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
   /* identical to box height, or 20px */
 
@@ -217,7 +263,7 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 120%;
   /* identical to box height, or 22px */
   /* Teritary */
@@ -228,5 +274,5 @@ h5 {
 
 .footerTalent {
   display: flex;
-  padding-top: 80px;
+  padding-top: 4.624vw;
 }

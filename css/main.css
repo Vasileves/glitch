@@ -253,29 +253,35 @@ h2 {
   top: 6vw;
   animation: glitchdrag_onload 0.2s 0.13s 1 forwards;
 }
-#draggable5 {
+.draggable5 {
   left: 10vw;
   top: 30vw;
+  animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
 }
-#draggable6 {
+.draggable6 {
   left: 18vw;
   top: 47vw;
+  animation: glitchdrag_onload 0.2s 0.1s 1 forwards;
 }
-#draggable7 {
+.draggable7 {
   left: 11vw;
   top: 65vw;
+  animation: glitchdrag_onload 0.4s 0.2s 1 forwards;
 }
-#draggable8 {
+.draggable8 {
   left: 44vw;
   top: 47vw;
+  animation: glitchdrag_onload 0.5s 0.1s 1 forwards;
 }
-#draggable9 {
+.draggable9 {
   left: 64vw;
   top: 55vw;
+  animation: glitchdrag_onload 0.6s 0.15s 1 forwards;
 }
-#draggable10 {
+.draggable10 {
   left: 54vw;
   top: 13vw;
+  animation: glitchdrag_onload 0.3s 0.3s 1 forwards;
 }
 
 .removed {

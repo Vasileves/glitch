@@ -17,7 +17,7 @@ h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 109%;
   /* identical to box height, or 20px */
 
@@ -200,8 +200,8 @@ h3 {
 .wrapper {
   display: flex;
   flex-direction: row;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 2.775vw;
+  padding-bottom: 2.775vw;
 }
 
 .header {
@@ -210,12 +210,12 @@ h3 {
 }
 
 .header h2 {
-  padding: 4px 4px 0px 4px;
+  padding: 0.231vw 0.231vw 0vw 0.231vw;
   background: #feeb30;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 109%;
   width: fit-content;
   /* identical to box height, or 20px */
@@ -226,16 +226,16 @@ h3 {
   text-transform: uppercase;
 
   color: #000000;
-  margin-bottom: 8px;
+  margin-bottom: 0.462vw;
 }
 
 h5 {
   background: #2400ff;
-  padding: 4px 8px 2px;
+  padding: 0.231vw 0.462vw 0.116vw;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
   width: 6.2vw;
   /* identical to box height, or 20px */
@@ -256,7 +256,7 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 180%;
   /* or 32px */
   width: 64vw;
@@ -276,10 +276,10 @@ h5 {
 .row2 a {
   color: #000000;
   font-family: "Decima Mono Cyr";
-  font-size: 18px;
+  font-size: 1.04vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.156vw;
   letter-spacing: 0.18em;
   text-align: left;
 
@@ -287,13 +287,13 @@ h5 {
   align-items: flex-end;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 64px;
+  margin-left: 3.699vw;
 }
 
 .partners {
   display: flex;
   flex-direction: column;
-  padding-bottom: 96px;
+  padding-bottom: 5.549vw;
   width: 100%;
 }
 
@@ -302,14 +302,14 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 24px;
+  padding-bottom: 1.387vw;
 }
 
 .partners p {
   font-family: Decima Mono Cyr;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
   /* identical to box height, or 20px */
   display: flex;
@@ -332,9 +332,9 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
-  padding-bottom: 8px;
+  padding-bottom: 0.462vw;
   /* identical to box height, or 20px */
 
   letter-spacing: 0.05em;
@@ -346,18 +346,18 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
   letter-spacing: 0.05em;
   width: fit-content;
   color: #ffffff;
-  margin-bottom: 8px;
+  margin-bottom: 0.462vw;
 }
 
 .partners {
   display: flex;
   flex-direction: column;
-  padding-bottom: 96px;
+  padding-bottom: 5.549vw;
 }
 
 .partnersRow {
@@ -365,14 +365,14 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 24px;
+  padding-bottom: 1.387vw;
 }
 
 .partners p {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.156vw;
   line-height: 102%;
   /* or 20px */
 
@@ -399,7 +399,7 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.387vw;
   line-height: 120%;
   /* identical to box height, or 29px */
   text-transform: uppercase;
@@ -413,9 +413,9 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 109%;
-  padding-bottom: 24px;
+  padding-bottom: 1.387vw;
   /* identical to box height, or 20px */
 
   letter-spacing: 0.1em;
@@ -428,7 +428,7 @@ h5 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 180%;
   /* or 32px */
 
@@ -445,12 +445,12 @@ h5 {
 .contactsRow2 {
   display: flex;
   flex-direction: row;
-  padding-bottom: 24px;
-  padding-top: 230px;
+  padding-bottom: 1.387vw;
+  padding-top: 13.295vw;
 }
 
 .contactsRowItem {
-  padding-right: 96px;
+  padding-right: 5.549vw;
 }
 
 .contactsRow2 p {

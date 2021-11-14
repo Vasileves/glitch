@@ -19,10 +19,10 @@ h1 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
+  font-size: 1.965vw;
   line-height: 120%;
   /* or 41px */
-  padding-bottom: 8px;
+  padding-bottom: 0.462vw;
   text-transform: uppercase;
 
   /* Bg */
@@ -34,22 +34,22 @@ h2 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.387vw;
   line-height: 120%;
   /* identical to box height, or 29px */
   text-transform: uppercase;
   /* Secondary */
   color: #12101f;
-  padding-bottom: 16px;
+  padding-bottom: 0.925vw;
 }
 
 .releases h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
-  padding-bottom: 8px;
+  padding-bottom: 0.462vw;
   /* identical to box height, or 20px */
 
   letter-spacing: 0.05em;
@@ -60,7 +60,7 @@ h2 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 110%;
   /* identical to box height, or 20px */
 
@@ -78,14 +78,14 @@ h2 {
 
 .portfolio {
   position: relative;
-  height: 86vw;
+  height: 248vw;
 }
 
 .draggable {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: contrast(555) hue-rotate(31deg) brightness(0.14) saturate(50);
   width: fit-content;
-  padding: 1px 6px 6px 6px;
+  padding: 0.058vw 0.347vw 0.347vw 0.347vw;
 }
 
 .draggable:hover > h3 {
@@ -233,64 +233,245 @@ h2 {
 
 .draggable1 {
   opacity: 0;
-  left: 2.7vw;
-  top: 7vw;
+  left: 0vw;
+  top: 4.965vw;
   animation-fill-mode: forwards;
   animation: glitchdrag_onload 0.5s 0.1s 1 forwards;
 }
 .draggable2 {
   opacity: 0;
-  left: 27vw;
-  top: 19vw;
+  left: 24.104vw;
+  top: 14.676vw;
   animation: glitchdrag_onload 0.2s 0.2s 1 forwards;
 }
 .draggable3 {
   opacity: 0;
-  left: 38vw;
-  top: 5vw;
+  left: 35.613vw;
+  top: 1.728vw;
   animation: glitchdrag_onload 0.4s 0.12s 1 forwards;
 }
 .draggable4 {
   opacity: 0;
-  left: 67vw;
-  top: 6vw;
+  left: 47.867vw;
+  top: 12.191vw;
   animation: glitchdrag_onload 0.2s 0.13s 1 forwards;
 }
 .draggable5 {
   opacity: 0;
-  left: 10vw;
-  top: 30vw;
+  left: 64.341vw;
+  top: 3.52vw;
   animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
 }
 .draggable6 {
   opacity: 0;
-  left: 18vw;
-  top: 47vw;
+  left: 7.058vw;
+  top: 28.665vw;
   animation: glitchdrag_onload 0.2s 0.1s 1 forwards;
 }
 .draggable7 {
   opacity: 0;
-  left: 11vw;
-  top: 65vw;
+  left: 37.578vw;
+  top: 35.642vw;
   animation: glitchdrag_onload 0.4s 0.2s 1 forwards;
 }
 .draggable8 {
   opacity: 0;
-  left: 44vw;
-  top: 47vw;
+  left: 2.087vw;
+  top: 60.728vw;
   animation: glitchdrag_onload 0.5s 0.1s 1 forwards;
 }
 .draggable9 {
   opacity: 0;
-  left: 64vw;
-  top: 55vw;
+  left: 26.017vw;
+  top: 65.237vw;
   animation: glitchdrag_onload 0.6s 0.15s 1 forwards;
 }
 .draggable10 {
   opacity: 0;
-  left: 54vw;
-  top: 13vw;
+  left: 61.855vw;
+  top: 59.919vw;
   animation: glitchdrag_onload 0.3s 0.3s 1 forwards;
+}
+
+.draggable11 {
+  left: 0vw;
+  top: 85.179vw;
+}
+.draggable12 {
+  left: 24.861vw;
+  top: 99.572vw;
+}
+.draggable13 {
+  left: 46.942vw;
+  top: 83.734vw;
+}
+.draggable14 {
+  left: 11.682vw;
+  top: 124.775vw;
+}
+.draggable15 {
+  left: 64.861vw;
+  top: 128.694vw;
+}
+.draggable16 {
+  left: 1.064vw;
+  top: 140.844vw;
+}
+.draggable17 {
+  left: 23.63vw;
+  top: 155.41vw;
+}
+.draggable18 {
+  left: 48.445vw;
+  top: 143.85vw;
+}
+.draggable19 {
+  left: 11.682vw;
+  top: 177.029vw;
+}
+.draggable20 {
+  left: 44.977vw;
+  top: 175.41vw;
+}
+
+.draggable21 {
+  left: 76.653vw;
+  top: 168.532vw;
+}
+.draggable22 {
+  left: 3.705vw;
+  top: 202.231vw;
+}
+.draggable23 {
+  left: 33.763vw;
+  top: 208.879vw;
+}
+.draggable24 {
+  left: 52.954vw;
+  top: 190.208vw;
+}
+.draggable25 {
+  left: 8.792vw;
+  top: 223.618vw;
+}
+.draggable26 {
+  left: 41.162vw;
+  top: 221.306vw;
+}
+.draggable27 {
+  left: 61.855vw;
+  top: 210.497vw;
+}
+
+.draggable1 img {
+  width: 26.474vw;
+  height: 18.613vw;
+}
+.draggable2 img {
+  width: 18.15vw;
+  height: 23.988vw;
+}
+.draggable3 img {
+  width: 18.902vw;
+  height: 17.63vw;
+}
+.draggable4 img {
+  width: 41.618vw;
+  height: 34.509vw;
+}
+.draggable5 img {
+  width: 27.919vw;
+  height: 18.671vw;
+}
+.draggable6 img {
+  width: 24.624vw;
+  height: 26.705vw;
+}
+.draggable7 img {
+  width: 33.699vw;
+  height: 21.792vw;
+}
+.draggable8 img {
+  width: 18.902vw;
+  height: 18.439vw;
+}
+.draggable9 img {
+  width: 25.607vw;
+  height: 24.509vw;
+}
+.draggable10 img {
+  width: 32.37vw;
+  height: 19.711vw;
+}
+
+.draggable11 img {
+  width: 32.659vw;
+  height: 26.012vw;
+}
+.draggable12 img {
+  width: 45.202vw;
+  height: 38.324vw;
+}
+.draggable13 img {
+  width: 39.769vw;
+  height: 23.584vw;
+}
+.draggable14 img {
+  width: 18.266vw;
+  height: 18.266vw;
+}
+.draggable15 img {
+  width: 26.994vw;
+  height: 25.607vw;
+}
+.draggable16 img {
+  width: 33.642vw;
+  height: 31.04vw;
+}
+.draggable17 img {
+  width: 29.191vw;
+  height: 24.509vw;
+}
+.draggable18 img {
+  width: 31.503vw;
+  height: 17.746vw;
+}
+.draggable19 img {
+  width: 24.855vw;
+  height: 27.919vw;
+}
+.draggable20 img {
+  width: 25.434vw;
+  height: 16.069vw;
+}
+
+.draggable21 img {
+  width: 17.63vw;
+  height: 17.63vw;
+}
+.draggable22 img {
+  width: 24.913vw;
+  height: 16.069vw;
+}
+.draggable23 img {
+  width: 16.069vw;
+  height: 16.069vw;
+}
+.draggable24 img {
+  width: 36.763vw;
+  height: 27.803vw;
+}
+.draggable25 img {
+  width: 23.295vw;
+  height: 24.277vw;
+}
+.draggable26 img {
+  width: 32.832vw;
+  height: 24.104vw;
+}
+.draggable27 img {
+  width: 32.37vw;
+  height: 19.711vw;
 }
 
 .removed {
@@ -303,25 +484,25 @@ h2 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.387vw;
   line-height: 109%;
   /* or 26px */
   display: flex;
   align-items: flex-end;
   text-transform: uppercase;
   /* Bg */
-  padding-left: 32px;
-  padding-top: 26px;
+  padding-left: 1.85vw;
+  padding-top: 1.503vw;
   text-decoration: none;
 }
 
 .row2 a {
   color: #ffffff;
   font-family: "Decima Mono Cyr";
-  font-size: 18px;
+  font-size: 1.04vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.156vw;
   letter-spacing: 0.18em;
   text-align: left;
 
@@ -329,7 +510,7 @@ h2 {
   align-items: flex-end;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 64px;
+  margin-left: 3.699vw;
 }
 
 .row1 {
@@ -352,22 +533,22 @@ h2 {
 .navbar1 {
   display: flex;
   background-color: #f9f2eb;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 2.775vw;
+  padding-bottom: 2.775vw;
   /* display: none; */
 }
 
 .navbar2 {
   display: flex;
   background-color: rgb(0, 0, 0);
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 2.775vw;
+  padding-bottom: 2.775vw;
   /* display: none; */
 }
 .navbarPortfolio {
   display: flex;
   flex-direction: row;
-  padding-top: 80px;
+  padding-top: 4.624vw;
 }
 
 #current {
@@ -381,16 +562,16 @@ h2 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 109%;
-  padding: 4px 0px 0px 4px;
+  padding: 0.231vw 0vw 0vw 4vw;
   /* identical to box height, or 20px */
 
   display: flex;
   align-items: center;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  margin-right: 64px;
+  margin-right: 3.699vw;
 
   color: #ffffff;
 }
@@ -867,7 +1048,7 @@ h2 {
 
 a {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.387vw;
   font-family: "Decima Mono Cyr";
   text-decoration: none;
 }
@@ -940,20 +1121,20 @@ a {
 }
 
 .releasesSection {
-  padding-top: 40px;
+  padding-top: 2.312vw;
   display: flex;
   overflow-x: scroll;
 }
 
 .releasesVideo {
   position: relative;
-  padding-right: 16px;
+  padding-right: 0.925vw;
 }
 
 .showreal {
   background-color: palegreen;
   height: 35vw;
-  padding-top: 24px;
+  padding-top: 1.387vw;
   padding-left: 0vw;
   padding-right: 0vw;
 }
@@ -961,8 +1142,8 @@ a {
 .footerMain,
 .footerTalents,
 .footerTalentPage {
-  padding-top: 48px;
-  padding-bottom: 24px;
+  padding-top: 2.775vw;
+  padding-bottom: 1.387vw;
 }
 
 .footerMain {
@@ -980,15 +1161,15 @@ a {
 }
 
 .footerContactsRow2 {
-  padding-top: 96px;
-  padding-bottom: 48px;
+  padding-top: 5.549vw;
+  padding-bottom: 2.775vw;
   display: flex;
 }
 .footerCopyright {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.04vw;
   line-height: 120%;
   /* identical to box height, or 22px */
   /* Teritary */
@@ -1006,5 +1187,5 @@ a {
 }
 
 .footerSocialMedia a {
-  padding-right: 24px;
+  padding-right: 1.387vw;
 }

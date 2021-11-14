@@ -7,6 +7,10 @@
   font-style: normal;
 }
 
+.navMob {
+  display: none;
+}
+
 body {
   /* background: #F9F2EB; */
   background: rgb(0, 0, 0);
@@ -564,7 +568,7 @@ h2 {
   font-weight: normal;
   font-size: 1.04vw;
   line-height: 109%;
-  padding: 0.231vw 0vw 0vw 4vw;
+  padding: 0.231vw 0vw 0vw 0.231vw;
   /* identical to box height, or 20px */
 
   display: flex;

@@ -13,6 +13,10 @@ body {
   padding-right: 1.5vw;
 }
 
+.navMob {
+  display: none;
+}
+
 h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -542,11 +546,298 @@ h5 {
   }
 
   .aboutCrew {
+    padding-top: 10.256vw;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-items: end;
+    padding-bottom: 10.256vw;
   }
 
   .crewCard {
     position: relative;
+    padding-right: 4.103vw;
+  }
+
+  #crewCard1 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard2 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard3 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard4 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard5 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard6 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard7 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard8 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard9 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard10 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard11 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard12 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard13 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard14 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard15 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard16 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard17 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard18 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard19 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard20 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard21 {
+    top: 0;
+    left: 0;
+  }
+
+  #crewCard1 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard2 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard3 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard4 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard5 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard6 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard7 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard8 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard9 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard10 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard11 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard12 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard13 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard14 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard15 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard16 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard17 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard18 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard19 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard20 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #crewCard21 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  .crewCard h4 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    padding-bottom: 2.051vw;
+    line-height: 115%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+  .crewCard h5 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 115%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 2.051vw;
+
+    color: #ffffff;
+  }
+
+  .partners {
+    padding-top: 20.513vw;
+  }
+
+  .partnersRow {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .partners p {
+    padding-bottom: 2.051vw;
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+  .footerCopyright p {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.103vw;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    /* Teritary */
+    color: #92867b;
+    margin: 0 auto 0 0;
+    margin-right: auto;
+  }
+
+  .footerMain {
+    align-items: flex-end;
   }
 
   .footerCopyright {

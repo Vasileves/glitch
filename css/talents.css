@@ -448,3 +448,429 @@ h5 {
   width: 25.607vw;
   height: 16.243vw;
 }
+
+.navMob {
+  display: none;
+}
+
+@media screen and (max-width: 428px) {
+  body {
+    padding-right: 6.154vw;
+    padding-left: 6.154vw;
+  }
+
+  .navbar2 {
+    display: none;
+  }
+
+  .navMob {
+    padding-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .talents {
+    padding-top: 14.359vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .talentsCard {
+    position: relative;
+    width: fit-content;
+    padding-right: 4.103vw;
+  }
+
+  .talentsCard h4 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    padding-bottom: 2.051vw;
+    line-height: 115%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+  .talentsCard h5 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 115%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 2.051vw;
+
+    color: #ffffff;
+  }
+
+  #talentCard1 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard2 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard3 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard4 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard5 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard6 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard7 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard8 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard9 {
+    left: 0;
+    top: 0;
+  }
+
+  #talentCard1 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard2 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard3 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard4 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard5 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard6 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard7 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard8 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  #talentCard9 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  .footerCopyright p {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.103vw;
+    line-height: 110%;
+    padding-top: 10.256vw;
+    /* identical to box height, or 18px */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+    margin: 0 auto 0 0;
+    margin-right: auto;
+    /* Teritary */
+
+    color: #92867b;
+  }
+
+  .talentRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .talentInfo {
+    padding-left: 0;
+  }
+
+  .talentInfo h1 {
+    padding-top: 2.051vw;
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.897vw;
+    line-height: 115%;
+    /* or 26px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+  .talentInfoContacts a {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.846vw;
+    line-height: 115%;
+    /* or 17px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+  .talentRow Img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  .talentWork h3 {
+    font-family: Decima Mono Cyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 115%;
+    padding-top: 2.051vw;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+  }
+
+  .navBack h4 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 109%;
+    /* or 17px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  .navBack {
+    padding-top: 10.256vw;
+  }
+
+  .talentWork {
+    padding-right: 4.103vw;
+  }
+
+  #emil1 Img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil4 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil5 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil6 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #klim1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #klim2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #klim3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #klim4 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #nikita1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #nikita2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #nikita3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #eugeniy1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #eugeniy2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #eugeniy3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sergey1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sergey2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sergey3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sergey4 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #christina1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #christina2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #christina3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #christina4 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sophia1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sophia2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #sophia3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyO1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyO2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyO3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyR1 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyR2 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyR3 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #andreyR4 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  .footerCopyright {
+    padding-top: 24.615vw;
+  }
+}

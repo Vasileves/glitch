@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Decima Mono Cyr";
-  src: url("../fonts/DecimaMonoCyr.woff2") format("woff2");
+  src: url("../fonts/font.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -455,4 +455,101 @@ h5 {
 
 .contactsRow2 p {
   color: #92867b;
+}
+
+@media screen and (max-width: 428px) {
+  body {
+    padding-right: 6.154vw;
+    padding-left: 6.154vw;
+  }
+
+  .navbar2 {
+    display: none;
+  }
+
+  .navMob {
+    padding-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10.256vw;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutText p {
+    padding-top: 2.051vw;
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.103vw;
+    line-height: 163%;
+    /* or 26px */
+    width: 87.436vw;
+    padding-bottom: 10.256vw;
+
+    color: #000000;
+  }
+
+  .header h2 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 109%;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  .contacts {
+    padding-top: 10.256vw;
+    padding-bottom: 10.256vw;
+    flex-direction: column;
+  }
+
+  .contactsRowItem h3 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 109%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  .contactsRowItem p {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.103vw;
+    line-height: 163%;
+    padding-bottom: 8.205vw;
+    /* or 26px */
+
+    color: #7e7e7e;
+  }
+
+  .aboutCrew {
+    height: auto;
+  }
+
+  .crewCard {
+    position: relative;
+  }
+
+  .footerCopyright {
+    padding-top: 24.615vw;
+  }
 }

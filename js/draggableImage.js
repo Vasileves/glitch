@@ -1,7 +1,7 @@
 window.onload = function(){ 
   setTimeout(function (params) {
     $(".draggable").addClass("removed")
-  },1000)
+  },600)
   $(function() {
     $( "#draggable" ).draggable({stack: 'div'});
     $('#draggable').addClass('shadow');

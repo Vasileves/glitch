@@ -227,58 +227,67 @@ h2 {
 
   81%,
   100% {
-    opacity: 1;
     filter: saturate(100%) contrast(1) hue-rotate(0deg) scaleY(1) scaleX(1);
   }
 }
 
 .draggable1 {
+  opacity: 0;
   left: 2.7vw;
   top: 7vw;
   animation-fill-mode: forwards;
   animation: glitchdrag_onload 0.5s 0.1s 1 forwards;
 }
 .draggable2 {
+  opacity: 0;
   left: 27vw;
   top: 19vw;
   animation: glitchdrag_onload 0.2s 0.2s 1 forwards;
 }
 .draggable3 {
+  opacity: 0;
   left: 38vw;
   top: 5vw;
   animation: glitchdrag_onload 0.4s 0.12s 1 forwards;
 }
 .draggable4 {
+  opacity: 0;
   left: 67vw;
   top: 6vw;
   animation: glitchdrag_onload 0.2s 0.13s 1 forwards;
 }
 .draggable5 {
+  opacity: 0;
   left: 10vw;
   top: 30vw;
   animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
 }
 .draggable6 {
+  opacity: 0;
   left: 18vw;
   top: 47vw;
   animation: glitchdrag_onload 0.2s 0.1s 1 forwards;
 }
 .draggable7 {
+  opacity: 0;
   left: 11vw;
   top: 65vw;
   animation: glitchdrag_onload 0.4s 0.2s 1 forwards;
 }
 .draggable8 {
+  opacity: 0;
   left: 44vw;
   top: 47vw;
   animation: glitchdrag_onload 0.5s 0.1s 1 forwards;
 }
 .draggable9 {
+  opacity: 0;
   left: 64vw;
   top: 55vw;
   animation: glitchdrag_onload 0.6s 0.15s 1 forwards;
 }
 .draggable10 {
+  opacity: 0;
   left: 54vw;
   top: 13vw;
   animation: glitchdrag_onload 0.3s 0.3s 1 forwards;
@@ -286,6 +295,7 @@ h2 {
 
 .removed {
   animation: none;
+  opacity: 1;
 }
 
 .row1 a {

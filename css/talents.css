@@ -80,9 +80,9 @@ h5 {
   margin-left: 3.699vw;
 }
 
-.talentsRow Img {
-  width: 14.566vw;
-  height: auto;
+.talentImg {
+  width: auto;
+  height: 18.324vw;
   padding-bottom: 0.925vw;
 }
 
@@ -247,7 +247,7 @@ h5 {
 }
 
 .talentWork h3 {
-  font-family: Decima Mono Cyr;
+  font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
   font-size: 1.04vw;
@@ -255,6 +255,7 @@ h5 {
   /* identical to box height, or 20px */
 
   letter-spacing: 0.05em;
+  padding-bottom: 0.462vw;
 
   color: #000000;
 }
@@ -275,4 +276,175 @@ h5 {
 .footerTalent {
   display: flex;
   padding-top: 4.624vw;
+  padding-bottom: 2vw;
+}
+
+#emil1 img {
+  width: 27.341vw;
+  height: 16.243vw;
+}
+
+#emil2 img {
+  width: 23.699vw;
+  height: 16.243vw;
+}
+
+#emil3 img {
+  width: 30.116vw;
+  height: 16.243vw;
+}
+
+#emil4 img {
+  width: 25.607vw;
+  height: 16.243vw;
+}
+
+#emil5 img {
+  width: 21.792vw;
+  height: 16.243vw;
+}
+
+#emil6 img {
+  width: 34.798vw;
+  height: 16.243vw;
+}
+
+#klim1 img {
+  width: 25.723vw;
+  height: 16.243vw;
+}
+
+#klim2 img {
+  width: 25.838vw;
+  height: 16.243vw;
+}
+
+#klim3 img {
+  width: 33.931vw;
+  height: 16.243vw;
+}
+
+#klim4 img {
+  width: 20.231vw;
+  height: 16.243vw;
+}
+
+#nikita1 img {
+  width: 28.844vw;
+  height: 16.243vw;
+}
+
+#nikita2 img {
+  width: 31.387vw;
+  height: 16.243vw;
+}
+
+#nikita3 img {
+  width: 24.104vw;
+  height: 16.243vw;
+}
+
+#eugeniy1 img {
+  width: 41.329vw;
+  height: 16.243vw;
+}
+
+#eugeniy2 img {
+  width: 23.699vw;
+  height: 16.243vw;
+}
+
+#eugeniy3 img {
+  width: 30.116vw;
+  height: 16.243vw;
+}
+
+#sergey1 img {
+  width: 30vw;
+  height: 16.243vw;
+}
+
+#sergey2 img {
+  width: 21.965vw;
+  height: 16.243vw;
+}
+
+#sergey3 img {
+  width: 34.855vw;
+  height: 16.243vw;
+}
+
+#sergey4 img {
+  width: 25.607vw;
+  height: 16.243vw;
+}
+
+#christina1 img {
+  width: 32.254vw;
+  height: 16.243vw;
+}
+
+#christina2 img {
+  width: 21.387vw;
+  height: 16.243vw;
+}
+
+#christina3 img {
+  width: 30.116vw;
+  height: 16.243vw;
+}
+
+#christina4 img {
+  width: 32.312vw;
+  height: 16.243vw;
+}
+
+#sophia1 img {
+  width: 23.931vw;
+  height: 16.243vw;
+}
+
+#sophia2 img {
+  width: 28.671vw;
+  height: 16.243vw;
+}
+
+#sophia3 img {
+  width: 30.867vw;
+  height: 16.243vw;
+}
+
+#andreyO1 img {
+  width: 29.942vw;
+  height: 16.243vw;
+}
+
+#andreyO2 img {
+  width: 20.52vw;
+  height: 16.243vw;
+}
+
+#andreyO3 img {
+  width: 22.543vw;
+  height: 16.243vw;
+}
+
+#andreyR1 img {
+  width: 27.341vw;
+  height: 16.243vw;
+}
+
+#andreyR2 img {
+  width: 32.081vw;
+  height: 16.243vw;
+}
+
+#andreyR3 img {
+  width: 24.509vw;
+  height: 16.243vw;
+}
+
+#andreyR4 img {
+  width: 25.607vw;
+  height: 16.243vw;
 }

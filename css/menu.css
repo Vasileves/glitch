@@ -16,10 +16,10 @@ body {
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
-  font-size: 8vw;
+  font-size: 6vw;
   line-height: 123%;
   text-decoration: none;
-  padding-bottom: 4vw;
+  padding-bottom: 5vw;
   /* identical to box height, or 27px */
 
   display: flex;

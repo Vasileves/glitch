@@ -1226,8 +1226,8 @@ a {
 .showreal video {
   width: 100vw;
   overflow-x: hidden;
-  -webkit-filter: brightness(0.3);
-  filter: brightness(0.3);
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
 }
 
 .footerMain,

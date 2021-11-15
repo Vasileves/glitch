@@ -1209,6 +1209,7 @@ a {
   padding-top: 2.312vw;
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
 }
 
 .releasesVideo {

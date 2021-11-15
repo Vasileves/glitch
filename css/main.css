@@ -699,13 +699,12 @@ h2 {
 .navLink {
   background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
     no-repeat;
-  color: rgb(0, 0, 0);
   transition: 0.5s;
 }
 .navLink:hover {
   --d: 100%;
   color: rgb(0, 0, 0);
-  animation: glitchnav 1s;
+  animation: glitchnav 0.5s;
 }
 
 .logo {

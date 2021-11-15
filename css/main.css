@@ -1342,6 +1342,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding-bottom: 10.256vw;
+    align-items: center;
   }
 
   .navbarPortfolio a {

@@ -1812,4 +1812,9 @@ a {
     display: flex;
     flex-direction: column;
   }
+
+  .navbarPortfolio {
+    width: 130vw;
+    overflow-x: scroll;
+  }
 }

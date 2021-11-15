@@ -1337,6 +1337,28 @@ a {
     display: none;
   }
 
+  .reel {
+    position: absolute;
+    z-index: 3;
+    top: 10vw;
+    left: 10vw;
+  }
+
+  .reel p {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 110%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.05em;
+  }
+
+  .reel span {
+    color: #d50000;
+  }
+
   .navMob {
     padding-top: 4vw;
     display: flex;

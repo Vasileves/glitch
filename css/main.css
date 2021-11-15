@@ -643,6 +643,39 @@ h2 {
   color: rgb(0, 0, 0);
 }
 
+@keyframes glitchnav {
+  2%,
+  3% {
+    transform: translate(8px, 0) skew(10deg) scale(5);
+    color: blue;
+  }
+  4%,
+  6% {
+    transform: translate(-2px, 0) skew(50deg) scale(10);
+    color: green;
+  }
+  6%,
+  7% {
+    transform: translate(-50px, 5) skew(500deg);
+    color: red;
+  }
+  10%,
+  16% {
+    transform: translate(10px, 0px) skew(-500deg);
+    color: purple;
+  }
+  17%,
+  26% {
+    transform: translate(4px, 0px) skew(-10deg);
+    color: white;
+  }
+
+  28%,
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
 .navbarPortfolio a {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -662,13 +695,14 @@ h2 {
 }
 
 .navLink {
-  background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
+  /* background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
     no-repeat;
-  transition: 0.5s;
+  transition: 0.5s; */
 }
 .navLink:hover {
   --d: 100%;
   color: rgb(0, 0, 0);
+  animation: glitchnav 1s;
 }
 
 .logo {

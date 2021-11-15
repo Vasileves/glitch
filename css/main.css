@@ -60,6 +60,27 @@ h2 {
 
   color: #ffffff;
 }
+
+#l1 img {
+  width: 35.029vw;
+  height: 21.329vw;
+}
+
+#l2 img {
+  width: 32.717vw;
+  height: 21.329vw;
+}
+
+#l3 img {
+  width: 42.601vw;
+  height: 21.329vw;
+}
+
+#l4 img {
+  width: 35.029vw;
+  height: 21.329vw;
+}
+
 .portfolio h3 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -1127,20 +1148,20 @@ a {
 .releasesSection {
   padding-top: 2.312vw;
   display: flex;
-  overflow-x: scroll;
+  flex-direction: column;
 }
 
 .releasesVideo {
   position: relative;
   padding-right: 0.925vw;
+  padding-bottom: 10.256vw;
 }
 
 .showreal {
   background-color: palegreen;
-  height: 35vw;
-  padding-top: 1.387vw;
-  padding-left: 0vw;
-  padding-right: 0vw;
+  height: 40vw;
+  margin-left: -1.5vw;
+  margin-right: -1.5vw;
 }
 
 .footerMain,
@@ -1192,4 +1213,417 @@ a {
 
 .footerSocialMedia a {
   padding-right: 1.387vw;
+}
+
+@media screen and (max-width: 428px) {
+  body {
+    padding-right: 6.154vw;
+    padding-left: 6.154vw;
+  }
+
+  .showreal {
+    margin-right: -6vw;
+    margin-left: -6vw;
+    height: 64vw;
+    padding-bottom: 10.256vw;
+  }
+
+  .navbarPortfolio {
+    overflow-x: scroll;
+  }
+
+  .navbar2 {
+    display: none;
+  }
+
+  .navMob {
+    padding-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10.256vw;
+  }
+
+  .navbarPortfolio a {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .navbarPortfolio {
+    padding-bottom: 10.256vw;
+  }
+
+  .releasesVideo h3 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 115%;
+    padding-bottom: 4.615vw;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.05em;
+
+    /* Bg */
+
+    color: #ffffff;
+  }
+
+  .releasesVideo {
+    width: 87.692vw;
+    padding-right: 4.103vw;
+    height: auto;
+  }
+
+  .footerCopyright p {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.103vw;
+    line-height: 120%;
+    /* identical to box height, or 22px */
+    /* Teritary */
+    color: #92867b;
+    margin: 0 auto 0 0;
+    margin-right: auto;
+  }
+
+  .footerMain {
+    align-items: flex-end;
+  }
+
+  .footerCopyright {
+    padding-top: 24.615vw;
+  }
+
+  #l1 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #l2 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #l3 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #l4 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  .footerContactsRow2 {
+    align-items: end;
+  }
+
+  .portfolio {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #draggable {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable2 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable3 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable4 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable5 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable6 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable7 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable8 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable9 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable10 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable11 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable12 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable13 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable14 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable15 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable16 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable17 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable18 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable19 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable20 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable21 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable22 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable23 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable24 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable25 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable26 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable27 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable2 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable3 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable4 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable5 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable6 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable7 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable8 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable9 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable10 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable11 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable12 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable13 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable14 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable15 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable16 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable17 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable18 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable19 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable20 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable21 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable22 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable23 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable24 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable25 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable26 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  #draggable27 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
+  .draggable {
+    position: relative;
+    padding-bottom: 10.256vw;
+  }
+
+  .draggable h3 {
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.615vw;
+    line-height: 115%;
+    padding-bottom: 2.051vw;
+    /* or 21px */
+
+    letter-spacing: 0.05em;
+
+    /* Bg */
+
+    color: #ffffff;
+  }
 }

@@ -1,7 +1,11 @@
 window.onload = function(){ 
   setTimeout(function (params) {
     $(".draggable").addClass("removed")
-  },600)
+  },700)
+
+  setTimeout(function (params) {
+    $(".draggableO").addClass("removed")
+  },700)
 
   $(function() {
     $( "#draggable" ).draggable({stack: 'div'});
@@ -169,6 +173,23 @@ window.onload = function(){
   
     });
 
+    
+  $(function() {
+    $( "#draggableO" ).draggable({stack: 'div'});
+    $('#draggableO').addClass('shadow');
+    
+     });
+  $(function() {
+    $( "#draggableO2" ).draggable({stack: 'div'});
+    $('#draggableO2').addClass('shadow');
+    
+     });
+
+  $(function() {
+    $( "#draggableO3" ).draggable({stack: 'div'});
+    $('#draggableO3').addClass('shadow');
+    
+     });
 
 };
 

@@ -1325,13 +1325,18 @@ a {
   body {
     padding-right: 6.154vw;
     padding-left: 6.154vw;
+    overflow-x: hidden;
   }
 
   .showreal {
-    margin-right: -6vw;
-    margin-left: -6vw;
+    margin-left: -50vw;
     height: 64vw;
     padding-bottom: 10.256vw;
+  }
+
+  .showreal video {
+    width: auto;
+    height: 70vw;
   }
 
   .navbarPortfolio {

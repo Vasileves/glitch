@@ -236,6 +236,7 @@ h3 {
 
   color: #000000;
   margin-bottom: 0.462vw;
+  margin-top: 0;
 }
 
 h5 {
@@ -349,6 +350,7 @@ h5 {
 
   letter-spacing: 0.05em;
   margin-top: 0;
+  margin-bottom: 0;
 
   color: #000000;
 }

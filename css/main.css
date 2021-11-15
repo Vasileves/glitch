@@ -646,12 +646,12 @@ h2 {
 @keyframes glitchnav {
   2%,
   3% {
-    transform: translate(8px, 0) skew(10deg) scale(5);
+    transform: translate(8px, 0) skew(10deg);
     color: blue;
   }
   4%,
   6% {
-    transform: translate(-2px, 0) skew(50deg) scale(10);
+    transform: translate(-2px, 0) skew(50deg);
     color: green;
   }
   6%,
@@ -673,6 +673,7 @@ h2 {
   28%,
   62% {
     transform: translate(0, 0) skew(5deg);
+    color: white;
   }
 }
 

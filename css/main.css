@@ -101,25 +101,14 @@ h2 {
   position: absolute;
 }
 
+.portfolio {
+  position: relative;
+  height: 260vw;
+}
+
 .portfolio2 {
   position: relative;
   height: 60vw;
-}
-
-.draggable h3 {
-  font-family: "Decima Mono Cyr";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4.615vw;
-  line-height: 115%;
-  padding-bottom: 2.051vw;
-  /* or 21px */
-
-  letter-spacing: 0.05em;
-
-  /* Bg */
-
-  color: #ffffff;
 }
 
 .draggable {

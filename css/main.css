@@ -92,6 +92,7 @@ h2 {
   font-weight: normal;
   font-size: 1.04vw;
   line-height: 110%;
+  padding-bottom: 0.462vw;
   /* identical to box height, or 20px */
 
   letter-spacing: 0.05em;
@@ -531,6 +532,7 @@ h2 {
 }
 
 .draggableO2 {
+  z-index: 1;
   opacity: 0;
   left: 14.277vw;
   top: 30.058vw;
@@ -1250,6 +1252,7 @@ a {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
+  margin-right: -2vw;
 }
 
 .releasesVideo {
@@ -1340,7 +1343,8 @@ a {
   }
 
   .navbarPortfolio {
-    overflow-x: scroll;
+    width: fit-content;
+    flex-direction: column;
   }
 
   .navbar2 {
@@ -1389,6 +1393,7 @@ a {
     align-items: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    margin-bottom: 1.85vw;
 
     color: #ffffff;
   }
@@ -1819,7 +1824,5 @@ a {
   }
 
   .navbarPortfolio {
-    width: 130vw;
-    overflow-x: scroll;
   }
 }

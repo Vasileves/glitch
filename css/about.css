@@ -471,6 +471,10 @@ h5 {
   color: #92867b;
 }
 
+header {
+  display: none;
+}
+
 @media screen and (max-width: 428px) {
   body {
     padding-right: 6.154vw;
@@ -564,6 +568,7 @@ h5 {
     overflow-x: scroll;
     align-items: end;
     padding-bottom: 10.256vw;
+    margin-right: -6.5vw;
   }
 
   .crewCard {

@@ -102,7 +102,6 @@ h5 {
 .talentPage {
   display: flex;
   flex-direction: row;
-  padding-top: 30.769vw;
 }
 
 .talentsCard {
@@ -244,6 +243,7 @@ h5 {
 }
 
 .talentWorks {
+  margin-right: -2vw;
   padding-top: 1.387vw;
   display: flex;
   flex-direction: row;
@@ -464,6 +464,11 @@ header {
   body {
     padding-right: 6.154vw;
     padding-left: 6.154vw;
+  }
+
+  .talentWorks {
+    padding-top: 9.346vw;
+    margin-right: -6.5vw;
   }
 
   header {
@@ -863,6 +868,10 @@ header {
 
   .talentWork {
     padding-right: 4.103vw;
+  }
+
+  .talentPage {
+    padding-top: 30.769vw;
   }
 
   #emil1 Img {

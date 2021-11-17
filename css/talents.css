@@ -102,6 +102,7 @@ h5 {
 .talentPage {
   display: flex;
   flex-direction: row;
+  padding-top: 30.769vw;
 }
 
 .talentsCard {
@@ -456,28 +457,181 @@ h5 {
   height: 16.243vw;
 }
 
-.navMob {
+header {
   display: none;
 }
-
 @media screen and (max-width: 428px) {
   body {
     padding-right: 6.154vw;
     padding-left: 6.154vw;
   }
 
+  header {
+    display: block;
+  }
+
+  .menuWrapper {
+    margin-right: -6.154vw;
+    margin-left: -6.154vw;
+    display: flex;
+    position: fixed;
+    z-index: 50;
+    background-color: white;
+    width: 100%;
+    padding-top: 10.256vw;
+    padding-bottom: 6.154vw;
+  }
+
+  .logo2 {
+    position: relative;
+    left: 6.154vw;
+  }
+
+  .menuMedia {
+    position: absolute;
+    top: 70vw;
+    right: 6.154vw;
+    display: flex;
+  }
+
+  .menuMedia a {
+    padding-left: 8px;
+  }
+
+  .menu-button {
+    width: 10.256vw;
+    height: 10.256vw;
+    cursor: pointer;
+    z-index: 33;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .menu-button__wrapper {
+    position: relative;
+    left: 65.9vw;
+    z-index: 33;
+  }
+  .menu-button__bar {
+    background-color: #000000;
+    height: 2px;
+    width: 22px;
+    display: block;
+    position: absolute;
+    transition: all 0.4s ease;
+  }
+  .menu-button__bar:nth-of-type(2) {
+    top: 8px;
+  }
+  .menu-button__bar:nth-of-type(3) {
+    top: 16px;
+  }
+  .menu-button.active .menu-button__bar {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .menu-button.active .menu-button__bar:nth-of-type(2) {
+    transform: translateX(2rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .menu-button.active .menu-button__bar:nth-of-type(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .menu-overlay {
+    background-color: white;
+    height: 100vh;
+    width: calc(100% - 4rem);
+    right: 0;
+    position: fixed;
+    padding: 8rem 2rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+    transform: translateX(100%);
+    z-index: 22;
+  }
+  .menu-overlay.open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .background-overlay {
+    background-color: rgba(25, 25, 25, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.4s ease;
+    position: fixed;
+  }
+  .background-overlay.bg-overlay {
+    opacity: 1;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__item {
+    text-decoration: none;
+    font-family: "Decima Mono Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    text-transform: uppercase;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+    transition: all 0.4s ease;
+    position: relative;
+    align-self: flex-end;
+  }
+  .nav__item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .nav__item::after {
+    content: "";
+    background-color: #191919;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    transition: all 0.4s ease;
+  }
+  .nav__item:hover::after {
+    width: 100%;
+  }
+  .button {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: #191919;
+    align-self: flex-start;
+    transition: all 0.4s ease;
+  }
+  .button:hover {
+    background-color: rgba(25, 25, 25, 0.75);
+  }
+  .content {
+    max-width: 1440px;
+    padding: 0 2rem;
+  }
+
   .navbar2 {
     display: none;
   }
 
-  .navMob {
-    padding-top: 4vw;
-    display: flex;
-    justify-content: space-between;
-  }
-
   .talents {
-    padding-top: 14.359vw;
+    padding-top: 41.026vw;
+    margin-right: -6.1vw;
     height: fit-content;
     display: flex;
     flex-direction: row;

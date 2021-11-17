@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/about.css">
     <link type="image/x-icon" href="/images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
+    <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js""></script>
+    <script
+  src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+  integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+  crossorigin="anonymous"></script>
     <title>About Park production</title>
 </head>
 <body>
@@ -20,17 +26,32 @@
           <a class="navLink" href="about.html">about & contacts</a>
         </div>
     </div>
-    <div class="navMob">
-        <div class="logo2">
-            <img src="./images/logoBlack.svg" alt="">
+    <header>
+        <div class="menuWrapper">
+            <div class="logo2">
+                <img src="./images/logoBlack.png" alt="">
+            </div>
+          <div class="menu-button__wrapper">
+            <div class="menu-button">
+              <span class="menu-button__bar"></span>
+              <span class="menu-button__bar"></span>
+              <span class="menu-button__bar"></span>
+            </div>
+          </div>
         </div>
-        <div>
-            <a href="menu.html">
-                <img src="./images/menu.svg" alt="">
-            </a>
-        </div>
-    </div>
-    <div class="wrapper">
+      <div class="menu-overlay">
+        <nav class="nav">
+          <a class="nav__item" href="index.html">Portfolio</a>
+          <a class="nav__item" href="talents.html">Talents</a>
+          <a class="nav__item" href="about.html">Contacts & About</a>
+        </nav>
+        <div class="menuMedia">
+            <a href=""><img src="/images/vimeo.svg" alt=""></a>
+            <a href=""><img src="/images/instagram.svg" alt=""></a>
+          </div>
+      </div>
+    </header>
+    <div class="wrapper wrapperTop">
         <div class="header">
             <h2>About</h2>
         </div>
@@ -47,8 +68,8 @@
         <div class="contacts">
             <div class="contactsRowItem">
                 <h3>Main Office</h3>
-                <p>+7 495 646-50-71 <br>
-                info@parkproduction.ru</p>
+                <p>+7 495 540-87-82 <br>
+                park@parkcinema.ru</p>
             </div>
             <div class="contactsRowItem">
                 <h3>Talent Booking</h3>

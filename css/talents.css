@@ -505,6 +505,7 @@ header {
     margin-left: -6.154vw;
     display: flex;
     position: fixed;
+    justify-content: space-between;
     z-index: 50;
     background-color: white;
     width: 100%;
@@ -518,9 +519,9 @@ header {
   }
 
   .menuMedia {
-    position: absolute;
-    top: 70vw;
-    right: 6.154vw;
+    padding-top: 10.256vw;
+    position: relative;
+    justify-content: flex-end;
     display: flex;
   }
 
@@ -535,13 +536,12 @@ header {
     z-index: 33;
     display: block;
     position: relative;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .menu-button__wrapper {
     position: relative;
-    left: 65.9vw;
     z-index: 33;
   }
   .menu-button__bar {

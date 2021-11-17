@@ -14,6 +14,27 @@ body {
   padding-right: 1.5vw;
 }
 
+.footerTalents {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerTalentsContact a {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.04vw;
+  line-height: 110%;
+  padding-left: 0.925vw;
+  /* or 22px */
+
+  letter-spacing: 0.05em;
+
+  /* Teritary */
+
+  color: #92867b;
+}
+
 /*Убрать полосу прокрутки для всей страницы*/
 ::-webkit-scrollbar {
   width: 0;
@@ -473,6 +494,10 @@ header {
 
   header {
     display: block;
+  }
+
+  .footerTalentsContact {
+    display: none;
   }
 
   .menuWrapper {

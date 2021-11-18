@@ -8,7 +8,7 @@
     <link type="image/x-icon" href="/images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <script src="./js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js""></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script
   src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
   integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
@@ -23,7 +23,7 @@
         <div class="row2">
           <a class="navLink" href="portfolio.html">Portfolio</a>
           <a class="navLink" href="talents.html">Talents</a>
-          <a class="navLink" href="about.html">about & contacts</a>
+          <a class="navLink" href="about.html">About & contacts</a>
         </div>
     </div>
     <header>
@@ -55,12 +55,15 @@
         <div class="header">
             <h2>About</h2>
         </div>
+      <script src="js/shuffler.js"></script>
         <div class="aboutText">
-            <p>Мы&nbsp;&mdash; Парк. Московский Продакшн хаус с&nbsp;30&nbsp;летней историей, наполненной опытом, талантами, наградами, громкими именами и&nbsp;работами. В&nbsp;самом начале мы&nbsp;сделали ставку на&nbsp;качество 
+            <p class='shuffle'>Мы&nbsp;&mdash; Парк. Московский Продакшн хаус с&nbsp;30&nbsp;летней историей, наполненной опытом, талантами, наградами, громкими именами и&nbsp;работами. В&nbsp;самом начале мы&nbsp;сделали ставку на&nbsp;качество
                 и&nbsp;никогда не&nbsp;отступали от&nbsp;своих принципов. Мы&nbsp;всегда в&nbsp;обойме, потому что постоянно рекрутируем молодых и&nbsp;передаём им&nbsp;свою экспертизу.
             </p>
         </div>
     </div>
+
+
     <div class="wrapper">
         <div class="header">
             <h2>Contacts</h2>
@@ -291,7 +294,7 @@
                 <p>otp bank</p>
             </div>
             <div class="partnersRow">
-                <p>LG electronics</p>
+                <p hover="shf()">LG electronics</p>
                 <p>kimberly clark</p>
                 <p>KRKA D.D.</p>
                 <p>dr. reddy’s lab</p>
@@ -311,5 +314,15 @@
           <p>© Park production 2021</p>
         </div>
       </div>
+      <script>
+      const text = baffle('p, h3')
+      text.set({
+        speed: 5,
+        characters: 'e̶͚̿͐̏̐͛̓̃̀͋̔̄̾̇͒̿͒̈̕͝͝͠f̵̧̡̡̞̟̩͈͈̙͖̗͕̹̹̦̫̯̟͚͇̳̬͖̬̥̬̹̟̺̺̜̙̩̲͔̼̻̠̔̋͌̿̽͑͑̓̏̽̃͌͆̋̈́̀̐̍͛̒̈́̑̐͌̃̈́̊͑̕͝d̴̛͖̤͈̙̄͊̀͒̀̊̇́̐̔͒̈́̈́̚f̶̧̢̡̧̱̺̫̰͍̩͓̼͓̫̱̖̬͎͚̜̝̱̳̙͎͇̣͈̜͉̝̖̻̣͎̤͍͇͇̲͕͔̰̪͈̮̰͚̭̒̀̊̋̏̈́́͆̿̅̀́̊̓̓̈́̇͗̊͊͐̂̇͒̑̔̾̊̍̐͆̈͐͋̈́̅̈́́̓̒̕̚͠͝͠ͅ!@#$%^&*1234567890',
+      })
+      text.start();
+      text.reveal(7000);
+      </script>
+
 </body>
 </html>

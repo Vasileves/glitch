@@ -213,12 +213,12 @@ h3 {
   padding-bottom: 2.775vw;
 }
 
-.header {
+.head {
   height: fit-content;
   width: 12vw;
 }
 
-.header h2 {
+.head h2 {
   padding: 0.231vw 0.231vw 0vw 0.231vw;
   background: #feeb30;
   font-family: "Decima Mono Cyr";
@@ -471,7 +471,7 @@ h5 {
   color: #92867b;
 }
 
-header {
+.header {
   display: none;
 }
 
@@ -511,7 +511,7 @@ header {
     color: #000000;
   }
 
-  .header h2 {
+  .head h2 {
     font-family: "Decima Mono Cyr";
     font-style: normal;
     font-weight: normal;
@@ -863,7 +863,7 @@ header {
     padding-top: 24.615vw;
   }
 
-  header {
+  .header {
     display: block;
   }
 

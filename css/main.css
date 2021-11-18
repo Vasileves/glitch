@@ -24,10 +24,6 @@ body {
   padding-right: 1.5vw;
 }
 
-*header {
-  display: none;
-}
-
 h1 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -1328,10 +1324,9 @@ a {
   padding-right: 1.387vw;
 }
 
-header {
+.headerBlack {
   display: none;
 }
-
 @media screen and (max-width: 428px) {
   body {
     padding-right: 6.154vw;
@@ -1456,8 +1451,8 @@ header {
     align-items: flex-end;
   }
 
-  .footerCopyright {
-    padding-top: 24.615vw;
+  .footerContactsRow2 {
+    padding-top: 10.256vw;
   }
 
   #l1 img {
@@ -1842,7 +1837,7 @@ header {
   .navbarPortfolio {
   }
 
-  header {
+  .headerBlack {
     display: block;
   }
 

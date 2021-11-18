@@ -7,7 +7,6 @@
   font-style: normal;
 }
 body {
-  /* background: #F9F2EB; */
   background: #ffffff;
   overflow-x: hidden;
   padding-left: 1.5vw;
@@ -477,9 +476,10 @@ h5 {
   height: 16.243vw;
 }
 
-header {
+.header {
   display: none;
 }
+
 @media screen and (max-width: 428px) {
   body {
     padding-right: 6.154vw;
@@ -491,7 +491,7 @@ header {
     margin-right: -6.5vw;
   }
 
-  header {
+  .header {
     display: block;
   }
 

@@ -109,9 +109,8 @@ h5 {
 }
 
 .talentImg {
-  width: auto;
+  width: 14.855vw;
   height: 18.324vw;
-  padding-bottom: 0.925vw;
 }
 
 .talentsRow1 {
@@ -501,10 +500,7 @@ header {
   }
 
   .menuWrapper {
-    margin-right: -6.154vw;
-    margin-left: -6.154vw;
     display: flex;
-    position: fixed;
     justify-content: space-between;
     z-index: 50;
     background-color: white;
@@ -515,7 +511,6 @@ header {
 
   .logo2 {
     position: relative;
-    left: 6.154vw;
   }
 
   .menuMedia {
@@ -660,7 +655,7 @@ header {
   }
 
   .talents {
-    padding-top: 41.026vw;
+    padding-top: 20.513vw;
     margin-right: -6.1vw;
     height: fit-content;
     display: flex;
@@ -854,7 +849,7 @@ header {
 
   .talentRow Img {
     width: 87.436vw;
-    height: auto;
+    height: 111.026vw;
   }
 
   .talentWork h3 {
@@ -893,10 +888,6 @@ header {
 
   .talentWork {
     padding-right: 4.103vw;
-  }
-
-  .talentPage {
-    padding-top: 30.769vw;
   }
 
   #emil1 Img {

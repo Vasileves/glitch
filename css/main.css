@@ -24,6 +24,10 @@ body {
   padding-right: 1.5vw;
 }
 
+*header {
+  display: none;
+}
+
 h1 {
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -1431,6 +1435,10 @@ header {
     height: auto;
   }
 
+  .releasesSection {
+    overflow-x: hidden;
+  }
+
   .footerCopyright p {
     font-family: "Decima Mono Cyr";
     font-style: normal;
@@ -1839,10 +1847,7 @@ header {
   }
 
   .menuWrapperBlack {
-    margin-right: -6.154vw;
-    margin-left: -6.154vw;
     display: flex;
-    position: fixed;
     justify-content: space-between;
     z-index: 50;
     background-color: rgb(0, 0, 0);
@@ -1853,7 +1858,6 @@ header {
 
   .logoBlack {
     position: relative;
-    left: 6.154vw;
   }
 
   .menuMediaBlack {

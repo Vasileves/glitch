@@ -868,11 +868,8 @@ header {
   }
 
   .menuWrapper {
-    margin-right: -6.154vw;
-    margin-left: -6.154vw;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     z-index: 50;
     background-color: white;
     width: 100%;
@@ -882,7 +879,6 @@ header {
 
   .logo2 {
     position: relative;
-    left: 6.154vw;
   }
 
   .menuMedia {
@@ -1023,6 +1019,6 @@ header {
   }
 
   .wrapperTop {
-    padding-top: 30.769vw;
+    padding-top: 20.513vw;
   }
 }

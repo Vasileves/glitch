@@ -572,6 +572,7 @@ h2 {
 }
 
 .row1 a {
+  padding: 1vw;
   color: #fff;
   font-family: "Decima Mono Cyr";
   font-style: normal;

@@ -572,7 +572,7 @@ h2 {
 }
 
 .row1 a {
-  padding: 1vw;
+  padding: 1vw 0vw 1vw 1vw;
   color: #fff;
   font-family: "Decima Mono Cyr";
   font-style: normal;
@@ -590,7 +590,7 @@ h2 {
 }
 
 .row2 a {
-  padding: 1vw;
+  padding: 1vw 0vw 1vw 1vw;
   color: #ffffff;
   font-family: "Decima Mono Cyr";
   font-size: 1.04vw;

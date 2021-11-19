@@ -589,6 +589,7 @@ h2 {
 }
 
 .row2 a {
+  padding: 1vw;
   color: #ffffff;
   font-family: "Decima Mono Cyr";
   font-size: 1.04vw;
@@ -609,7 +610,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   padding-left: 56vw;
 }
 
@@ -617,7 +618,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   margin: 0 0 0 auto;
   margin-left: auto;
 }
@@ -640,7 +641,7 @@ h2 {
 .navbarPortfolio {
   display: flex;
   flex-direction: row;
-  padding-top: 4.624vw;
+  padding-top: 2.312vw;
 }
 
 #current {

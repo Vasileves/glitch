@@ -7,10 +7,6 @@
   font-style: normal;
 }
 
-.navMob {
-  display: none;
-}
-
 /*Убрать полосу прокрутки для всей страницы*/
 ::-webkit-scrollbar {
   width: 0;

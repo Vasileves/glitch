@@ -2,17 +2,392 @@
 
 @font-face {
   font-family: "Decima Mono Cyr";
-  src: url("../fonts/DecimaMonoCyr.woff2") format("woff2");
+  src: url("../fonts/font.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
-.row2 a {
-  color: #f9f2eb;
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  /* background: #F9F2EB; */
+  background: rgb(0, 0, 0);
+  overflow-x: hidden;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+h1 {
   font-family: "Decima Mono Cyr";
-  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.965vw;
+  line-height: 120%;
+  /* or 41px */
+  padding-bottom: 0.462vw;
+  text-transform: uppercase;
+
+  /* Bg */
+
+  color: #f9f2eb;
+}
+
+h2 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.387vw;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  text-transform: uppercase;
+  /* Secondary */
+  color: #12101f;
+  padding-bottom: 0.925vw;
+}
+
+.releases h3 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.04vw;
+  line-height: 110%;
+  padding-bottom: 0.462vw;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+#l1 img {
+  width: 35.029vw;
+  height: 21.329vw;
+}
+
+#l2 img {
+  width: 32.717vw;
+  height: 21.329vw;
+}
+
+#l3 img {
+  width: 42.601vw;
+  height: 21.329vw;
+}
+
+#l4 img {
+  width: 35.029vw;
+  height: 21.329vw;
+}
+
+.portfolio h3 {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.04vw;
+  line-height: 110%;
+  padding-bottom: 0.462vw;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.05em;
+
+  /* Bg */
+
+  color: #fff;
+}
+
+.portfolio {
+  position: relative;
+  height: 260vw;
+}
+
+.portfolio2 {
+  position: relative;
+  height: 60vw;
+}
+
+.logo2 {
+  animation: glitchdrag 50s 2s ease-in infinite;
+}
+
+@keyframes glitchdrag {
+  0.1% {
+    filter: saturate(10%) contrast(50) hue-rotate(80deg) invert(0);
+    transform: translate(4px, 0px) skew(-30deg);
+  }
+  0.2% {
+    filter: saturate(100%) contrast(500) hue-rotate(120deg);
+    transform: translate(-40px, 0px) skew(5deg);
+  }
+  0.3% {
+    filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(20px, 0px) skew(-30deg);
+  }
+
+  0.5% {
+    filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-6px, 4px) skew(-30deg);
+  }
+  0.6%,
+  10% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+
+  10.05% {
+    filter: saturate(200%) contrast(1) hue-rotate(180deg) invert(0);
+    transform: translate(10px, 0px) skew(-90deg);
+  }
+  10.1% {
+    filter: saturate(100%) contrast(500) hue-rotate(120deg);
+    transform: translate(-10px, 0px) skew(5deg);
+  }
+  10.2% {
+    filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(20px, 0px) skew(-10deg);
+  }
+  10.3% {
+    filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-12px, 4px) skew(-60deg);
+  }
+  10.4% {
+    filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(20px, 0px) skew(-30deg);
+  }
+  10.5% {
+    filter: saturate(400%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-16px, 14px) skew(-90deg);
+  }
+  10.52%,
+  25% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+
+  25.1% {
+    filter: saturate(200%) contrast(1) hue-rotate(90deg) invert(0);
+    transform: translate(4px, 0px) skew(-90deg);
+  }
+  25.2% {
+    filter: saturate(100%) contrast(500) hue-rotate(20deg);
+    transform: translate(-10px, 0px) skew(5deg);
+  }
+  25.25% {
+    filter: saturate(200%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(18px, 0px) skew(-10deg);
+  }
+  25.3% {
+    filter: saturate(50%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-4px, 2px) skew(-30deg);
+  }
+  25.4% {
+    filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(8px, 0px) skew(-30deg);
+  }
+  25.45%,
+  27% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+  27.1% {
+    filter: saturate(10%) contrast(50) hue-rotate(120deg) invert(0);
+    transform: translate(100px, 12px) skew(-180deg);
+  }
+  27.15% {
+    filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-12px, 8px) skew(-160deg);
+  }
+  27.3% {
+    filter: saturate(10%) contrast(50) hue-rotate(90deg) invert(0);
+    transform: translate(40px, 0px) skew(-90deg);
+  }
+  27.4%,
+  35% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+  35.2% {
+    filter: saturate(300%) contrast(500) hue-rotate(20deg) invert(0);
+    transform: translate(6px, 22px) skew(-30deg);
+  }
+  35.3% {
+    filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-6px, 8px) skew(-160deg);
+  }
+  35.45% {
+    filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(2px, 1px) skew(-20deg);
+  }
+  35.45%,
+  50% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+  50.1% {
+    filter: saturate(20%) contrast(1) hue-rotate(10deg) invert(0);
+    transform: translate(4px, 0px) skew(-10deg);
+  }
+  50.3% {
+    filter: saturate(500%) contrast(500) hue-rotate(120deg);
+    transform: translate(-10px, 0px) skew(50deg);
+  }
+  50.4% {
+    filter: saturate(300%) contrast(70) hue-rotate(80deg) invert(0);
+    transform: translate(80px, 10px) skew(-180deg);
+  }
+  50.45% {
+    filter: saturate(10%) contrast(500) hue-rotate(40deg) invert(0);
+    transform: translate(-40px, 4px) skew(-80deg);
+  }
+  50.5% {
+    filter: saturate(200%) contrast(20) hue-rotate(100deg) invert(0);
+    transform: translate(120px, 0px) skew(-130deg);
+  }
+  50.6% {
+    filter: saturate(500%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-40px, 3px) skew(-90deg);
+  }
+  50.57% {
+    filter: saturate(50%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(8px, 0px) skew(-30deg);
+  }
+  50.60%,
+  65% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+  65.2% {
+    filter: saturate(200%) contrast(10) hue-rotate(10deg);
+    transform: translate(-10px, 0px) skew(20deg);
+  }
+  65.4% {
+    filter: saturate(300%) contrast(70) hue-rotate(30deg) invert(0);
+    transform: translate(8px, 2px) skew(-10deg);
+  }
+  65.5% {
+    filter: saturate(10%) contrast(10) hue-rotate(40deg) invert(0);
+    transform: translate(-4px, 2px) skew(-30deg);
+  }
+  65.6% {
+    filter: saturate(200%) contrast(20) hue-rotate(50deg) invert(0);
+    transform: translate(20px, 0px) skew(-30deg);
+  }
+  65.7% {
+    filter: saturate(500%) contrast(500) hue-rotate(40deg) invert(0);
+    transform: translate(-4px, 0px) skew(-20deg);
+  }
+  65.9% {
+    filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
+    transform: translate(8px, 0px) skew(-30deg);
+  }
+  66%,
+  80.3% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+
+  80.5% {
+    filter: saturate(200%) contrast(100) hue-rotate(70deg) invert(0);
+    transform: translate(30px, 0px) skew(-30deg);
+  }
+  80.6% {
+    filter: saturate(500%) contrast(500) hue-rotate(40deg) invert(0);
+    transform: translate(-14px, 0px) skew(-60deg);
+  }
+  80.7% {
+    filter: saturate(100%) contrast(90) hue-rotate(30deg) invert(0);
+    transform: translate(8px, 0px) skew(-40deg);
+  }
+
+  80.8%,
+  85% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+  85.2% {
+    filter: saturate(500%) contrast(10) hue-rotate(10deg);
+    transform: translate(-100px, 0px) skew(20deg);
+  }
+  85.4% {
+    filter: saturate(10%) contrast(70) hue-rotate(80deg) invert(0);
+    transform: translate(30px, 4px) skew(-40deg);
+  }
+  85.5% {
+    filter: saturate(40%) contrast(10) hue-rotate(40deg) invert(0);
+    transform: translate(-24px, 2px) skew(-90deg);
+  }
+  85.6% {
+    filter: saturate(500%) contrast(20) hue-rotate(50deg) invert(0);
+    transform: translate(20px, 12px) skew(-130deg);
+  }
+  85.7% {
+    filter: saturate(100%) contrast(500) hue-rotate(60deg) invert(0);
+    transform: translate(-4px, 0px) skew(-20deg);
+  }
+  85.9% {
+    filter: saturate(10%) contrast(50) hue-rotate(110deg) invert(0);
+    transform: translate(40px, 4px) skew(-130deg);
+  }
+  86.1% {
+    filter: saturate(200%) contrast(10) hue-rotate(90deg);
+    transform: translate(-10px, 0px) skew(20deg);
+  }
+  86.2%,
+  94% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+  94.2% {
+    filter: saturate(300%) contrast(10) hue-rotate(10deg);
+    transform: translate(-20px, 0px) skew(40deg);
+  }
+  94.4% {
+    filter: saturate(10%) contrast(100) hue-rotate(80deg) invert(0);
+    transform: translate(30px, 4px) skew(-40deg);
+  }
+  94.5% {
+    filter: saturate(40%) contrast(10) hue-rotate(40deg) invert(0);
+    transform: translate(-24px, 2px) skew(-50deg);
+  }
+  94.6% {
+    filter: saturate(200%) contrast(200) hue-rotate(50deg) invert(0);
+    transform: translate(20px, 12px) skew(-60deg);
+  }
+  94.7%,
+  100% {
+    filter: saturate(100%) contrast(1) hue-rotate(0deg);
+    transform: translate(0, 0) skew(0);
+  }
+}
+
+.row1 a {
+  padding: 1vw 0vw 1vw 1vw;
+  color: #fff;
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.387vw;
+  line-height: 109%;
+  /* or 26px */
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  /* Bg */
+  padding-left: 1.85vw;
+  padding-top: 1.503vw;
+  text-decoration: none;
+}
+
+.row2 a {
+  padding: 1vw 0vw 1vw 1vw;
+  color: #ffffff;
+  font-family: "Decima Mono Cyr";
+  font-size: 1.04vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.156vw;
   letter-spacing: 0.18em;
   text-align: left;
 
@@ -20,14 +395,14 @@
   align-items: flex-end;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 64px;
+  margin-left: 3.699vw;
 }
 
 .row1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   padding-left: 56vw;
 }
 
@@ -35,36 +410,187 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 52vw;
+  align-items: flex-end;
+  margin: 0 0 0 auto;
+  margin-left: auto;
 }
 
 .navbar1 {
   display: flex;
   background-color: #f9f2eb;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 2.775vw;
+  padding-bottom: 2.775vw;
   /* display: none; */
 }
 
 .navbar2 {
   display: flex;
   background-color: rgb(0, 0, 0);
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 2.775vw;
+  padding-bottom: 2.775vw;
   /* display: none; */
 }
-
-.logoColor {
-  padding-left: 48px;
+.navbarPortfolio {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2.312vw;
 }
 
+#current {
+  background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 100%) 100%
+    no-repeat;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+  animation: none;
+}
+
+@keyframes glitchnav {
+  2%,
+  3% {
+    transform: translate(8px, 0) skew(10deg);
+    color: blue;
+  }
+  4%,
+  6% {
+    transform: translate(-2px, 0) skew(50deg);
+    color: green;
+  }
+  6%,
+  7% {
+    transform: translate(-50px, 5) skew(500deg);
+    color: red;
+  }
+  10%,
+  16% {
+    transform: translate(10px, 0px) skew(-500deg);
+    color: purple;
+  }
+  17%,
+  26% {
+    transform: translate(4px, 0px) skew(-10deg);
+    color: white;
+  }
+
+  28%,
+  62% {
+    transform: translate(0, 0) skew(5deg);
+    color: white;
+  }
+}
+
+.navbarPortfolio a {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.04vw;
+  line-height: 109%;
+  padding: 0.231vw 0vw 0vw 0.231vw;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-right: 3.699vw;
+
+  color: #ffffff;
+}
+/* 
 .navLink {
   background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
     no-repeat;
   transition: 0.5s;
-}
+} */
 .navLink:hover {
   --d: 100%;
-  color: rgb(0, 0, 0);
+  animation: glitchnav 0.5s;
+}
+
+.logo {
+  background-color: #f9f2eb;
+}
+
+.logo2 {
+  /* width: 142px;
+  height: 79.88px;
+  display: block;
+  background: url("../images/logo2.png");
+  animation: logo 5s steps(1) infinite; */
+}
+
+.releasesSection {
+  padding-top: 2.312vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  margin-right: -2vw;
+}
+
+.releasesVideo {
+  position: relative;
+  padding-right: 0.925vw;
+  padding-bottom: 10.256vw;
+}
+
+.showreal {
+  margin-left: -1.5vw;
+  margin-right: -1.5vw;
+}
+
+.showreal video {
+  width: 100vw;
+  overflow-x: hidden;
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+}
+
+.footerMain,
+.footerTalents,
+.footerTalentPage {
+  padding-top: 2.775vw;
+  padding-bottom: 1.387vw;
+}
+
+.footerMain {
+  display: flex;
+  flex-direction: row;
+  /* display: none; */
+}
+
+.footerTalents {
+  /* display: none; */
+}
+
+.footerTalentPage {
+  /* display: none; */
+}
+
+.footerContactsRow2 {
+  padding-top: 5.549vw;
+  padding-bottom: 2.775vw;
+  display: flex;
+}
+.footerCopyright {
+  font-family: "Decima Mono Cyr";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.04vw;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+  /* Teritary */
+  color: #92867b;
+  margin: 0 0 0 auto;
+  margin-left: auto;
+}
+
+.footerSocialMedia {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSocialMedia a {
+  padding-right: 1.387vw;
 }

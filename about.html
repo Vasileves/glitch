@@ -1,3 +1,4 @@
+@@ -1,334 +1,360 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
     <link type="image/x-icon" href="/images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <script src="./js/index.js"></script>
+    <script src="js/lax.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script
   src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
@@ -16,6 +18,31 @@
     <title>About Park production</title>
 </head>
 <body>
+  <!-- Init LAX -->
+  <script>
+    window.onload = function () {
+      lax.init()
+
+      // Add a driver that we use to control our animations
+      lax.addDriver('scrollY', function () {
+        return window.scrollY
+      })
+
+      // Add animation bindings to elements
+      lax.addElements('.crewCard', {
+        scrollY: {
+
+          translateY: [
+            ["elInY", "elCenterY", "elOutY"],
+            [0, '0', 'screenHeight/13'],
+
+          ]
+        }
+      }
+    )
+    }
+  </script>
+
     <div class="navbar2">
         <div class="logo2">
             <a href="index.html">
@@ -85,7 +112,7 @@
             </div>
             <div class="contactsRowItem">
                 <h3>Adress</h3>
-                <p>Bolshaya Tatarskaya str,</p> 
+                <p>Bolshaya Tatarskaya str,</p>
                 <p>35 bld 7-9</p>
                 <p>Moscow 115184</p>
             </div>

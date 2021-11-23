@@ -8,19 +8,49 @@
     <link rel="stylesheet" href="css/main.css?rnd=50">
     <link rel="stylesheet" href="css/talents.css?rnd=50">
     <script src="./js/index.js"></script>
+    <script src="js/shuffler.js"></script>
+    <script src="js/lax.js"></script> 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script
   src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
   integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
   crossorigin="anonymous"></script>
-    <title>DIrectors from Park</title>
+
+  <!-- Init LAX -->
+  <script>
+    window.onload = function () {
+      lax.init()
+
+      // Add a driver that we use to control our animations
+      lax.addDriver('scrollY', function () {
+        return window.scrollY
+      })
+
+      // Add animation bindings to elements
+      lax.addElements('.talentsCard', {
+        scrollY: {
+
+          translateY: [
+            ["elInY", "elCenterY", "elOutY"],
+            [0, '0', 'screenHeight/10'],
+
+          ]
+        }
+      }
+    )
+    }
+  </script>
+
+
+
+    <title>Directors from Park</title>
 </head>
 <body>
     <div class="navbar2">
         <div class="logo2">
             <a href="index.html">
                 <img src="./images/logoBlack.png" alt="">
-            </a>    
+            </a>
         </div>
         <div class="row2">
           <a class="navLink" href="portfolio.html">Portfolio</a>
@@ -96,13 +126,13 @@
                     <h5>Director</h5>
                     <a href="sophiasinyu.html"><img src="./images/talent7.jpg" alt=""></a>
                 </div>
-                <div class="talentsCard" id="talentCard8">                    
+                <div class="talentsCard" id="talentCard8">
                     <h4>Andrey <br>
                      Orlov</h4>
                     <h5>Director</h5>
                     <a href="andreyorlov.html"><img src="./images/talent8.jpg" alt=""></a>
                 </div>
-                <div class="talentsCard" id="talentCard9"> 
+                <div class="talentsCard lax lax_preset_fadeIn:50:100 lax_preset_spin" id="talentCard9">
                     <h4>Andrey <br>
                         Romaliysky</h4>
                     <h5>Director</h5>

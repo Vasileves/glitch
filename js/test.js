@@ -5,8 +5,8 @@ window.onload = function(){
 
   
     $(function() {
-      $( "#talentCard" ).draggable({stack: 'div'});
-      $('#talentCard').addClass('shadow');
+      $( "#talentCard1" ).draggable({stack: 'div'});
+      $('#talentCard1').addClass('shadow');
   
     });
   

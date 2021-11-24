@@ -18,6 +18,45 @@ body {
   width: 0;
 }
 
+.navLink:hover {
+  --d: 100%;
+  animation: glitchnav 0.5s;
+}
+
+@keyframes glitchnav {
+  2%,
+  3% {
+    transform: translate(8px, 0) skew(10deg);
+    color: blue;
+  }
+  4%,
+  6% {
+    transform: translate(-2px, 0) skew(50deg);
+    color: green;
+  }
+  6%,
+  7% {
+    transform: translate(-50px, 5) skew(500deg);
+    color: red;
+  }
+  10%,
+  16% {
+    transform: translate(10px, 0px) skew(-500deg);
+    color: purple;
+  }
+  17%,
+  26% {
+    transform: translate(4px, 0px) skew(-10deg);
+    color: rgb(0, 0, 0);
+  }
+
+  28%,
+  62% {
+    transform: translate(0, 0) skew(5deg);
+    color: rgb(0, 0, 0);
+  }
+}
+
 .navMob {
   display: none;
 }
@@ -329,11 +368,6 @@ h5 {
   margin-bottom: 0;
 }
 
-.partners p:hover {
-  transform: scale(1.4);
-  cursor: default;
-}
-
 .crewCard {
   position: absolute;
   width: fit-content;
@@ -395,12 +429,6 @@ h5 {
   text-transform: uppercase;
 
   color: #a0a0a0;
-  transition: transform 0.8s ease-in;
-}
-
-.partners p:hover {
-  transform: scale(1.4);
-  cursor: default;
 }
 
 .contacts {

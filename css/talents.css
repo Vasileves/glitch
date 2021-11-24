@@ -1,4 +1,3 @@
-@@ -1,1066 +1,1147 @@
 @import url(/css/reset.css);
 
 @font-face {
@@ -17,6 +16,45 @@ body {
 .footerTalents {
   display: flex;
   flex-direction: row;
+}
+
+.navLink:hover {
+  --d: 100%;
+  animation: glitchnav 0.5s;
+}
+
+@keyframes glitchnav {
+  2%,
+  3% {
+    transform: translate(8px, 0) skew(10deg);
+    color: blue;
+  }
+  4%,
+  6% {
+    transform: translate(-2px, 0) skew(50deg);
+    color: green;
+  }
+  6%,
+  7% {
+    transform: translate(-50px, 5) skew(500deg);
+    color: red;
+  }
+  10%,
+  16% {
+    transform: translate(10px, 0px) skew(-500deg);
+    color: purple;
+  }
+  17%,
+  26% {
+    transform: translate(4px, 0px) skew(-10deg);
+    color: rgb(0, 0, 0);
+  }
+
+  28%,
+  62% {
+    transform: translate(0, 0) skew(5deg);
+    color: rgb(0, 0, 0);
+  }
 }
 
 .footerTalentsContact a {
@@ -130,7 +168,8 @@ h5 {
   filter: saturate(0%);
 }
 
-.talentsCard, .talentPage, .talentWorks{
+.talentPage,
+.talentWorks {
   animation: glitcher 0.2s;
 }
 
@@ -148,92 +187,101 @@ h5 {
   height: 90vw;
 }
 
-#talentCard1 {
+.talentCard1 {
+  animation: glitcher 0.2s;
   left: 2.8vw;
   top: 6.5vw;
 }
 
-#talentCard2 {
+.talentCard2 {
+  animation: glitcher 0.2s;
   left: 30.6vw;
   top: 10.6vw;
 }
 
-#talentCard3 {
+.talentCard3 {
+  animation: glitcher 0.2s;
   left: 55vw;
   top: 26.7vw;
 }
 
-#talentCard4 {
+.talentCard4 {
+  animation: glitcher 0.2s;
   left: 72.2vw;
   top: 14vw;
 }
 
-#talentCard5 {
+.talentCard5 {
+  animation: glitcher 0.2s;
   left: 5.7vw;
   top: 37.1vw;
 }
 
-#talentCard6 {
+.talentCard6 {
+  animation: glitcher 0.2s;
   left: 25.4vw;
   top: 45.8vw;
 }
 
-#talentCard7 {
+.talentCard7 {
+  animation: glitcher 0.2s;
   left: 46.2vw;
   top: 52.8vw;
 }
 
-#talentCard8 {
+.talentCard8 {
+  animation: glitcher 0.2s;
   left: 75.1vw;
   top: 41.8vw;
 }
 
-#talentCard9 {
+.talentCard9 {
+  animation: glitcher 0.2s;
   left: 14.4vw;
   top: 67.6vw;
 }
 
-#talentCard1 img {
+.talentCard1 img {
   width: 17.11vw;
   height: auto;
 }
 
-#talentCard2 img {
+.talentCard2 img {
   width: 19.133vw;
   height: auto;
 }
 
-#talentCard3 img {
+.talentCard3 img {
   width: 12.543vw;
   height: auto;
 }
 
-#talentCard4 img {
+.talentCard4 img {
   width: 19.422vw;
   height: auto;
 }
 
-#talentCard5 img {
+.talentCard5 img {
   width: 12.543vw;
   height: auto;
 }
 
-#talentCard6 img {
+.talentCard6 img {
   width: 12.89vw;
   height: auto;
 }
 
-#talentCard7 img {
+.talentCard7 img {
   width: 19.364vw;
   height: auto;
 }
 
-#talentCard8 img {
+.talentCard8 img {
   width: 12.543vw;
   height: auto;
 }
 
-#talentCard9 img {
+.talentCard9 img {
   width: 14.971vw;
   height: auto;
 }
@@ -491,6 +539,11 @@ h5 {
   height: 16.243vw;
 }
 
+.removed2 {
+  animation: none;
+  opacity: 1;
+}
+
 .header {
   display: none;
 }
@@ -718,92 +771,92 @@ h5 {
     color: #ffffff;
   }
 
-  #talentCard1 {
+  .talentCard1 {
     left: 0;
     top: 0;
   }
 
-  #talentCard2 {
+  .talentCard2 {
     left: 0;
     top: 0;
   }
 
-  #talentCard3 {
+  .talentCard3 {
     left: 0;
     top: 0;
   }
 
-  #talentCard4 {
+  .talentCard4 {
     left: 0;
     top: 0;
   }
 
-  #talentCard5 {
+  .talentCard5 {
     left: 0;
     top: 0;
   }
 
-  #talentCard6 {
+  .talentCard6 {
     left: 0;
     top: 0;
   }
 
-  #talentCard7 {
+  .talentCard7 {
     left: 0;
     top: 0;
   }
 
-  #talentCard8 {
+  .talentCard8 {
     left: 0;
     top: 0;
   }
 
-  #talentCard9 {
+  .talentCard9 {
     left: 0;
     top: 0;
   }
 
-  #talentCard1 Img {
+  .talentCard1 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard2 Img {
+  .talentCard2 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard3 Img {
+  .talentCard3 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard4 Img {
+  .talentCard4 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard5 Img {
+  .talentCard5 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard6 Img {
+  .talentCard6 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard7 Img {
+  .talentCard7 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard8 Img {
+  .talentCard8 Img {
     width: auto;
     height: 100vw;
   }
 
-  #talentCard9 Img {
+  .talentCard9 Img {
     width: auto;
     height: 100vw;
   }
@@ -1080,7 +1133,6 @@ h5 {
   }
 }
 
-
 @keyframes glitcher-hov {
   0% {
     opacity: 1;
@@ -1094,11 +1146,12 @@ h5 {
   26% {
     transform: translate(-10px, 0px) skew(10deg) scaleY(0.98) scaleX(1);
   }
-  28%,{
+  28% {
     filter: saturate(100%) contrast(50) hue-rotate(80deg) invert(0);
     transform: translate(4px, 0px) skew(-8deg) scaleY(0.98) ScaleX(1);
   }
-  38%, 100% {
+  38%,
+  100% {
   }
 }
 
@@ -1111,8 +1164,6 @@ h5 {
     transform: translateY(-1vh);
   }
 }
-
-
 
 @keyframes glitcher {
   0% {

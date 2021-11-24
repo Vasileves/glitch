@@ -188,7 +188,7 @@ h5 {
 }
 
 .talentCard1 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.25s;
   left: 2.8vw;
   top: 6.5vw;
 }
@@ -200,19 +200,19 @@ h5 {
 }
 
 .talentCard3 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.18s;
   left: 55vw;
   top: 26.7vw;
 }
 
 .talentCard4 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.25s;
   left: 72.2vw;
   top: 14vw;
 }
 
 .talentCard5 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.3s;
   left: 5.7vw;
   top: 37.1vw;
 }
@@ -224,19 +224,19 @@ h5 {
 }
 
 .talentCard7 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.15s;
   left: 46.2vw;
   top: 52.8vw;
 }
 
 .talentCard8 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.3s;
   left: 75.1vw;
   top: 41.8vw;
 }
 
 .talentCard9 {
-  animation: glitcher 0.2s;
+  animation: glitcher 0.25s;
   left: 14.4vw;
   top: 67.6vw;
 }

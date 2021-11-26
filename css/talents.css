@@ -337,6 +337,7 @@ h5 {
 }
 
 .talentWork h3 {
+  margin: 0;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -862,6 +863,7 @@ h5 {
   }
 
   .footerCopyright p {
+    margin: 0;
     font-family: "Decima Mono Cyr";
     font-style: normal;
     font-weight: normal;
@@ -921,7 +923,7 @@ h5 {
   }
 
   .talentWork h3 {
-    font-family: Decima Mono Cyr;
+    font-family: "Decima Mono Cyr";
     font-style: normal;
     font-weight: normal;
     font-size: 4.615vw;

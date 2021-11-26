@@ -109,7 +109,7 @@ h3 {
 }
 #crewCard9 {
   left: 0.4vw;
-  top: 85.2vw;
+  top: 87.2vw;
 }
 #crewCard10 {
   left: 24.7vw;
@@ -121,7 +121,7 @@ h3 {
 }
 #crewCard12 {
   left: 4.5vw;
-  top: 122.2vw;
+  top: 124.2vw;
 }
 #crewCard13 {
   left: 39.1vw;
@@ -133,7 +133,7 @@ h3 {
 }
 #crewCard15 {
   left: 12vw;
-  top: 156.9vw;
+  top: 158.9vw;
 }
 #crewCard16 {
   left: 32.8vw;
@@ -302,6 +302,7 @@ h5 {
 }
 
 .aboutText p {
+  margin: 0;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -452,6 +453,7 @@ h5 {
 }
 
 .contacts h3 {
+  margin: 0;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -467,6 +469,7 @@ h5 {
 }
 
 .contacts p {
+  margin: 0;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;

@@ -109,10 +109,10 @@ h2 {
 }
 
 .logo2 {
-  animation: glitchdrag 50s 2s ease-in infinite;
+  animation: glitchlogo 50s 2s ease-in infinite;
 }
 
-@keyframes glitchdrag {
+@keyframes glitchlogo {
   0.1% {
     filter: saturate(10%) contrast(50) hue-rotate(80deg) invert(0);
     transform: translate(4px, 0px) skew(-30deg);

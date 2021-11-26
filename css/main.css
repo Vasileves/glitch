@@ -49,6 +49,7 @@ h2 {
 }
 
 .releases h3 {
+  margin: 0;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -83,6 +84,7 @@ h2 {
 }
 
 .portfolio h3 {
+  margin: 0;
   font-family: "Decima Mono Cyr";
   font-style: normal;
   font-weight: normal;
@@ -1661,6 +1663,7 @@ a {
   }
 
   .releasesVideo h3 {
+    margin: 0;
     font-family: "Decima Mono Cyr";
     font-style: normal;
     font-weight: normal;

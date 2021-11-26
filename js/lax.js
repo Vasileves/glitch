@@ -3,6 +3,10 @@
     return ["elInY+elHeight", `elCenterY-${y}`, "elCenterY", `elCenterY+${y}`, "elOutY-elHeight"]
   }
 
+  setTimeout(function (params) {
+    $(".talentsCard").addClass("removed2")
+  },300)
+
   const laxPresets = {
     fadeInOut: (y = 30, str = 0) => ({
       "opacity": [

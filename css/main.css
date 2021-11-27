@@ -717,7 +717,7 @@ h2 {
 }
 
 .logo2 {
-  animation: glitchlogo 50s 2s ease-in infinite;
+  animation: glitchlogo 45s 4s ease-in infinite;
 }
 
 @keyframes glitchlogo {

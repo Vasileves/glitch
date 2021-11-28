@@ -316,7 +316,7 @@ h5 {
 
 .aboutCrew {
   position: relative;
-  height: 230vw;
+  height: 226vw;
 }
 
 .navbar2 {
@@ -887,6 +887,7 @@ h5 {
   }
 
   .footerMain {
+    padding-top: 0;
     align-items: flex-end;
   }
 

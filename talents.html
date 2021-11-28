@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/x-icon" href="/images/favicon.ico" rel="shortcut icon">
-    <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
-    <link rel="stylesheet" href="css/main.css?rnd=52">
-    <link rel="stylesheet" href="css/talents.css?rnd=52">
-    <script src="./js/index.js"></script>
+    <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/main.css?rnd=53">
+    <link rel="stylesheet" href="css/talents.css?rnd=53">
+    <!-- <script src="./js/index.js"></script> -->
     <script src="js/shuffler.js"></script>
     <script src="js/lax.js"></script> 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -19,6 +19,15 @@
   <!-- Init LAX -->
   <script>
     window.onload = function () {
+        'use strict';
+const menuButton = document.querySelector('.menu-button');
+const menuOverlay = document.querySelector('.menu-overlay');
+
+
+menuButton.addEventListener('click', function() {
+    menuButton.classList.toggle('active');
+    menuOverlay.classList.toggle('open');
+});
       lax.init()
 
       // Add a driver that we use to control our animations

@@ -729,7 +729,7 @@ h5 {
 
   .talents {
     padding-top: 20.513vw;
-    margin-right: -6.1vw;
+    margin-right: -8vw;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -1135,7 +1135,7 @@ h5 {
   }
 
   .footerCopyright {
-    padding-top: 24.615vw;
+    padding-top: 14vw;
   }
 }
 

@@ -717,119 +717,119 @@ h2 {
 }
 
 .logo2 {
-  animation: glitchlogo 42s 4s ease-in infinite;
+  animation: glitchlogo 70s 4s ease-in infinite;
 }
 
 @keyframes glitchlogo {
-  0.1% {
+  0.5% {
     filter: saturate(10%) contrast(50) hue-rotate(80deg) invert(0);
     transform: translate(4px, 0px) skew(-30deg);
   }
-  0.2% {
+  0.1% {
     filter: saturate(100%) contrast(500) hue-rotate(120deg);
     transform: translate(-40px, 0px) skew(5deg);
   }
-  0.3% {
+  0.2% {
     filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(20px, 0px) skew(-30deg);
   }
 
-  0.5% {
+  0.25% {
     filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-6px, 4px) skew(-30deg);
   }
-  0.6%,
+  0.5%,
   10% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
 
-  10.05% {
+  10.025% {
     filter: saturate(200%) contrast(1) hue-rotate(180deg) invert(0);
     transform: translate(10px, 0px) skew(-90deg);
   }
-  10.1% {
+  10.05% {
     filter: saturate(100%) contrast(500) hue-rotate(120deg);
     transform: translate(-10px, 0px) skew(5deg);
   }
-  10.2% {
+  10.1% {
     filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(20px, 0px) skew(-10deg);
   }
-  10.3% {
+  10.15% {
     filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-12px, 4px) skew(-60deg);
   }
-  10.4% {
+  10.2% {
     filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(20px, 0px) skew(-30deg);
   }
-  10.5% {
+  10.25% {
     filter: saturate(400%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-16px, 14px) skew(-90deg);
   }
-  10.52%,
+  10.26%,
   25% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
 
-  25.1% {
+  25.05% {
     filter: saturate(200%) contrast(1) hue-rotate(90deg) invert(0);
     transform: translate(4px, 0px) skew(-90deg);
   }
-  25.2% {
+  25.1% {
     filter: saturate(100%) contrast(500) hue-rotate(20deg);
     transform: translate(-10px, 0px) skew(5deg);
   }
-  25.25% {
+  25.12% {
     filter: saturate(200%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(18px, 0px) skew(-10deg);
   }
-  25.3% {
+  25.15% {
     filter: saturate(50%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-4px, 2px) skew(-30deg);
   }
-  25.4% {
+  25.2% {
     filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(8px, 0px) skew(-30deg);
   }
-  25.45%,
+  25.23%,
   27% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
-  27.1% {
+  27.05% {
     filter: saturate(10%) contrast(50) hue-rotate(120deg) invert(0);
     transform: translate(100px, 12px) skew(-180deg);
   }
-  27.15% {
+  27.075% {
     filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-12px, 8px) skew(-160deg);
   }
-  27.3% {
+  27.15% {
     filter: saturate(10%) contrast(50) hue-rotate(90deg) invert(0);
     transform: translate(40px, 0px) skew(-90deg);
   }
-  27.4%,
+  27.2%,
   35% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
-  35.2% {
+  35.1% {
     filter: saturate(300%) contrast(500) hue-rotate(20deg) invert(0);
     transform: translate(6px, 22px) skew(-30deg);
   }
-  35.3% {
+  35.15% {
     filter: saturate(200%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-6px, 8px) skew(-160deg);
   }
-  35.45% {
+  35.22% {
     filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(2px, 1px) skew(-20deg);
   }
-  35.45%,
-  50% {
+  35.28%,
+  50.05% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
@@ -837,133 +837,132 @@ h2 {
     filter: saturate(20%) contrast(1) hue-rotate(10deg) invert(0);
     transform: translate(4px, 0px) skew(-10deg);
   }
-  50.3% {
+  50.15% {
     filter: saturate(500%) contrast(500) hue-rotate(120deg);
     transform: translate(-10px, 0px) skew(50deg);
   }
-  50.4% {
+  50.18% {
     filter: saturate(300%) contrast(70) hue-rotate(80deg) invert(0);
     transform: translate(80px, 10px) skew(-180deg);
   }
-  50.45% {
+  50.21% {
     filter: saturate(10%) contrast(500) hue-rotate(40deg) invert(0);
     transform: translate(-40px, 4px) skew(-80deg);
   }
-  50.5% {
+  50.25% {
     filter: saturate(200%) contrast(20) hue-rotate(100deg) invert(0);
     transform: translate(120px, 0px) skew(-130deg);
   }
-  50.6% {
+  50.3% {
     filter: saturate(500%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-40px, 3px) skew(-90deg);
   }
-  50.57% {
+  50.32% {
     filter: saturate(50%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(8px, 0px) skew(-30deg);
   }
-  50.60%,
-  65% {
+  50.35%,
+  65.05% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
-  65.2% {
+  65.15% {
     filter: saturate(200%) contrast(10) hue-rotate(10deg);
     transform: translate(-10px, 0px) skew(20deg);
   }
-  65.4% {
+  65.2% {
     filter: saturate(300%) contrast(70) hue-rotate(30deg) invert(0);
     transform: translate(8px, 2px) skew(-10deg);
   }
-  65.5% {
+  65.25% {
     filter: saturate(10%) contrast(10) hue-rotate(40deg) invert(0);
     transform: translate(-4px, 2px) skew(-30deg);
   }
-  65.6% {
+  65.3% {
     filter: saturate(200%) contrast(20) hue-rotate(50deg) invert(0);
     transform: translate(20px, 0px) skew(-30deg);
   }
-  65.7% {
+  65.35% {
     filter: saturate(500%) contrast(500) hue-rotate(40deg) invert(0);
     transform: translate(-4px, 0px) skew(-20deg);
   }
-  65.9% {
+  65.45% {
     filter: saturate(10%) contrast(50) hue-rotate(10deg) invert(0);
     transform: translate(8px, 0px) skew(-30deg);
   }
-  66%,
-  80.3% {
+  65.8%,
+  80.15% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
-
-  80.5% {
+  80.25% {
     filter: saturate(200%) contrast(100) hue-rotate(70deg) invert(0);
     transform: translate(30px, 0px) skew(-30deg);
   }
-  80.6% {
+  80.3% {
     filter: saturate(500%) contrast(500) hue-rotate(40deg) invert(0);
     transform: translate(-14px, 0px) skew(-60deg);
   }
-  80.7% {
+  80.35% {
     filter: saturate(100%) contrast(90) hue-rotate(30deg) invert(0);
     transform: translate(8px, 0px) skew(-40deg);
   }
 
-  80.8%,
-  85% {
+  80.5%,
+  85.05% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
-  85.2% {
+  85.15% {
     filter: saturate(500%) contrast(10) hue-rotate(10deg);
     transform: translate(-100px, 0px) skew(20deg);
   }
-  85.4% {
+  85.2% {
     filter: saturate(10%) contrast(70) hue-rotate(80deg) invert(0);
     transform: translate(30px, 4px) skew(-40deg);
   }
-  85.5% {
+  85.25% {
     filter: saturate(40%) contrast(10) hue-rotate(40deg) invert(0);
     transform: translate(-24px, 2px) skew(-90deg);
   }
-  85.6% {
+  85.3% {
     filter: saturate(500%) contrast(20) hue-rotate(50deg) invert(0);
     transform: translate(20px, 12px) skew(-130deg);
   }
-  85.7% {
+  85.35% {
     filter: saturate(100%) contrast(500) hue-rotate(60deg) invert(0);
     transform: translate(-4px, 0px) skew(-20deg);
   }
-  85.9% {
+  85.45% {
     filter: saturate(10%) contrast(50) hue-rotate(110deg) invert(0);
     transform: translate(40px, 4px) skew(-130deg);
   }
-  86.1% {
+  85.5% {
     filter: saturate(200%) contrast(10) hue-rotate(90deg);
     transform: translate(-10px, 0px) skew(20deg);
   }
-  86.2%,
-  94% {
+  85.55%,
+  94.1% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);
   }
-  94.2% {
+  94.15% {
     filter: saturate(300%) contrast(10) hue-rotate(10deg);
     transform: translate(-20px, 0px) skew(40deg);
   }
-  94.4% {
+  94.22% {
     filter: saturate(10%) contrast(100) hue-rotate(80deg) invert(0);
     transform: translate(30px, 4px) skew(-40deg);
   }
-  94.5% {
+  94.25% {
     filter: saturate(40%) contrast(10) hue-rotate(40deg) invert(0);
     transform: translate(-24px, 2px) skew(-50deg);
   }
-  94.6% {
+  94.3% {
     filter: saturate(200%) contrast(200) hue-rotate(50deg) invert(0);
     transform: translate(20px, 12px) skew(-60deg);
   }
-  94.7%,
+  94.32%,
   100% {
     filter: saturate(100%) contrast(1) hue-rotate(0deg);
     transform: translate(0, 0) skew(0);

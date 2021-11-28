@@ -717,7 +717,7 @@ h2 {
 }
 
 .logo2 {
-  animation: glitchlogo 45s 4s ease-in infinite;
+  animation: glitchlogo 42s 4s ease-in infinite;
 }
 
 @keyframes glitchlogo {
@@ -1503,7 +1503,6 @@ a {
 .releasesVideo {
   position: relative;
   padding-right: 0.925vw;
-  padding-bottom: 10.256vw;
 }
 
 .showreel {

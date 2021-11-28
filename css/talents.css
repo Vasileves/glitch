@@ -287,6 +287,7 @@ h5 {
 }
 
 .navBack {
+  align-items: baseline;
   display: flex;
 }
 
@@ -325,15 +326,18 @@ h5 {
 }
 
 .talentWorks {
+  margin-left: -1.5vw;
   margin-right: -2vw;
   padding-top: 1.387vw;
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom: 0;
 }
 
 .talentWork {
-  padding-right: 1.387vw;
+  padding-left: 1.5vw;
 }
 
 .talentWork h3 {

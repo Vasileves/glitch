@@ -720,6 +720,10 @@ h2 {
   animation: glitchlogo 70s 4s ease-in infinite;
 }
 
+.logo2 img {
+  width: 5.78vw;
+}
+
 @keyframes glitchlogo {
   0.5% {
     filter: saturate(10%) contrast(50) hue-rotate(80deg) invert(0);
@@ -2085,6 +2089,10 @@ a {
     padding-top: 2.312vw;
     display: flex;
     flex-direction: column;
+  }
+
+  .logo2 img {
+    width: 18vw;
   }
 
   .navbarPortfolio {

@@ -190,69 +190,69 @@ h5 {
 .talentCard1 {
   animation: glitcher 0.25s;
   left: 2.8vw;
-  top: 6.5vw;
+  top: 1.5vw;
 }
 
 .talentCard2 {
   animation: glitcher 0.2s;
   left: 30.6vw;
-  top: 10.6vw;
+  top: 15.2vw;
 }
 
 .talentCard3 {
   animation: glitcher 0.18s;
-  left: 55vw;
-  top: 26.7vw;
+  left: 49.48vw;
+  top: 27.023vw;
 }
 
 .talentCard4 {
   animation: glitcher 0.25s;
   left: 72.2vw;
-  top: 14vw;
+  top: 9vw;
 }
 
 .talentCard5 {
   animation: glitcher 0.3s;
   left: 5.7vw;
-  top: 37.1vw;
+  top: 32.1vw;
 }
 
 .talentCard6 {
   animation: glitcher 0.2s;
   left: 25.4vw;
-  top: 45.8vw;
+  top: 43.8vw;
 }
 
 .talentCard7 {
   animation: glitcher 0.15s;
   left: 46.2vw;
-  top: 52.8vw;
+  top: 58.8vw;
 }
 
 .talentCard8 {
   animation: glitcher 0.3s;
   left: 75.1vw;
-  top: 41.8vw;
+  top: 36.8vw;
 }
 
 .talentCard9 {
   animation: glitcher 0.25s;
   left: 14.4vw;
-  top: 67.6vw;
+  top: 62.6vw;
 }
 
 .talentCard1 img {
-  width: 17.11vw;
-  height: auto;
-}
-
-.talentCard2 img {
   width: 19.133vw;
   height: auto;
 }
 
+.talentCard2 img {
+  width: 14.451vw;
+  height: auto;
+}
+
 .talentCard3 img {
-  width: 12.543vw;
+  width: 17.11vw;
   height: auto;
 }
 
@@ -403,6 +403,16 @@ h5 {
 
 #emil6 img {
   width: 34.798vw;
+  height: 16.243vw;
+}
+
+#emil7 img {
+  width: 26.532vw;
+  height: 16.243vw;
+}
+
+#emil8 img {
+  width: 29.538vw;
   height: 16.243vw;
 }
 
@@ -992,6 +1002,16 @@ h5 {
   }
 
   #emil6 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil7 img {
+    width: auto;
+    height: 56.923vw;
+  }
+
+  #emil8 img {
     width: auto;
     height: 56.923vw;
   }

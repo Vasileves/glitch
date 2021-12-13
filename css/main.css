@@ -12,6 +12,16 @@
   width: 0;
 }
 
+.cursor {
+  left: 0;
+  top: 0;
+  z-index: 100;
+  position: absolute;
+  width: 98px;
+  cursor: none;
+  pointer-events: none;
+}
+
 body {
   /* background: #F9F2EB; */
   background: rgb(0, 0, 0);
@@ -1516,6 +1526,7 @@ a {
 }
 
 .showreel video {
+  cursor: none;
   -webkit-animation: slit-in-horizontal 0.45s ease-out both;
   animation: slit-in-horizontal 0.45s ease-out both;
   width: 100vw;

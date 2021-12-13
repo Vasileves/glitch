@@ -8,5 +8,6 @@ const menuOverlayBlack = document.querySelector('.menu-overlayBlack');
 menuButtonBlack.addEventListener('click', function() {
     menuButtonBlack.classList.toggle('active');
     menuOverlayBlack.classList.toggle('open');
-});
+}); 
+
  }

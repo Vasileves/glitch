@@ -13,11 +13,27 @@
 }
 
 .cursor {
-  left: 0;
-  top: 0;
+  top: -20vw;
+  margin-top: -10vw;
+  margin-left: -4vw;
+  width: 5.665vw;
+  height: auto;
   z-index: 100;
   position: absolute;
-  width: 98px;
+  width: auto;
+  cursor: none;
+  pointer-events: none;
+}
+
+.cursor2 {
+  left: -20vw;
+  margin-top: 32vw;
+  margin-left: -4vw;
+  width: 5.665vw;
+  height: auto;
+  z-index: 100;
+  position: absolute;
+  width: auto;
   cursor: none;
   pointer-events: none;
 }

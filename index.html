@@ -14,10 +14,68 @@ crossorigin="anonymous"></script>
   <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
   <title>Park production</title>
   <script type='text/javascript'>
-    $(window).load(function(){
-        $("video").css('cursor','url("../images/pointer.svg"),auto');
-        $("img").css('cursor','url("./images/pointer2.svg"),auto');
+window.onload = function(){ 
+  $(function () {
+  $("#testarea").mousemove(function (e) {
+    $(".cursor").show().css({
+      "left": e.clientX,
+      "top": e.clientY
     });
+  }).mouseout(function () {
+    $(".cursor").hide();
+  });
+});
+$(function () {
+  $("#testarea2").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor2").hide();
+  });
+});
+$(function () {
+  $("#testarea2").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor2").hide();
+  });
+});
+$(function () {
+  $("#testarea3").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor2").hide();
+  });
+});
+$(function () {
+  $("#testarea4").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor2").hide();
+  });
+});
+$(function () {
+  $("#testarea5").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor2").hide();
+  });
+});
+};
     </script>
 </head>
 <body>
@@ -56,7 +114,8 @@ crossorigin="anonymous"></script>
         <a class="navLink" href="about.html">about & contacts</a>
       </div>
   </div>
-  <div class="showreel">
+  <div id="testarea" class="showreel container">
+    <img src="./images/pointer.svg" alt="Cursor" class="cursor">
     <!-- <div class="reel">
       <span>•‎</span>
       <p>REEL 2021</p>
@@ -71,28 +130,29 @@ crossorigin="anonymous"></script>
 </div>
   <div class="releases">
     <div class="releasesSection">
+      <img src="./images/pointer2.svg" alt="Cursor" class="cursor2">
       <div class="releasesVideo" id="l1">
         <h3>Tinkoff Knopka</h3>
         <a href="https://vimeo.com/644023879" target="_blank">
-          <img src="./images/l1.jpg" alt="">
+          <img id="testarea2" src="./images/l1.jpg" alt="" style="cursor: none;">
         </a>
       </div>
       <div class="releasesVideo" id="l2">
         <h3>Renault Kaptur</h3>
         <a href="https://vimeo.com/643157871" target="_blank">
-          <img src="./images/l2.jpg" alt="">
+          <img id="testarea3" src="./images/l2.jpg" alt="" style="cursor: none;">
         </a>
       </div>
       <div class="releasesVideo" id="l3">
         <h3>Tinkoff</h3>
         <a href="https://vimeo.com/644390520" target="_blank">
-          <img src="./images/l3.jpg" alt="">
+          <img id="testarea4" src="./images/l3.jpg" alt="" style="cursor: none;">
         </a>
       </div>
       <div class="releasesVideo" id="l4">
         <h3>Adrenaline Rush</h3>
         <a href="https://vimeo.com/468510115" target="_blank">
-          <img src="./images/l4.jpg" alt="">
+          <img id="testarea5" src="./images/l4.jpg" alt="" style="cursor: none;">
         </a>
       </div>
     </div>

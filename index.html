@@ -15,6 +15,16 @@ crossorigin="anonymous"></script>
   <title>Park production</title>
   <script type='text/javascript'>
 window.onload = function(){ 
+  let mouseCursor = document.querySelector('.cursor');
+  let navLinks = document.querySelectorAll('.showreel');
+
+  window.addEventListener('mousemove',cursor);
+
+  function cursor(e) {
+    mouseCursor.style.top = e.pageY + 'px';
+    mouseCursor.style.left = e.pageX + 'px';
+
+  }
   $(function () {
   $("#testarea").mousemove(function (e) {
     $(".cursor").show().css({

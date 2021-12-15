@@ -12,6 +12,24 @@
   width: 0;
 }
 
+.player {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: black;
+  left: 0;
+  top: 0;
+  animation: playeranim 0.8s;
+}
+
+.player-close {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: 11;
+}
+
 .cursor {
   top: -20vw;
   margin-top: -10vw;
@@ -2295,5 +2313,20 @@ a {
   100% {
     -webkit-transform: translateZ(0) rotateX(0);
     transform: translateZ(0) rotateX(0);
+  }
+}
+
+
+
+@keyframes playeranim {
+  0% {
+    -webkit-transform: translateY(100vh);
+            transform: translateY(100vh);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
   }
 }

@@ -1283,601 +1283,107 @@ h5 {
     padding-left: 6.154vw;
   }
 
-  @keyframes slide1 {
-    0.025% {
+  @keyframes slide7 {
+    0.1% {
       filter: contrast(0) invert(0.2);
       transform: translate(-5px, -2px) skew(8deg);
     }
-    0.05% {
+    0.3% {
       filter: contrast(20) invert(0);
-      transform: translate(14px, -4px) skew(-10deg);
+      transform: translate(8px, -4px) skew(-10deg);
     }
-    0.075% {
+    0.4% {
       filter: contrast(500) invert(1);
-      transform: translate(-20px, 0) skew(-12deg);
+      transform: translate(-10px, 0) skew(-12deg);
     }
-    0.1% {
+    0.6% {
       filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(20deg);
+      transform: translate(4px, 0) skew(20deg);
     }
-    0.125%,
-    10% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-
-    10.025% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(10deg);
-    }
-    10.05% {
-      filter: contrast(0) invert(1);
-      transform: translate(-15px, 2px) skew(4deg);
-    }
-    10.1% {
-      filter: contrast(500) invert(0);
-      transform: translate(4px, 6px) skew(-8deg);
-    }
-    10.125% {
-      filter: contrast(50) invert(0);
-      transform: translate(-12px, 0) skew(-18deg);
-    }
-    10.15% {
-      filter: contrast(0) invert(0);
-      transform: translate(14px, 6px) skew(6deg);
-    }
-    10.2% {
-      filter: contrast(10) invert(1);
-      transform: translate(2px, 2px) skew(-9deg);
-    }
-    10.225%,
+    0.8%,
     25% {
       filter: contrast(1);
       transform: translate(0, 0) skew(0);
     }
 
-    25.025% {
-      filter: contrast(1) invert(0);
-      transform: translate(4px, 0px) skew(-9deg);
-    }
-    25.05% {
-      filter: contrast(500) invert(1);
-      transform: translate(-10px, 0px) skew(5deg);
-    }
     25.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(18px, 0px) skew(-20deg);
-    }
-    25.125% {
-      filter: contrast(500) invert(0);
-      transform: translate(-4px, 2px) skew(3deg);
-    }
-    25.175% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(8px, 0px) skew(-6deg);
-    }
-    25.2%,
-    40% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-    40.05% {
-      filter: contrast(50) invert(0.4);
-      transform: translate(20px, 12px) skew(-9deg);
-    }
-    40.075% {
-      filter: contrast(500) invert(1);
-      transform: translate(-12px, 8px) skew(6deg);
-    }
-    40.15% {
-      filter: contrast(50) invert(0);
-      transform: translate(10px, 2px) skew(-20deg);
-    }
-    40.2%,
-    70% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-    70.0125% {
-      filter: contrast(500) invert(1);
-      transform: translate(6px, 22px) skew(-3deg);
-    }
-    70.03% {
-      filter: contrast(500) invert(0.4);
-      transform: translate(-6px, 8px) skew(6deg);
-    }
-    70.08% {
-      filter: contrast(50) invert(0);
-      transform: translate(2px, 1px) skew(-20deg);
-    }
-    70.1%,
-    90% {
-      filter: contrast(1);
-      transform: translate(0, 0) skew(0);
-    }
-    90.05% {
-      filter: contrast(1) invert(0.4);
-      transform: translate(4px, 0px) skew(-10deg);
-    }
-    90.075% {
-      filter: contrast(500) invert(0);
-      transform: translate(-10px, 0px) skew(10deg);
-    }
-    90.1% {
-      filter: contrast(70) invert(1);
-      transform: translate(10px, 3px) skew(-20deg);
-    }
-    90.125% {
-      filter: contrast(500) invert(0);
-      transform: translate(-10px, 4px) skew(8deg);
-    }
-    90.15% {
-      filter: contrast(20) invert(0.6);
-      transform: translate(20px, 0px) skew(-10deg);
-    }
-    90.175% {
-      filter: contrast(500) invert(0.2);
-      transform: translate(-12px, 2px) skew(9deg);
-    }
-    90.2% {
-      filter: contrast(50) invert(1);
-      transform: translate(8px, 0px) skew(-30deg);
-    }
-    90.225%,
-    100% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-  }
-
-  @keyframes slide2 {
-    0.025% {
-      filter: contrast(0) invert(0.2);
-      transform: translate(-5px, -2px) skew(8deg);
-    }
-    0.05% {
-      filter: contrast(20) invert(0);
-      transform: translate(14px, -4px) skew(-10deg);
-    }
-    0.075% {
-      filter: contrast(500) invert(1);
-      transform: translate(-20px, 0) skew(-12deg);
-    }
-    0.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(20deg);
-    }
-    0.125%,
-    20% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-
-    20.025% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(10deg);
-    }
-    20.05% {
-      filter: contrast(0) invert(1);
-      transform: translate(-15px, 2px) skew(4deg);
-    }
-    20.1% {
-      filter: contrast(500) invert(0);
-      transform: translate(4px, 6px) skew(-8deg);
-    }
-    20.125% {
-      filter: contrast(50) invert(0);
-      transform: translate(-12px, 0) skew(-18deg);
-    }
-    20.15% {
-      filter: contrast(0) invert(0);
-      transform: translate(14px, 6px) skew(6deg);
-    }
-    20.2% {
-      filter: contrast(10) invert(1);
-      transform: translate(2px, 2px) skew(-9deg);
-    }
-    20.225%,
-    35% {
-      filter: contrast(1);
-      transform: translate(0, 0) skew(0);
-    }
-
-    35.025% {
       filter: contrast(1) invert(0);
       transform: translate(4px, 0px) skew(-9deg);
     }
-    35.05% {
+    25.2% {
       filter: contrast(500) invert(1);
-      transform: translate(-10px, 0px) skew(5deg);
+      transform: translate(-6px, 0px) skew(5deg);
     }
-    35.1% {
+    25.5% {
       filter: contrast(50) invert(0.2);
-      transform: translate(18px, 0px) skew(-20deg);
+      transform: translate(10px, 0px) skew(-20deg);
     }
-    35.125% {
+    25.7% {
       filter: contrast(500) invert(0);
       transform: translate(-4px, 2px) skew(3deg);
     }
-    35.175% {
+    25.9% {
       filter: contrast(50) invert(0.2);
-      transform: translate(8px, 0px) skew(-6deg);
+      transform: translate(4px, 0px) skew(-6deg);
     }
-    35.2%,
-    70% {
+    26.1%,
+    40% {
       filter: contrast(1) invert(0);
       transform: translate(0, 0) skew(0);
     }
-    70.05% {
+    40.1% {
       filter: contrast(50) invert(0.4);
-      transform: translate(20px, 12px) skew(-9deg);
+      transform: translate(12px, 3px) skew(-9deg);
     }
-    70.075% {
+    40.3% {
       filter: contrast(500) invert(1);
-      transform: translate(-12px, 8px) skew(6deg);
+      transform: translate(-8px, 8px) skew(6deg);
     }
-    70.15% {
+    40.4% {
       filter: contrast(50) invert(0);
-      transform: translate(10px, 2px) skew(-20deg);
+      transform: translate(4px, 2px) skew(-20deg);
     }
-    70.2%,
+    40.7%,
     90% {
       filter: contrast(1);
       transform: translate(0, 0) skew(0);
     }
-    90.05% {
+    90.1% {
       filter: contrast(1) invert(0.4);
       transform: translate(4px, 0px) skew(-10deg);
-    }
-    90.075% {
-      filter: contrast(500) invert(0);
-      transform: translate(-10px, 0px) skew(10deg);
-    }
-    90.1% {
-      filter: contrast(70) invert(1);
-      transform: translate(10px, 3px) skew(-20deg);
-    }
-    90.125% {
-      filter: contrast(500) invert(0);
-      transform: translate(-10px, 4px) skew(8deg);
-    }
-    90.15% {
-      filter: contrast(20) invert(0.6);
-      transform: translate(20px, 0px) skew(-10deg);
-    }
-    90.175% {
-      filter: contrast(500) invert(0.2);
-      transform: translate(-12px, 2px) skew(9deg);
     }
     90.2% {
+      filter: contrast(500) invert(0);
+      transform: translate(-6px, 0px) skew(10deg);
+    }
+    90.4% {
+      filter: contrast(70) invert(1);
+      transform: translate(8px, 3px) skew(-20deg);
+    }
+    90.6% {
+      filter: contrast(500) invert(0);
+      transform: translate(-8px, 4px) skew(8deg);
+    }
+    90.8% {
+      filter: contrast(20) invert(0.6);
+      transform: translate(10px, 0px) skew(-10deg);
+    }
+    90.9% {
+      filter: contrast(500) invert(0.2);
+      transform: translate(-4px, 2px) skew(9deg);
+    }
+    91% {
       filter: contrast(50) invert(1);
       transform: translate(8px, 0px) skew(-30deg);
     }
-    90.225%,
+    91.2%,
     100% {
       filter: contrast(1) invert(0);
       transform: translate(0, 0) skew(0);
     }
   }
 
-  @keyframes slide3 {
-    0%,
-    5% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-    5.025% {
-      filter: contrast(0) invert(0.2);
-      transform: translate(-5px, -2px) skew(-8deg);
-    }
-    5.05% {
-      filter: contrast(200) invert(1);
-      transform: translate(14px, -4px) skew(10deg);
-    }
-    5.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(12deg);
-    }
-    5.125%,
-    30% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-
-    30.025% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(-10deg);
-    }
-    30.05% {
-      filter: contrast(0) invert(0);
-      transform: translate(-15px, 2px) skew(4deg);
-    }
-    30.1% {
-      filter: contrast(500) invert(1);
-      transform: translate(4px, 6px) skew(18deg);
-    }
-    30.125% {
-      filter: contrast(50) invert(0.5);
-      transform: translate(-12px, 0) skew(8deg);
-    }
-    30.15% {
-      filter: contrast(0) invert(0);
-      transform: translate(8px, 6px) skew(9deg);
-    }
-    30.2% {
-      filter: contrast(10) invert(0.2);
-      transform: translate(4px, 2px) skew(-12deg);
-    }
-    30.225%,
-    55% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-
-    55.025% {
-      filter: contrast(1) invert(0);
-      transform: translate(4px, 0px) skew(9deg);
-    }
-    55.05% {
-      filter: contrast(0) invert(1);
-      transform: translate(-10px, 0px) skew(-5deg);
-    }
-    55.1% {
-      filter: contrast(500) invert(0.2);
-      transform: translate(18px, 0px) skew(20deg);
-    }
-    55.125% {
-      filter: contrast(0) invert(0);
-      transform: translate(-4px, 2px) skew(-9deg);
-    }
-    55.175% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(8px, 0px) skew(6deg);
-    }
-    55.2%,
-    80% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-    80.05% {
-      filter: contrast(50) invert(0.4);
-      transform: translate(20px, 12px) skew(-19deg);
-    }
-    80.075% {
-      filter: contrast(500) invert(1);
-      transform: translate(-12px, 8px) skew(6deg);
-    }
-    80.15% {
-      filter: contrast(50) invert(0);
-      transform: translate(10px, 2px) skew(-20deg);
-    }
-    80.2%,
-    95% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-    95.0125% {
-      filter: contrast(500) invert(0);
-      transform: translate(-12px, 22px) skew(21deg);
-    }
-    95.03% {
-      filter: contrast(500) invert(0.4);
-      transform: translate(6px, 8px) skew(-6deg);
-    }
-    95.08% {
-      filter: contrast(50) invert(0);
-      transform: translate(20px, 1px) skew(-10deg);
-    }
-    95.225%,
-    100% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-  }
-
-  @keyframes slide4 {
-    0.025% {
-      filter: contrast(0) invert(0.2);
-      transform: translate(5px, -2px) skew(8deg);
-    }
-    0.05% {
-      filter: contrast(20) invert(0);
-      transform: translate(-14px, -4px) skew(-10deg);
-    }
-    0.075% {
-      filter: contrast(500) invert(1);
-      transform: translate(20px, 4px) skew(-12deg);
-    }
-    0.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(-5px, 0) skew(5deg);
-    }
-    0.125% {
-      filter: contrast(0) invert(1);
-      transform: translate(12px, 12px) skew(-12deg);
-    }
-    0.15% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(-5px, 0) skew(20deg);
-    }
-    0.2%,
-    40% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-
-    40.025% {
-      filter: contrast(0) invert(0.2);
-      transform: translate(-5px, 0) skew(-10deg);
-    }
-    40.1% {
-      filter: contrast(500) invert(1);
-      transform: translate(4px, 6px) skew(8deg);
-    }
-    40.15% {
-      filter: contrast(0) invert(0.2);
-      transform: translate(-14px, 6px) skew(16deg);
-    }
-    40.2% {
-      filter: contrast(10) invert(1);
-      transform: translate(4px, 2px) skew(9deg);
-    }
-    40.225%,
-    60% {
-      filter: contrast(1);
-      transform: translate(0, 0) skew(0);
-    }
-
-    60.025% {
-      filter: contrast(1) invert(0);
-      transform: translate(-4px, 0px) skew(9deg);
-    }
-    60.05% {
-      filter: contrast(500) invert(1);
-      transform: translate(10px, 0px) skew(3deg);
-    }
-    60.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(-18px, 10px) skew(20deg);
-    }
-    60.125% {
-      filter: contrast(500) invert(0);
-      transform: translate(4px, 2px) skew(10deg);
-    }
-    60.175% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(-8px, 4px) skew(6deg);
-    }
-    60.2%,
-    90% {
-      filter: contrast(1);
-      transform: translate(0, 0) skew(0);
-    }
-    90.05% {
-      filter: contrast(1) invert(0.2);
-      transform: translate(-2px, 0px) skew(10deg);
-    }
-    90.075% {
-      filter: contrast(500) invert(0);
-      transform: translate(8px, 0px) skew(-20deg);
-    }
-    90.1% {
-      filter: contrast(70) invert(1);
-      transform: translate(-10px, 3px) skew(12deg);
-    }
-    90.125% {
-      filter: contrast(500) invert(0.2);
-      transform: translate(10px, 4px) skew(-8deg);
-    }
-    90.15% {
-      filter: contrast(20) invert(1);
-      transform: translate(14px, 0px) skew(10deg);
-    }
-    90.225%,
-    100% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-  }
-
-  @keyframes slide5 {
-    0%,
-    12% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-    12.025% {
-      filter: contrast(0) invert(0.2);
-      transform: translate(-5px, -2px) skew(8deg);
-    }
-    12.05% {
-      filter: contrast(20) invert(0);
-      transform: translate(14px, -4px) skew(-10deg);
-    }
-    12.075% {
-      filter: contrast(500) invert(1);
-      transform: translate(-20px, 0) skew(-12deg);
-    }
-    12.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(5px, 0) skew(20deg);
-    }
-    12.125%,
-    40% {
-      filter: contrast(1) invert(0);
-      transform: translate(0) skew(0);
-    }
-
-    40.025% {
-      filter: contrast(1) invert(0);
-      transform: translate(4px, 0px) skew(-9deg);
-    }
-    40.05% {
-      filter: contrast(500) invert(1);
-      transform: translate(-10px, 0px) skew(5deg);
-    }
-    40.1% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(18px, 0px) skew(-20deg);
-    }
-    40.175% {
-      filter: contrast(50) invert(0.2);
-      transform: translate(8px, 0px) skew(-6deg);
-    }
-    40.2%,
-    60% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-    60.05% {
-      filter: contrast(50) invert(0.4);
-      transform: translate(20px, 12px) skew(-9deg);
-    }
-    60.075% {
-      filter: contrast(500) invert(1);
-      transform: translate(-12px, 8px) skew(6deg);
-    }
-    60.15% {
-      filter: contrast(50) invert(0);
-      transform: translate(10px, 2px) skew(-20deg);
-    }
-    60.2%,
-    95% {
-      filter: contrast(1);
-      transform: translate(0, 0) skew(0);
-    }
-    95.05% {
-      filter: contrast(1) invert(0.4);
-      transform: translate(4px, 0px) skew(-10deg);
-    }
-    95.075% {
-      filter: contrast(500) invert(0);
-      transform: translate(-10px, 0px) skew(10deg);
-    }
-    95.1% {
-      filter: contrast(70) invert(1);
-      transform: translate(10px, 3px) skew(-20deg);
-    }
-    95.125% {
-      filter: contrast(500) invert(0);
-      transform: translate(-10px, 4px) skew(8deg);
-    }
-    95.175% {
-      filter: contrast(500) invert(0.2);
-      transform: translate(-12px, 2px) skew(9deg);
-    }
-    95.2% {
-      filter: contrast(50) invert(1);
-      transform: translate(8px, 0px) skew(-30deg);
-    }
-    95.225%,
-    100% {
-      filter: contrast(1) invert(0);
-      transform: translate(0, 0) skew(0);
-    }
-  }
-
-  @keyframes slide6 {
+  @keyframes slide8 {
     0%,
     22% {
       filter: contrast(1) invert(0);
@@ -1885,27 +1391,27 @@ h5 {
     }
     22.25% {
       filter: contrast(0) invert(0);
-      transform: translate(15px, -2px) skew(8deg);
+      transform: translate(10px, -2px) skew(8deg);
     }
-    22.5% {
+    22.4% {
       filter: contrast(2) invert(1);
-      transform: translate(-14px, 2px) skew(-10deg);
+      transform: translate(-7px, 2px) skew(-10deg);
     }
-    23% {
+    22.6% {
       filter: contrast(500) invert(0.2);
-      transform: translate(20px, 0) skew(8deg);
+      transform: translate(10px, 0) skew(8deg);
     }
-    23.25% {
+    22.9% {
       filter: contrast(50) invert(0);
-      transform: translate(7px, 2px) skew(-20deg);
+      transform: translate(4px, 2px) skew(-20deg);
     }
-    23.5%,
-    50% {
+    23%,
+    50.1% {
       filter: contrast(1) invert(0);
       transform: translate(0) skew(0);
     }
 
-    50.25% {
+    50.2% {
       filter: contrast(1) invert(1);
       transform: translate(4px, -2px) skew(9deg);
     }
@@ -1913,33 +1419,32 @@ h5 {
       filter: contrast(50) invert(0);
       transform: translate(-10px, 0px) skew(-5deg);
     }
-    51.1% {
+    51% {
       filter: contrast(0) invert(0.2);
       transform: translate(8px, 0px) skew(20deg);
     }
-    50.175% {
+    51.3% {
       filter: contrast(500) invert(0.2);
-      transform: translate(-18px, -4px) skew(-6deg);
+      transform: translate(-6px, -4px) skew(-6deg);
     }
-    50.2%,
+    51.5%,
     70% {
       filter: contrast(1) invert(0);
       transform: translate(0, 0) skew(0);
     }
-    70.05% {
+    70.2% {
       filter: contrast(50) invert(0.4);
       transform: translate(4px, 2px) skew(9deg);
     }
-    70.075% {
+    70.5% {
       filter: contrast(500) invert(0);
-      transform: translate(-12px, 8px) skew(-6deg);
+      transform: translate(-7px, 8px) skew(-6deg);
     }
-    70.15% {
+    70.9% {
       filter: contrast(50) invert(1);
-      transform: translate(-10px, 2px) skew(20deg);
+      transform: translate(-5px, 2px) skew(20deg);
     }
-    70.2%,
-    95.175%,
+    71.2%,
     100% {
       filter: contrast(1) invert(0);
       transform: translate(0, 0) skew(0);
@@ -2153,11 +1658,19 @@ h5 {
   #crewCard1 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 20s;
+    animation-delay: 2s;
   }
 
   #crewCard2 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 20s;
+    animation-delay: 2s;
   }
 
   #crewCard3 Img {

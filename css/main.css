@@ -12,12 +12,13 @@
   width: 0;
 }
 
-.player {
+#player {
+  overflow: visible;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100vw;
   z-index: 10;
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, 1);
   left: 0;
   top: 0;
   animation: playeranim 0.5s;
@@ -25,15 +26,9 @@
   justify-content: center;
 }
 
-.player video {
-  width: 100vw;
-  height:100vh;
-}
-
 .player iframe {
-  width: 100vw;
-  height: 90vh;
-  top:5vh;
+  /* height: 90vh;
+  top: 5vh; */
 }
 
 .player-close {

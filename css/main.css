@@ -1635,6 +1635,14 @@ a {
     overflow-x: hidden;
   }
 
+  .cursor {
+    display: none;
+  }
+
+  .cursor2 {
+    display: none;
+  }
+
   .showreel {
     margin-left: -6.154vw;
     margin-right: -6.154vw;
@@ -2314,14 +2322,6 @@ a {
     -webkit-transform: translateZ(0) rotateX(0);
     transform: translateZ(0) rotateX(0);
   }
-}
-
-.cursor {
-  display: none;
-}
-
-.cursor2 {
-  display: none;
 }
 
 @keyframes playeranim {

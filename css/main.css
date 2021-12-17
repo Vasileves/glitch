@@ -19,7 +19,6 @@
 }
 
 .swiper {
-  width: 100vw;
   height: fit-content;
 }
 
@@ -1569,8 +1568,9 @@ a {
   padding-top: 2.312vw;
   display: flex;
   flex-direction: row;
-  overflow-x: scroll;
+  overflow: hidden;
   margin-right: -2vw;
+  background-color: red;
 }
 
 .releasesVideo {

@@ -82,4 +82,11 @@ $(function () {
   });
 });
 };
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  spaceBetween: 10,
+  loop: false
+});
 }

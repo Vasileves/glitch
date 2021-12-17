@@ -12,6 +12,10 @@
   width: 0;
 }
 
+.swiper-slide {
+  flex-shrink: unset;
+}
+
 #player {
   position: fixed;
   width: 100vw;

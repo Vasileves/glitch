@@ -14,6 +14,11 @@ crossorigin="anonymous"></script>
   <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
   <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
   <title>Park production</title>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
 <body>
   <div id="player" class="player" style= "display: none;" onclick="unwrapPlayer(this)">
@@ -71,22 +76,22 @@ crossorigin="anonymous"></script>
     <!-- <a class="navLink" href="movies.html">movies</a> -->
     <a class="navLink" href="otherworks.html">Other works</a>
 </div>
-  <div class="releases">
-    <div class="releasesSection">
+  <div class="releases swiper">
+    <div class="releasesSection swiper-wrapper">
       <img src="./images/pointer2.svg" alt="Cursor" class="cursor2">
-      <div class="releasesVideo" id="l1" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/644023879?h=cd4a07b1bd">
+      <div class="releasesVideo swiper-slide" id="l1" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/644023879?h=cd4a07b1bd" >
         <h3>Tinkoff Knopka</h3>
           <img id="testarea2" src="./images/l1.jpg" alt="" style="cursor: none;">
       </div>
-      <div class="releasesVideo" id="l2" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/643157871?h=105649e781">
+      <div class="releasesVideo swiper-slide" id="l2" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/643157871?h=105649e781">
         <h3>Renault Kaptur</h3>
           <img id="testarea3" src="./images/l2.jpg" alt="" style="cursor: none;">
       </div>
-      <div class="releasesVideo" id="l3" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/644390520?h=51f575d9b8">
+      <div class="releasesVideo swiper-slide" id="l3" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/644390520?h=51f575d9b8">
         <h3>Tinkoff</h3>
           <img id="testarea4" src="./images/l3.jpg" alt="" style="cursor: none;">
       </div>
-      <div class="releasesVideo" id="l4" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/468510115?h=315ccda911">
+      <div class="releasesVideo swiper-slide" id="l4" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/468510115?h=315ccda911">
         <h3>Adrenaline Rush</h3>
           <img id="testarea5" src="./images/l4.jpg" alt="" style="cursor: none;">
       </div>

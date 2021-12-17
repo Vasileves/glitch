@@ -10,6 +10,7 @@ src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
 integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
 crossorigin="anonymous"></script>
   <script src="./js/indexBlack.js"></script>
+  <script src="./js/scrollbooster-min.js"></script>
   <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
   <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
   <title>Park production</title>
@@ -140,7 +141,7 @@ menuButtonBlack.addEventListener('click', function() {
         <a class="navLink" href="about.html">about & contacts</a>
       </div>
   </div>
-  <div id="testarea" onclick="unwrapPlayer(this)" data-vidLink='<iframe src="https://player.vimeo.com/video/540630877?h=a0bcb9d6f7&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>";' class="showreel container">
+  <div id="testarea" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/540630877?h=a0bcb9d6f7&loop=1&title=0&byline=0&portrait=0" class="showreel container">
     <img src="./images/pointer.svg" alt="Cursor" class="cursor">
     <!-- <div class="reel">
       <span>•‎</span>
@@ -157,29 +158,21 @@ menuButtonBlack.addEventListener('click', function() {
   <div class="releases">
     <div class="releasesSection">
       <img src="./images/pointer2.svg" alt="Cursor" class="cursor2">
-      <div class="releasesVideo" id="l1">
+      <div class="releasesVideo" id="l1" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/644023879?h=cd4a07b1bd">
         <h3>Tinkoff Knopka</h3>
-        <a href="https://vimeo.com/644023879" target="_blank">
           <img id="testarea2" src="./images/l1.jpg" alt="" style="cursor: none;">
-        </a>
       </div>
-      <div class="releasesVideo" id="l2">
+      <div class="releasesVideo" id="l2" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/643157871?h=105649e781">
         <h3>Renault Kaptur</h3>
-        <a href="https://vimeo.com/643157871" target="_blank">
           <img id="testarea3" src="./images/l2.jpg" alt="" style="cursor: none;">
-        </a>
       </div>
-      <div class="releasesVideo" id="l3">
+      <div class="releasesVideo" id="l3" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/644390520?h=51f575d9b8">
         <h3>Tinkoff</h3>
-        <a href="https://vimeo.com/644390520" target="_blank">
           <img id="testarea4" src="./images/l3.jpg" alt="" style="cursor: none;">
-        </a>
       </div>
-      <div class="releasesVideo" id="l4">
+      <div class="releasesVideo" id="l4" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/468510115?h=315ccda911">
         <h3>Adrenaline Rush</h3>
-        <a href="https://vimeo.com/468510115" target="_blank">
           <img id="testarea5" src="./images/l4.jpg" alt="" style="cursor: none;">
-        </a>
       </div>
     </div>
   </div>
@@ -193,5 +186,13 @@ menuButtonBlack.addEventListener('click', function() {
     </div>
   </div>
   <script src="js/unwrap.js"></script>
+  <script>
+    window.scrollTo(0,document.body.scrollHeight);
+    (function() {
+    if( window.innerWidth > 600 ) {
+        document.write('<scr'+'ipt type="text/javascript" src="js/action.js" ></scr'+'ipt>');
+    }
+    })();
+    </script>
 </body>
 </html>

@@ -1543,10 +1543,16 @@ h5 {
     align-items: end;
     padding-bottom: 10.256vw;
     margin-right: -6.5vw;
+    margin-left: -6.7vw;
+    padding-left: 6.7vw;
   }
 
   .crewCard {
     position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     padding-right: 4.103vw;
   }
 
@@ -1676,96 +1682,172 @@ h5 {
   #crewCard3 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 22s;
+    animation-delay: 0.1s;
   }
 
   #crewCard4 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 18s;
+    animation-delay: 4s;
   }
 
   #crewCard5 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 20s;
+    animation-delay: 2s;
   }
 
   #crewCard6 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 17s;
+    animation-delay: 3s;
   }
 
   #crewCard7 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 21s;
+    animation-delay: 0.2s;
   }
 
   #crewCard8 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 21s;
+    animation-delay: 1s;
   }
 
   #crewCard9 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 19s;
+    animation-delay: 4s;
   }
 
   #crewCard10 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 22s;
+    animation-delay: 1s;
   }
 
   #crewCard11 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 17s;
+    animation-delay: 4s;
   }
 
   #crewCard12 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 20s;
+    animation-delay: 2s;
   }
 
   #crewCard13 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 22s;
+    animation-delay: 0.2s;
   }
 
   #crewCard14 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 17s;
+    animation-delay: 4s;
   }
 
   #crewCard15 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 21s;
+    animation-delay: 3.5s;
   }
 
   #crewCard16 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 19s;
+    animation-delay: 1.2s;
   }
 
   #crewCard17 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 22s;
+    animation-delay: 6s;
   }
 
   #crewCard18 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 17s;
+    animation-delay: 1.4s;
   }
 
   #crewCard19 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 20.5s;
+    animation-delay: 0.8s;
   }
 
   #crewCard20 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide8;
+    animation-duration: 18s;
+    animation-delay: 1.2s;
   }
 
   #crewCard21 Img {
     width: auto;
     height: 100vw;
+    animation-iteration-count: infinite;
+    animation-name: slide7;
+    animation-duration: 19.4s;
+    animation-delay: 3s;
   }
 
   .crewCard h4 {

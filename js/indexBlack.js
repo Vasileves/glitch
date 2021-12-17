@@ -1,5 +1,5 @@
 window.onload = function(){
-    'use strict';
+  'use strict';
 
 const menuButtonBlack = document.querySelector('.menu-buttonBlack');
 const menuOverlayBlack = document.querySelector('.menu-overlayBlack');
@@ -7,76 +7,76 @@ const menuOverlayBlack = document.querySelector('.menu-overlayBlack');
 // cursor 
 
 menuButtonBlack.addEventListener('click', function() {
-    menuButtonBlack.classList.toggle('active');
-    menuOverlayBlack.classList.toggle('open');
+  menuButtonBlack.classList.toggle('active');
+  menuOverlayBlack.classList.toggle('open');
 }); 
-    let mouseCursor = document.querySelector('.cursor');
-  
-    window.addEventListener('mousemove',cursor);
-  
-    function cursor(e) {
-      mouseCursor.style.top = e.pageY + 'px';
-      mouseCursor.style.left = e.pageX + 'px';
-  
-    }
-    $(function () {
-    $("#testarea").mousemove(function (e) {
-      $(".cursor").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor").hide();
-    });
-  });
+  let mouseCursor = document.querySelector('.cursor');
+
+  window.addEventListener('mousemove',cursor);
+
+  function cursor(e) {
+    mouseCursor.style.top = e.pageY + 'px';
+    mouseCursor.style.left = e.pageX + 'px';
+
+  }
   $(function () {
-    $("#testarea2").mousemove(function (e) {
-      $(".cursor2").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor2").hide();
+  $("#testarea").mousemove(function (e) {
+    $(".cursor").show().css({
+      "left": e.clientX,
+      "top": e.clientY
     });
+  }).mouseout(function () {
+    $(".cursor").hide();
   });
-  $(function () {
-    $("#testarea2").mousemove(function (e) {
-      $(".cursor2").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor2").hide();
+});
+$(function () {
+  $("#testarea2").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
     });
+  }).mouseout(function () {
+    $(".cursor2").hide();
   });
-  $(function () {
-    $("#testarea3").mousemove(function (e) {
-      $(".cursor2").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor2").hide();
+});
+$(function () {
+  $("#testarea2").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
     });
+  }).mouseout(function () {
+    $(".cursor2").hide();
   });
-  $(function () {
-    $("#testarea4").mousemove(function (e) {
-      $(".cursor2").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor2").hide();
+});
+$(function () {
+  $("#testarea3").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
     });
+  }).mouseout(function () {
+    $(".cursor2").hide();
   });
-  $(function () {
-    $("#testarea5").mousemove(function (e) {
-      $(".cursor2").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor2").hide();
+});
+$(function () {
+  $("#testarea4").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
     });
+  }).mouseout(function () {
+    $(".cursor2").hide();
   });
-  };
+});
+$(function () {
+  $("#testarea5").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor2").hide();
+  });
+});
+};

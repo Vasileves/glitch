@@ -2184,6 +2184,10 @@ a {
     position: relative;
   }
 
+  .logoBlack Img {
+    width: 18vw;
+  }
+
   .menuMediaBlack {
     padding-top: 10.256vw;
     position: relative;
@@ -2193,6 +2197,10 @@ a {
 
   .menuMediaBlack a {
     padding-left: 8px;
+  }
+
+  .releasesVideo {
+    padding-bottom: 10.256vw;
   }
 
   .menu-buttonBlack {

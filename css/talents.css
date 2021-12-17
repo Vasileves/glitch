@@ -242,7 +242,7 @@ h5 {
 }
 
 .talentCard1 img {
-  width: 19.133vw;
+  width: 16.59vw;
   height: auto;
 }
 
@@ -738,6 +738,8 @@ h5 {
   }
 
   .talents {
+    margin-left: -8vw;
+    padding-left: 8vw;
     padding-top: 20.513vw;
     margin-right: -8vw;
     height: fit-content;

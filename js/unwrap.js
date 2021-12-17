@@ -1,4 +1,4 @@
-function unwrapPlayer(e) {
+  function unwrapPlayer(e) {
   var x = document.getElementById("player");
   let vidLink = e.getAttribute('data-vidLink')
   if (x.style.display === "none") {

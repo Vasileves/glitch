@@ -85,8 +85,11 @@ $(function () {
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
+  slidesPerView: 3,
+
   direction: 'horizontal',
-  spaceBetween: 10,
-  loop: false
+  spaceBetween: 100,
+  loop: false,
+  freemode: true
 });
 }

@@ -9,7 +9,9 @@ const menuOverlayBlack = document.querySelector('.menu-overlayBlack');
 menuButtonBlack.addEventListener('click', function() {
   menuButtonBlack.classList.toggle('active');
   menuOverlayBlack.classList.toggle('open');
-}); 
+});
+if( window.innerWidth > 600 ) {
+
   let mouseCursor = document.querySelector('.cursor');
 
   window.addEventListener('mousemove',cursor);
@@ -80,3 +82,4 @@ $(function () {
   });
 });
 };
+}

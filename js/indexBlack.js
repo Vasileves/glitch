@@ -21,6 +21,7 @@ if( window.innerWidth > 600 ) {
     mouseCursor.style.left = e.pageX + 'px';
 
   }
+  
   $(function () {
   $("#testarea").mousemove(function (e) {
     $(".cursor").show().css({
@@ -84,11 +85,10 @@ $(function () {
 };
 
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
   slidesPerView: "auto",
-  direction: 'horizontal',
   spaceBetween: 17,
   loop: false,
   freemode: true,
+  direction: 'horizontal',
 });
 }

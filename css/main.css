@@ -794,7 +794,7 @@ h2 {
 }
 
 @keyframes glitchlogo {
-  0.5% {
+  0.05% {
     filter: saturate(10%) contrast(50) hue-rotate(80deg) invert(0);
     transform: translate(4px, 0px) skew(-30deg);
   }
@@ -1570,7 +1570,6 @@ a {
   flex-direction: row;
   overflow: hidden;
   margin-right: -2vw;
-  background-color: red;
 }
 
 .releasesVideo {

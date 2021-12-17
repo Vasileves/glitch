@@ -14,6 +14,13 @@
 
 .swiper-slide {
   flex-shrink: unset;
+  width: fit-content;
+  margin-right: 17px;
+}
+
+.swiper {
+  width: 100vw;
+  height: fit-content;
 }
 
 #player {

@@ -4,7 +4,7 @@ window.onload = function(){
 const menuButtonBlack = document.querySelector('.menu-buttonBlack');
 const menuOverlayBlack = document.querySelector('.menu-overlayBlack');
 
-// cursor 
+// cursor
 
 menuButtonBlack.addEventListener('click', function() {
   menuButtonBlack.classList.toggle('active');
@@ -85,11 +85,10 @@ $(function () {
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-  slidesPerView: 3,
-
+  slidesPerView: "auto",
   direction: 'horizontal',
-  spaceBetween: 100,
+  spaceBetween: 17,
   loop: false,
-  freemode: true
+  freemode: true,
 });
 }

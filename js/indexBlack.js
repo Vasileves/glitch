@@ -83,7 +83,7 @@ $(function () {
   });
 });
 };
-
+if( window.innerWidth > 600 ) {
 const swiper = new Swiper('.swiper', {
   slidesPerView: "auto",
   spaceBetween: 17,
@@ -91,4 +91,5 @@ const swiper = new Swiper('.swiper', {
   freemode: true,
   direction: 'horizontal',
 });
+}
 }

@@ -694,11 +694,11 @@ body {
     filter: contrast(500) invert(1);
     transform: translate(10px, 2px) skew(-4deg);
   }
-  95.15% {
+  92.15% {
     filter: contrast(0) invert(0.2);
     transform: translate(-8px, 0px) skew(20deg);
   }
-  95.175%,
+  92.175%,
   100% {
     filter: contrast(1) invert(0);
     transform: translate(0, 0) skew(0);
@@ -1550,10 +1550,8 @@ h5 {
 
   .crewCard {
     position: relative;
-    padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 0;
     padding-right: 4.103vw;
   }
 

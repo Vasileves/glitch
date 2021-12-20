@@ -22,6 +22,11 @@
   height: fit-content;
 }
 
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 #player {
   position: fixed;
   width: 100vw;
@@ -149,6 +154,11 @@ h2 {
 
 #l4 img {
   width: 35.029vw;
+  height: 21.329vw;
+}
+
+#l5 img {
+  width: 46.532vw;
   height: 21.329vw;
 }
 
@@ -1658,6 +1668,11 @@ a {
     padding-right: 6.154vw;
     padding-left: 6.154vw;
     overflow-x: hidden;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   .cursor {

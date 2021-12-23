@@ -3,14 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css?rnd=71">
-    <link rel="stylesheet" href="css/talents.css?rnd=71">
+    <link rel="stylesheet" href="css/main.css?rnd=72">
+    <link rel="stylesheet" href="css/talents.css?rnd=72">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/unwrap.js?rnd=72"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
     <title>Klim Tukaev</title>
 </head>
 <body>
+    <div id="player" class="player" style= "display: none;" onclick="unwrapPlayer(this)">
+        <!-- <img src="images/close.svg" class= "player-close"/>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/540630877?h=a0bcb9d6f7&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
+      </div>
     <div class="navbar2">
         <div class="logo2">
             <a href="index.html">
@@ -71,31 +78,34 @@
             </div>
         </div>
     </div>
-    <div class="talentWorks">
-        <div class="talentWork" id="klim1">
-            <h3>Back to school</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/5c04049e-0e08-4972-ad77-d6c4d5f720b6/BACK%20TO%20SCHOOL.mp4" target="_blank">
+    <div class="talentWorks swiper">
+        <!-- <img src="./images/pointer2.svg" alt="Cursor" class="cursor"> -->
+        <div class="swiper-wrapper" id="testarea">
+        <div class="swiper-slide">
+            <div class="talentWork" id="klim1" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658635707?h=dd12186397">
+                <h3>Back to school</h3>
                 <img src="./images/klim1.jpg" alt="">
-            </a>
+            </div>
         </div>
-        <div class="talentWork" id="klim2">
-            <h3>HYBRID &ndash</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/9104ac0c-44d5-4d1c-8c77-f448f2d84604/HYBRID%20%26ndash%3B%20%D0%A2%D0%9E%D0%A8%D0%9D%D0%9E%D0%A2%D0%90.mp4" target="_blank">
+        <div class="swiper-slide">
+            <div class="talentWork" id="klim2" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658634935?h=a6347c352e">
+                <h3>HYBRID &ndash</h3>
                 <img src="./images/klim2.jpg" alt="">
-            </a>
+            </div>
         </div>
-        <div class="talentWork" id="klim3">
-            <h3>SK DS Талант</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/3722a84b-0fc4-4866-ab17-47bd1c92a965/SK%20DS%20%20%20%20%20%D0%A2%D0%B0%D0%BB%D0%B0%D0%BD%D1%82%20%5BOfficial%20Music%20Video%5D.mp4" target="_blank">
+        <div class="swiper-slide">
+            <div class="talentWork" id="klim3" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658635542?h=5614d238fd">
+                <h3>SK DS Талант</h3>
                 <img src="./images/klim3.jpg" alt="">
-            </a>
+            </div>
         </div>
-        <div class="talentWork" id="klim4">
+        <div class="swiper-slide">
+            <div class="talentWork" id="klim4" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658634757?h=24e99d0a42">
             <h3>Почтальон</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/8446be74-20a7-4d3e-aca7-a06747dc06a4/%D0%9F%D0%BE%D1%87%D1%82%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD%20Cannes%202021.mp4" target="_blank">
                 <img src="./images/klim4.jpg" alt="">
-            </a>
+             </div>
         </div>
+    </div>
     </div>
     <div class="footerTalent">
         <div class="footerCopyright">

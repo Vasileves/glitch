@@ -293,7 +293,7 @@ h5 {
 
 .navBack h4 {
   padding-left: 0.462vw;
-  padding-bottom: 2.312vw;
+  padding-bottom: 0.462vw;
 }
 
 .talentRow {
@@ -331,12 +331,11 @@ h5 {
   padding-top: 1.387vw;
   display: flex;
   flex-direction: row;
-  overflow-x: scroll;
-  overflow-y: hidden;
   padding-bottom: 0;
+  cursor: pointer;
 }
 
-.talentWork {
+.talentWorks {
   padding-left: 1.5vw;
 }
 
@@ -484,6 +483,11 @@ h5 {
   height: 16.243vw;
 }
 
+#sergey5 img {
+  width: 37.688vw;
+  height: 16.243vw;
+}
+
 #christina1 img {
   width: 32.254vw;
   height: 16.243vw;
@@ -534,6 +538,11 @@ h5 {
   height: 16.243vw;
 }
 
+#andreyO4 img {
+  width: 37.803vw;
+  height: 16.243vw;
+}
+
 #andreyR1 img {
   width: 27.341vw;
   height: 16.243vw;
@@ -571,6 +580,7 @@ h5 {
 
   .talentWorks {
     padding-top: 9.346vw;
+    overflow-x: hidden;
     margin-right: -6.5vw;
   }
 
@@ -977,183 +987,193 @@ h5 {
   }
 
   #emil1 Img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil4 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil5 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil6 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil7 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #emil8 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #klim1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #klim2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #klim3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #klim4 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #nikita1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #nikita2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #nikita3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #eugeniy1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #eugeniy2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #eugeniy3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sergey1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sergey2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sergey3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sergey4 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #sergey5 img {
+    width: 87.436vw;
+    height: auto;
   }
 
   #christina1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #christina2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #christina3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #christina4 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sophia1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sophia2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #sophia3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyO1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyO2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyO3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #andreyO4 img {
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyR1 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyR2 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyR3 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   #andreyR4 img {
-    width: auto;
-    height: 56.923vw;
+    width: 87.436vw;
+    height: auto;
   }
 
   .footerCopyright {

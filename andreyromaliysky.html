@@ -3,14 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css?rnd=71">
-    <link rel="stylesheet" href="css/talents.css?rnd=71">
+    <link rel="stylesheet" href="css/main.css?rnd=72">
+    <link rel="stylesheet" href="css/talents.css?rnd=72">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/unwrap.js?rnd=72"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
     <title>Andrey Romaliysky</title>
 </head>
 <body>
+    <div id="player" class="player" style= "display: none;" onclick="unwrapPlayer(this)">
+        <!-- <img src="images/close.svg" class= "player-close"/>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/540630877?h=a0bcb9d6f7&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
+      </div>
     <div class="navbar2">
         <div class="logo2">
             <a href="index.html">
@@ -71,31 +78,34 @@
             </div>
         </div>
     </div>
-    <div class="talentWorks">
-        <div class="talentWork" id="andreyR1">
-            <h3>Aqua Unica plus</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/ac9d9072-2f04-462f-96b4-3c58c146f9bb/Aqua%20Unica%20plus.mp4" target="_blank">
+    <div class="talentWorks swiper">
+        <!-- <img src="./images/pointer2.svg" alt="Cursor" class="cursor"> -->
+        <div class="swiper-wrapper" id="testarea">
+        <div class="swiper-slide">
+            <div class="talentWork" id="andreyR1" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658621404?h=32a23b00ee">
+                <h3>Aqua Unica plus</h3>
                 <img src="./images/andreyR1.jpg" alt="">
-            </a>
+            </div>
         </div>
-        <div class="talentWork" id="andreyR2">
-            <h3>Aurelius ROM</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/9950b9a0-ffdf-449f-af85-ba343151254d/Aurelius_ROM_ws.mp4" target="_blank">
+        <div class="swiper-slide">
+            <div class="talentWork" id="andreyR2" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658621460?h=6a5a36be99">
+                <h3>Aurelius_ROM_ws</h3>
                 <img src="./images/andreyR2.jpg" alt="">
-            </a>
+            </div>
         </div>
-        <div class="talentWork" id="andreyR3">
-            <h3>Bardar desert</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/c15448ae-dfb2-4b2b-bf59-d6f9f00099ac/Bardar%20desert.mp4" target="_blank">
+        <div class="swiper-slide">
+            <div class="talentWork" id="andreyR3" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658621500?h=a1fa6f10f9">
+                <h3>Bardar desert</h3>
                 <img src="./images/andreyR3.jpg" alt="">
-            </a>
+            </div>
         </div>
-        <div class="talentWork" id="andreyR4">
+        <div class="swiper-slide">
+            <div class="talentWork" id="andreyR4" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658621589?h=cb26b29589">
             <h3>Dor</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/d9d73c38-89ec-497b-b384-c8b566e27752/Dor.mp4" target="_blank">
                 <img src="./images/andreyR4.jpg" alt="">
-            </a>
+             </div>
         </div>
+    </div>
     </div>
     <div class="footerTalent">
         <div class="footerCopyright">

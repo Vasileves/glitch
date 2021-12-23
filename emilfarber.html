@@ -3,19 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css?rnd=71">
-    <link rel="stylesheet" href="css/talents.css?rnd=71">
+    <link rel="stylesheet" href="css/main.css?rnd=72">
+    <link rel="stylesheet" href="css/talents.css?rnd=72">
     <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
     <link type="Image/x-icon" href="./images/favicon.ico" rel="icon">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js""></script>
-    <script
-  src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
-  integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
-  crossorigin="anonymous"></script>
+    <script src="./js/unwrap.js?rnd=72"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <title>Emil Farber</title>
 </head>
 <body>
+    <div id="player" class="player" style= "display: none;" onclick="unwrapPlayer(this)">
+        <!-- <img src="images/close.svg" class= "player-close"/>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/540630877?h=a0bcb9d6f7&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> -->
+      </div>
     <div class="navbar2">
         <div class="logo2">
             <a href="index.html">
@@ -76,54 +78,58 @@
             </div>
         </div>
     </div>
-    <div class="talentWorks">
-        <div class="talentWork" id="emil1">
-            <h3>Aquanika</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/79126c11-c76c-47ea-bccb-cf00168dde97/Aquanika_30s_prores422.mp4" target="_blank">
-                <img src="./images/emil1.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil2">
-            <h3>Adrenaline Interview Dima</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/71fa464c-a422-4adc-a17d-2f25f7eefad7/DIMA_FINAL_NTTL.mp4" target="_blank">
-                <img src="./images/emil2.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil3">
-            <h3>Adrenaline Interview Elvira</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/f78f08c6-ddb4-4273-8ceb-5cfc031ee731/ELVIRA_FINAL.mp4" target="_blank">
-                <img src="./images/emil3.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil4">
-            <h3>KIA</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/7a0f4a76-3c7f-4e86-8ee8-8fee5eee19da/KIA_68_FINAL.mp4" target="_blank">
-                <img src="./images/emil4.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil5">
-            <h3>Adrenaline</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/ee098db8-4c45-4eb0-8f1a-8a4d3358aeea/MOF_ADRENALINE.mp4" target="_blank">
-                <img src="./images/emil5.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil6">
-            <h3>Adrenaline Interview Ochir</h3>
-            <a href="http://cloud.parkcinema.ru/seafhttp/files/1ffeb549-bfa8-449d-bfaa-e5c74fc8baa7/OCHIR_FINAL_NTTL.mp4" target="_blank">
-                <img src="./images/emil6.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil7">
-            <h3>Яндекс / Округление</h3>
-            <a href="https://vimeo.com/646145721" target="_blank">
-                <img src="./images/emil7.jpg" alt="">
-            </a>
-        </div>
-        <div class="talentWork" id="emil8">
-            <h3>Приют / Short film</h3>
-            <a href="https://vimeo.com/642364127" target="_blank">
-                <img src="./images/emil8.jpg" alt="">
-            </a>
+    <div class="talentWorks swiper">
+        <!-- <img src="./images/pointer2.svg" alt="Cursor" class="cursor"> -->
+        <div class="swiper-wrapper" id="testarea">
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil1" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658631049?h=5e64905ec7">
+                    <h3>Aquanika</h3>
+                    <img src="./images/emil1.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil2" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658631119?h=7e3f3ff017">
+                    <h3>Adrenaline Interview Dima</h3>
+                    <img src="./images/emil2.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil3" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658631198?h=3c7b9f76a3">
+                    <h3>Adrenaline Interview Elvira</h3>
+                    <img src="./images/emil3.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil4" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658631270?h=af2fa9e73a">
+                    <h3>KIA</h3>
+                    <img src="./images/emil4.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil5" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658631524?h=95e73e5fe1">
+                    <h3>Adrenaline</h3>
+                    <img src="./images/emil5.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil6" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658631740?h=a58a8dfa33">
+                    <h3>Adrenaline Interview Ochir</h3>
+                    <img src="./images/emil6.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil7" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658630980?h=827c1c675c">
+                    <h3>Яндекс / Округление</h3>
+                    <img src="./images/emil7.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="talentWork" id="emil8" onclick="unwrapPlayer(this)" data-vidLink="https://player.vimeo.com/video/658635707?h=dd12186397">
+                    <h3>Приют / Short film</h3>
+                    <img src="./images/emil8.jpg" alt="">
+                </div>
+            </div>
+         </div>
         </div>
     </div>
     <div class="footerTalent">

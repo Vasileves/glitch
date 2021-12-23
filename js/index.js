@@ -8,4 +8,16 @@ menuButton.addEventListener('click', function() {
     menuButton.classList.toggle('active');
     menuOverlay.classList.toggle('open');
 });
- }
+
+
+  if( window.innerWidth > 600 ) {
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: "auto",
+    spaceBetween: 17,
+    loop: false,
+    freemode: true,
+    direction: 'horizontal',
+  });
+  }
+  }
+  

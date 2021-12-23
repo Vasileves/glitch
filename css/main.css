@@ -1825,6 +1825,11 @@ a {
     height: auto;
   }
 
+  #l5 img {
+    width: 87.692vw;
+    height: auto;
+  }
+
   .footerContactsRow2 {
     align-items: end;
   }

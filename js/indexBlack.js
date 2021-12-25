@@ -73,6 +73,16 @@ $(function () {
   });
 });
 $(function () {
+  $("#testarea6").mousemove(function (e) {
+    $(".cursor2").show().css({
+      "left": e.clientX,
+      "top": e.clientY
+    });
+  }).mouseout(function () {
+    $(".cursor").hide();
+  });
+});
+$(function () {
   $("#testarea5").mousemove(function (e) {
     $(".cursor2").show().css({
       "left": e.clientX,
@@ -83,6 +93,8 @@ $(function () {
   });
 });
 };
+
+
 if( window.innerWidth > 600 ) {
 const swiper = new Swiper('.swiper', {
   slidesPerView: "auto",

@@ -12,6 +12,10 @@
   width: 0;
 }
 
+.releasesSection {
+  cursor: none;
+}
+
 .swiper-slide {
   flex-shrink: unset;
   width: fit-content;

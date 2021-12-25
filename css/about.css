@@ -764,19 +764,19 @@ h3 {
 
 #crewCard1 {
   left: 0.4vw;
-  top: 0vw;
+  top: 7vw;
 }
 #crewCard2 {
   left: 21.2vw;
-  top: 13.5vw;
+  top: 0vw;
 }
 #crewCard3 {
-  left: 42.5vw;
-  top: 4.3vw;
+  left: 41.5vw;
+  top: 6vw;
 }
 #crewCard4 {
   left: 62.8vw;
-  top: 17vw;
+  top: 3vw;
 }
 #crewCard5 {
   left: 4.5vw;
@@ -812,7 +812,7 @@ h3 {
 }
 #crewCard13 {
   left: 39.1vw;
-  top: 125.7vw;
+  top: 126.7vw;
 }
 #crewCard14 {
   left: 58.4vw;
@@ -856,7 +856,7 @@ h3 {
   animation-delay: 3s;
 }
 #crewCard2 img {
-  width: 17.688vw;
+  width: 14.6vw;
   height: auto;
   animation-iteration-count: infinite;
   animation-name: slide2;

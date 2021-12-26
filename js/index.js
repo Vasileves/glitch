@@ -17,7 +17,7 @@ menuButton.addEventListener('click', function() {
     loop: false,
     freemode: true,
     direction: 'horizontal',
+    slidesOffsetAfter: 1
   });
   }
   }
-  

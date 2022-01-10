@@ -785,9 +785,11 @@ h2 {
   color: #ffffff;
 }
 
-.navLink {
+.navbarPortfolio .navLink {
   background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
     no-repeat;
+}
+ .navLink {
   transition: 0.5s;
     width: fit-content;
 }

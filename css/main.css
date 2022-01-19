@@ -794,9 +794,8 @@ h2 {
     width: fit-content;
 }
 
-/* .navLink:hover {
-  --d: 100%;
-  animation: glitchnav 0.5s;
+ .navLink:hover {
+  animation: glitchtxt 0.5s;
 } */
 
 .logo {

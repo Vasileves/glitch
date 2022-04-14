@@ -789,16 +789,15 @@ h2 {
   background: linear-gradient(rgb(255, 247, 0) 0 0) left / var(--d, 0%) 100%
     no-repeat;
 }
- .navLink {
+.navLink {
   transition: 0.5s;
-    width: fit-content;
+  width: fit-content;
 }
 
- .navLink:hover {
+.navLink:hover {
   animation: glitchtxt 0.5s;
-} */
-
-.logo {
+}
+*/ .logo {
   background-color: #f9f2eb;
 }
 
@@ -1744,22 +1743,19 @@ a {
   .nav-optimizer {
     width: 96vw;
     overflow: scroll;
-    margin-bottom:1vw;
+    margin-bottom: 1vw;
   }
 
-    .nav-optimizer  {
+  .nav-optimizer {
     /*FireFox*/
     scrollbar-width: none;
     /*IE10+*/
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
-    .nav-optimizer ::-webkit-scrollbar {
+  .nav-optimizer ::-webkit-scrollbar {
     /*Chrome, Safari, Edge*/
     display: none;
   }
-
-
-
 
   .navbarPortfolio a {
     font-family: "Decima Mono Cyr";
@@ -1778,14 +1774,13 @@ a {
     color: #ffffff;
   }
 
-
   .navbarPortfolio {
     width: 135vw;
     padding-bottom: 2vw;
   }
 
   .navlink {
-  margin-left: 8px;
+    margin-left: 8px;
   }
 
   .releasesVideo h3 {
@@ -2262,7 +2257,7 @@ a {
   }
 
   .releasesVideo {
-    padding-bottom: 7vw;
+    padding-bottom: 10.256vw;
   }
 
   .menu-buttonBlack {

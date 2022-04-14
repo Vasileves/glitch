@@ -33,7 +33,8 @@ if( window.innerWidth > 600 ) {
   });
 });
 $(function () {
-  $("#testarea2").mousemove(function (e) {
+  $("#testarea2")
+  .mousemove(function (e) {
     $(".cursor2").show().css({
       "left": e.clientX,
       "top": e.clientY

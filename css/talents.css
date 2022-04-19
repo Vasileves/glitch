@@ -151,6 +151,11 @@ h5 {
   height: 18.324vw;
 }
 
+.talentImgWidth {
+  width: 22.197vw;
+  height: 18.324vw;
+}
+
 .talentsRow1 {
 }
 
@@ -184,7 +189,7 @@ h5 {
 
 .talents {
   position: relative;
-  height: 90vw;
+  height: 100vw;
 }
 
 .talentCard1 {
@@ -237,9 +242,22 @@ h5 {
 
 .talentCard9 {
   animation: glitcher 0.25s;
-  left: 14.4vw;
+  left: 44.4vw;
   top: 62.6vw;
 }
+
+.talentCard10 {
+  animation: glitcher 0.25s;
+  left: 68.786vw;
+  top: 68.6vw;
+}
+
+.talentCard11 {
+  animation: glitcher 0.25s;
+  left: 9.827vw;
+  top: 72vw;
+}
+
 
 .talentCard1 img {
   width: 16.59vw;
@@ -282,7 +300,17 @@ h5 {
 }
 
 .talentCard9 img {
-  width: 14.971vw;
+  width: 20.809vw;
+  height: auto;
+}
+
+.talentCard10 img {
+  width: 17.341vw;
+  height: auto;
+}
+
+.talentCard11 img {
+  width: 27.052vw;
   height: auto;
 }
 
@@ -562,6 +590,77 @@ h5 {
   width: 25.607vw;
   height: 16.243vw;
 }
+
+#vitaly1 img {
+  width: 27.341vw;
+  height: 16.243vw;
+}
+
+#vitaly2 img {
+  width: 36.416vw;
+  height: 16.243vw;
+}
+
+#vitaly3 img {
+  width: 30.058vw;
+  height: 16.243vw;
+}
+
+#aleksandr1 img {
+  width: 27.341vw;
+  height: 16.243vw;
+}
+
+#aleksandr2 img {
+  width: 30.983vw;
+  height: 16.243vw;
+}
+
+#aleksandr3 img {
+  width: 28.902vw;
+  height: 16.243vw;
+}
+
+#aleksandr4 img {
+  width: 28.382vw;
+  height: 16.243vw;
+}
+
+#aleksandr5 img {
+  width: 21.792vw;
+  height: 16.243vw;
+}
+
+#duet1 img {
+  width: 27.341vw;
+  height: 16.243vw;
+}
+
+#duet2 img {
+  width: 23.699vw;
+  height: 16.243vw;
+}
+
+#duet3 img {
+  width: 34.046vw;
+  height: 16.243vw;
+}
+
+#duet4 img {
+  width: 25.607vw;
+  height: 16.243vw;
+}
+
+#duet5 img {
+  width: 30.983vw;
+  height: 16.243vw;
+}
+
+#duet6 img {
+  width: 25.780vw;
+  height: 16.243vw;
+}
+
 
 .removed2 {
   animation: none;

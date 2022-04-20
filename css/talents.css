@@ -942,6 +942,16 @@ h5 {
     top: 0;
   }
 
+  .talentCard10 {
+    left: 0;
+    top: 0;
+  }
+
+  .talentCard11 {
+    left: 0;
+    top: 0;
+  }
+
   .talentCard1 Img {
     width: auto;
     height: 100vw;
@@ -983,6 +993,16 @@ h5 {
   }
 
   .talentCard9 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  .talentCard10 Img {
+    width: auto;
+    height: 100vw;
+  }
+
+  .talentCard11 Img {
     width: auto;
     height: 100vw;
   }
@@ -1044,8 +1064,10 @@ h5 {
 
   .talentRow Img {
     width: 87.436vw;
-    height: 111.026vw;
+    height: auto;
   }
+
+
 
   .talentWork h3 {
     font-family: "Decima Mono Cyr";
@@ -1274,6 +1296,77 @@ h5 {
     width: 87.436vw;
     height: auto;
   }
+
+  #vitaly1 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #vitaly2 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #vitaly3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #aleksandr1 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #aleksandr2 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #aleksandr3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #aleksandr4 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #aleksandr5 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet1 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet2 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet4 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet5 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet6 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
 
   .footerCopyright {
     padding-top: 14vw;

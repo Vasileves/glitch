@@ -147,7 +147,7 @@ h2 {
 }
 
 #l2 img {
-  width: 32.717vw;
+  width: 33.659vw;
   height: 21.329vw;
 }
 
@@ -157,12 +157,12 @@ h2 {
 }
 
 #l4 img {
-  width: 35.029vw;
+  width: 42.683vw;
   height: 21.329vw;
 }
 
 #l5 img {
-  width: 46.532vw;
+  width: 36.768vw;
   height: 21.329vw;
 }
 
@@ -794,10 +794,10 @@ h2 {
     width: fit-content;
 }
 
-/* .navLink:hover {
+ .navLink:hover {
   --d: 100%;
   animation: glitchnav 0.5s;
-} */
+}
 
 .logo {
   background-color: #f9f2eb;

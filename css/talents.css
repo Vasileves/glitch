@@ -401,6 +401,11 @@ h5 {
   padding-bottom: 2vw;
 }
 
+#emil0 img {
+  width: 24.268vw;
+  height: 16.243vw;
+}
+
 #emil1 img {
   width: 27.341vw;
   height: 16.243vw;
@@ -413,6 +418,11 @@ h5 {
 
 #emil3 img {
   width: 30.116vw;
+  height: 16.243vw;
+}
+
+#emil3_0 img {
+  width: 28.720vw;
   height: 16.243vw;
 }
 
@@ -533,6 +543,11 @@ h5 {
 
 #christina4 img {
   width: 32.312vw;
+  height: 16.243vw;
+}
+
+#sophia0 img {
+  width: 31.951vw;
   height: 16.243vw;
 }
 
@@ -1107,6 +1122,11 @@ h5 {
     padding-right: 4.103vw;
   }
 
+  #emil0 Img {
+    width: 87.436vw;
+    height: auto;
+  }
+
   #emil1 Img {
     width: 87.436vw;
     height: auto;
@@ -1118,6 +1138,11 @@ h5 {
   }
 
   #emil3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #emil3_0 img {
     width: 87.436vw;
     height: auto;
   }
@@ -1238,6 +1263,11 @@ h5 {
   }
 
   #christina4 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #sophia0 img {
     width: 87.436vw;
     height: auto;
   }

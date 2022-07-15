@@ -36,6 +36,30 @@ window.onload = function(){
 
   });
 
+  $(function() {
+    $( "#draggable5_0" ).draggable({stack: 'div'});
+    $('#draggable5_0').addClass('shadow');
+
+  });
+
+  $(function() {
+    $( "#draggable6_0" ).draggable({stack: 'div'});
+    $('#draggable6_0').addClass('shadow');
+
+  });
+
+  $(function() {
+    $( "#draggable7_0" ).draggable({stack: 'div'});
+    $('#draggable7_0').addClass('shadow');
+
+  });
+
+  $(function() {
+    $( "#draggable8_0" ).draggable({stack: 'div'});
+    $('#draggable8_0').addClass('shadow');
+
+  });
+
     $(function() {
 	$( "#draggable6" ).draggable({stack: 'div'});
 	$('#draggable6').addClass('shadow');

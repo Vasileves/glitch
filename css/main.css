@@ -152,7 +152,7 @@ h2 {
 }
 
 #l3 img {
-  width: 42.601vw;
+  width: 49.085vw;
   height: 21.329vw;
 }
 
@@ -215,6 +215,7 @@ h2 {
 }
 
 .draggableO {
+  cursor: pointer;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: contrast(555) hue-rotate(31deg) brightness(0.14) saturate(50);
   width: fit-content;

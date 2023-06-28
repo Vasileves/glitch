@@ -242,7 +242,7 @@ h5 {
 
 .talentCard9 {
   animation: glitcher 0.25s;
-  left: 44.4vw;
+  left: 64.4vw;
   top: 62.6vw;
 }
 
@@ -451,6 +451,21 @@ h5 {
   height: 16.243vw;
 }
 
+#emil9 img {
+  width: 30.116vw;
+  height: 16.243vw;
+}
+
+#emil10 img {
+  width: 23.006vw;
+  height: 16.243vw;
+}
+
+#emil11 img {
+  width: 29.538vw;
+  height: 16.243vw;
+}
+
 #klim1 img {
   width: 25.723vw;
   height: 16.243vw;
@@ -486,18 +501,43 @@ h5 {
   height: 16.243vw;
 }
 
-#eugeniy1 img {
-  width: 41.329vw;
+#nikita4 img {
+  width: 34.798vw;
   height: 16.243vw;
 }
 
-#eugeniy2 img {
+#soslan1 img {
   width: 23.699vw;
   height: 16.243vw;
 }
 
-#eugeniy3 img {
+#soslan2 img {
   width: 30.116vw;
+  height: 16.243vw;
+}
+
+#soslan3 img {
+  width: 41.329vw;
+  height: 16.243vw;
+}
+
+#soslan4 img {
+  width: 23.699vw;
+  height: 16.243vw;
+}
+
+#soslan5 img {
+  width: 34.046vw;
+  height: 16.243vw;
+}
+
+#soslan6 img {
+  width: 28.266vw;
+  height: 16.243vw;
+}
+
+#soslan7 img {
+  width: 19.595vw;
   height: 16.243vw;
 }
 
@@ -583,6 +623,26 @@ h5 {
 
 #andreyO4 img {
   width: 37.803vw;
+  height: 16.243vw;
+}
+
+#andreyO5 img {
+  width: 22.081vw;
+  height: 16.243vw;
+}
+
+#andreyO6 img {
+  width: 30.116vw;
+  height: 16.243vw;
+}
+
+#andreyO7 img {
+  width: 25.607vw;
+  height: 16.243vw;
+}
+
+#andreyO8 img {
+  width: 30.116vw;
   height: 16.243vw;
 }
 
@@ -952,7 +1012,7 @@ h5 {
     top: 0;
   }
 
-  .talentCard9 {
+  .talentcard9{
     left: 0;
     top: 0;
   }
@@ -1172,6 +1232,21 @@ h5 {
     height: auto;
   }
 
+  #emil9 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #emil10 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #emil11 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
   #klim1 img {
     width: 87.436vw;
     height: auto;
@@ -1203,6 +1278,11 @@ h5 {
   }
 
   #nikita3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #nikita4 img {
     width: 87.436vw;
     height: auto;
   }
@@ -1298,6 +1378,67 @@ h5 {
   }
 
   #andreyO3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #andreyO4 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #andreyO5 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #andreyO6 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #andreyO7 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #andreyO8 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+
+  #soslan1 img {
+    width: 87.436vw;
+    height: auto;
+  }
+  
+  #soslan2 img {
+    width: 87.436vw;
+    height: auto;
+  }
+  
+  #soslan3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+  
+  #soslan4 img {
+    width: 87.436vw;
+    height: auto;
+  }
+  
+  #soslan5 img {
+    width: 87.436vw;
+    height: auto;
+  }
+  
+  #soslan6 img {
+    width: 87.436vw;
+    height: auto;
+  }
+  
+  #soslan7 img {
     width: 87.436vw;
     height: auto;
   }

@@ -13,6 +13,88 @@ window.onload = function(){
 
   });
 
+  $(function() {
+    $( "#draggable0_1" ).draggable({stack: 'div'});
+    $('#draggable0_1').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_2" ).draggable({stack: 'div'});
+    $('#draggable0_2').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_3" ).draggable({stack: 'div'});
+    $('#draggable0_3').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_4" ).draggable({stack: 'div'});
+    $('#draggable0_4').addClass('shadow');
+  
+    });
+  $(function() {
+    $( "#draggable0_5" ).draggable({stack: 'div'});
+    $('#draggable0_5').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_6" ).draggable({stack: 'div'});
+    $('#draggable0_6').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_7" ).draggable({stack: 'div'});
+    $('#draggable0_7').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_8" ).draggable({stack: 'div'});
+    $('#draggable0_8').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_9" ).draggable({stack: 'div'});
+    $('#draggable0_9').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_10" ).draggable({stack: 'div'});
+    $('#draggable0_10').addClass('shadow');
+  
+    });
+  $(function() {
+    $( "#draggable0_11" ).draggable({stack: 'div'});
+    $('#draggable0_11').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_12" ).draggable({stack: 'div'});
+    $('#draggable0_12').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_13" ).draggable({stack: 'div'});
+    $('#draggable0_13').addClass('shadow');
+  
+    });
+
+  $(function() {
+    $( "#draggable0_14" ).draggable({stack: 'div'});
+    $('#draggable0_14').addClass('shadow');
+  
+    });
+  
     $(function() {
 	$( "#draggable2" ).draggable({stack: 'div'});
 	$('#draggable2').addClass('shadow');
@@ -199,8 +281,14 @@ window.onload = function(){
 
     
   $(function() {
-    $( "#draggableO" ).draggable({stack: 'div'});
-    $('#draggableO').addClass('shadow');
+    $( "#draggableO1" ).draggable({stack: 'div'});
+    $('#draggableO1').addClass('shadow');
+    
+     });
+
+  $(function() {
+    $( "#draggableO0" ).draggable({stack: 'div'});
+    $('#draggableO0').addClass('shadow');
     
      });
   $(function() {
@@ -212,6 +300,12 @@ window.onload = function(){
   $(function() {
     $( "#draggableO3" ).draggable({stack: 'div'});
     $('#draggableO3').addClass('shadow');
+    
+     });
+
+  $(function() {
+    $( "#draggableO4" ).draggable({stack: 'div'});
+    $('#draggableO4').addClass('shadow');
     
      });
 

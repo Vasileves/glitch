@@ -189,7 +189,7 @@ h5 {
 
 .talents {
   position: relative;
-  height: 100vw;
+  height: 110vw;
 }
 
 .talentCard1 {
@@ -224,14 +224,14 @@ h5 {
 
 .talentCard6 {
   animation: glitcher 0.2s;
-  left: 25.4vw;
-  top: 48.8vw;
+  left: 35.4vw;
+  top: 80.8vw;
 }
 
 .talentCard7 {
   animation: glitcher 0.15s;
   left: 5.7vw;
-  top: 33.1vw;
+  top: 67.1vw;
 }
 
 .talentCard8 {
@@ -255,7 +255,7 @@ h5 {
 .talentCard11 {
   animation: glitcher 0.25s;
   left: 9.827vw;
-  top: 72vw;
+  top: 39vw;
 }
 
 
@@ -703,6 +703,21 @@ h5 {
 
 #aleksandr5 img {
   width: 21.792vw;
+  height: 16.243vw;
+}
+
+#duet_0_1 img {
+  width: 28.555vw;
+  height: 16.243vw;
+}
+
+#duet_0_2 img {
+  width: 20.809vw;
+  height: 16.243vw;
+}
+
+#duet_0_3 img {
+  width: 25.549vw;
   height: 16.243vw;
 }
 
@@ -1507,6 +1522,22 @@ h5 {
     width: 87.436vw;
     height: auto;
   }
+
+  #duet_0_1 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet_0_2 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #duet_0_3 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
 
   #duet1 img {
     width: 87.436vw;

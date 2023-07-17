@@ -147,7 +147,7 @@ h2 {
 }
 
 #l2 img {
-  width: 33.659vw;
+  width: 32.717vw;
   height: 21.329vw;
 }
 
@@ -157,7 +157,7 @@ h2 {
 }
 
 #l4 img {
-  width: 42.683vw;
+  width: 33.931vw;
   height: 21.329vw;
 }
 
@@ -190,7 +190,7 @@ h2 {
 
 .portfolio {
   position: relative;
-  height: 280vw;
+  height: 420vw;
 }
 
 .portfolio2 {
@@ -364,161 +364,331 @@ h2 {
   }
 }
 
+
+.draggable0_1 {
+  opacity: 0;
+  left: 2.775vw;
+  top: 18.150vw;
+  animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
+}
+
+.draggable0_2 {
+  opacity: 0;
+  left: 27.514vw;
+  top: 4.428vw;
+  animation: glitchdrag_onload 0.1s 0.2s 1 forwards;
+}
+
+.draggable0_3 {
+  opacity: 0;
+  left: 57.977vw;
+  top: 15.925vw;
+  z-index: 2;
+  animation: glitchdrag_onload 0.4s 0.2s 1 forwards;
+}
+
+.draggable0_4 {
+  opacity: 0;
+  left: 74.509vw;
+  top: 7.919vw;
+  animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
+}
+
+.draggable0_5 {
+  opacity: 0;
+  left: 66.012vw;
+  top: 34.798vw;
+  animation: glitchdrag_onload 0.2s 0.15s 1 forwards;
+}
+
+.draggable0_6 {
+  opacity: 0;
+  left: 6.069vw;
+  top: 53.121vw;
+  animation: glitchdrag_onload 0.1s 0.2s 1 forwards;
+}
+
+.draggable0_7 {
+  opacity: 0;
+  left: 37.052vw;
+  top: 30.457vw;
+  animation: glitchdrag_onload 0.32s 0.14s 1 forwards;
+}
+
+.draggable0_8 {
+  opacity: 0;
+  left: 58.150vw;
+  top: 51.503vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
+.draggable0_9 {
+  opacity: 0;
+  left: 4.682vw;
+  top: 88.728vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
+.draggable0_10 {
+  opacity: 0;
+  left: 23.873vw;
+  top: 69.769vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
+.draggable0_11 {
+  opacity: 0;
+  left: 52.486vw;
+  top: 73.815vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
+.draggable0_12 {
+  opacity: 0;
+  left: 16.012vw;
+  top: 102.428vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
+.draggable0_13 {
+  opacity: 0;
+  left: 48.960vw;
+  top: 103.757vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
+.draggable0_14 {
+  opacity: 0;
+  left: 65.665vw;
+  top: 97.110vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
+}
+
 .draggable1 {
   opacity: 0;
   left: 0vw;
-  top: 4.965vw;
-  animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
+  top: 134.965vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
 }
 .draggable2 {
   opacity: 0;
   left: 24.104vw;
-  top: 14.676vw;
-  animation: glitchdrag_onload 0.1s 0.2s 1 forwards;
+  top: 144.676vw;
+  /* animation: glitchdrag_onload 0.1s 0.2s 1 forwards; */
 }
 .draggable3 {
   opacity: 0;
   left: 35.613vw;
-  top: 1.728vw;
-  animation: glitchdrag_onload 0.2s 0.12s 1 forwards;
+  top: 127.728vw;
+  /* animation: glitchdrag_onload 0.2s 0.12s 1 forwards; */
 }
 .draggable4 {
   z-index: 2;
   opacity: 0;
   left: 47.867vw;
-  top: 54.191vw;
-  animation: glitchdrag_onload 0.2s 0.13s 1 forwards;
+  top: 184.191vw;
+  /* animation: glitchdrag_onload 0.2s 0.13s 1 forwards; */
 }
 .draggable5 {
   opacity: 0;
   left: 64.341vw;
-  top: 3.52vw;
-  animation: glitchdrag_onload 0.3s 0.1s 1 forwards;
+  top: 123.52vw;
+  /* animation: glitchdrag_onload 0.3s 0.1s 1 forwards; */
 }
 .draggable5_0 {
   opacity: 0;
   left: 50.341vw;
-  top: 18.52vw;
-  animation: glitchdrag_onload 0.1s 0.1s 1 forwards;
+  top: 148.52vw;
+  /* animation: glitchdrag_onload 0.1s 0.1s 1 forwards; */
 }
 .draggable6_0 {
   opacity: 0;
   left: 34.268vw;
-  top: 27.988vw;
+  top: 157.988vw;
   z-index: 2;
-  animation: glitchdrag_onload 0.15s 0.1s 1 forwards;
+  /* animation: glitchdrag_onload 0.15s 0.1s 1 forwards; */
 }
 .draggable7_0 {
   opacity: 0;
   left: 27.341vw;
-  top: 48.52vw;
-  animation: glitchdrag_onload 0.3s 0.2s 1 forwards;
+  top: 178.52vw;
+  /* animation: glitchdrag_onload 0.3s 0.2s 1 forwards; */
 }
 .draggable8_0 {
   opacity: 0;
   left: 4vw;
-  top: 43.52vw;
-  animation: glitchdrag_onload 0.1s 0.1s 1 forwards;
+  top: 173.52vw;
+  /* animation: glitchdrag_onload 0.1s 0.1s 1 forwards; */
 }
 .draggable6 {
   opacity: 0;
   left: 7.058vw;
-  top: 68.665vw;
-  animation: glitchdrag_onload 0.2s 0.1s 1 forwards;
+  top: 198.665vw;
+  /* animation: glitchdrag_onload 0.2s 0.1s 1 forwards; */
 }
 .draggable7 {
   opacity: 0;
   left: 37.578vw;
-  top: 78.642vw;
+  top: 208.642vw;
   /* animation: glitchdrag_onload 0.4s 0.2s 1 forwards; */
 }
 .draggable8 {
   opacity: 0;
   left: 2.087vw;
-  top: 90.728vw;
+  top: 220.728vw;
   /* animation: glitchdrag_onload 0.12s 0.1s 1 forwards; */
 }
 .draggable9 {
   opacity: 0;
   left: 26.017vw;
-  top: 95.237vw;
+  top: 225.237vw;
   /* animation: glitchdrag_onload 0.14s 0.15s 1 forwards; */
 }
 .draggable10 {
   opacity: 0;
   left: 61.855vw;
-  top: 89.919vw;
+  top: 219.919vw;
   /* animation: glitchdrag_onload 0.18s 0.3s 1 forwards; */
 }
 
 .draggable11 {
   left: 0vw;
-  top: 105.179vw;
+  top: 235.179vw;
 }
 .draggable12 {
   left: 24.861vw;
-  top: 129.572vw;
+  top: 259.572vw;
 }
 .draggable13 {
   left: 46.942vw;
-  top: 113.734vw;
+  top: 243.734vw;
 }
 .draggable14 {
   left: 11.682vw;
-  top: 154.775vw;
+  top: 284.775vw;
 }
 .draggable15 {
   left: 64.861vw;
-  top: 158.694vw;
+  top: 288.694vw;
 }
 .draggable16 {
   left: 1.064vw;
-  top: 170.844vw;
+  top: 300.844vw;
 }
 .draggable17 {
   left: 23.63vw;
-  top: 185.41vw;
+  top: 315.41vw;
 }
 .draggable18 {
   left: 48.445vw;
-  top: 173.85vw;
+  top: 303.85vw;
 }
 .draggable19 {
   left: 11.682vw;
-  top: 207.029vw;
+  top: 337.029vw;
 }
 .draggable20 {
   left: 44.977vw;
-  top: 215.41vw;
+  top: 345.41vw;
 }
 
 .draggable21 {
   left: 76.653vw;
-  top: 198.532vw;
+  top: 328.532vw;
 }
 .draggable22 {
   left: 3.705vw;
-  top: 232.231vw;
+  top: 362.231vw;
 }
 .draggable23 {
   left: 33.763vw;
-  top: 238.879vw;
+  top: 368.879vw;
 }
 .draggable24 {
   left: 52.954vw;
-  top: 220.208vw;
+  top: 350.208vw;
 }
 .draggable25 {
   left: 8.791vw;
-  top: 253.618vw;
+  top: 383.618vw;
 }
 .draggable26 {
   left: 41.162vw;
-  top: 251.306vw;
+  top: 381.306vw;
 }
 .draggable27 {
   left: 61.855vw;
-  top: 240.497vw;
+  top: 370.497vw;
+}
+
+.draggable0_1 img {
+  width: 26.994vw;
+  height: 25.607vw;
+}
+
+.draggable0_2 img {
+  width: 27.861vw;
+  height: 19.191vw;
+}
+
+.draggable0_3 img {
+  width: 22.023vw;
+  height: 16.069vw;
+}
+
+.draggable0_4 img {
+  width: 22.139vw;
+  height: 30.578vw;
+}
+
+.draggable0_5 img {
+  width: 17.399vw;
+  height: 11.098vw;
+}
+
+.draggable0_6 img {
+  width: 32.486vw;
+  height: 21.792vw;
+}
+
+.draggable0_7 img {
+  width: 26.012vw;
+  height: 24.104vw;
+}
+
+.draggable0_8 img {
+  width: 36.127vw;
+  height: 19.711vw;
+}
+
+.draggable0_9 img {
+  width: 18.208vw;
+  height: 25.780vw;
+}
+
+.draggable0_10 img {
+  width: 23.006vw;
+  height: 27.919vw;
+}
+
+.draggable0_11 img {
+  width: 30.925vw;
+  height: 21.329vw;
+}
+
+.draggable0_12 img {
+  width: 26.474vw;
+  height: 21.329vw;
+}
+
+.draggable0_13 img {
+  width: 21.387vw;
+  height: 16.763vw;
+}
+
+.draggable0_14 img {
+  width: 31.561vw;
+  height: 21.329vw;
 }
 
 .draggable1 img {
@@ -648,25 +818,45 @@ h2 {
   opacity: 0;
   left: 3.121vw;
   top: 10vw;
-  animation: glitchdrag_onload 0.4s 0.1s 1 forwards;
+  animation: glitchdrag_onload 0.15s 0.14s 1 forwards;
+}
+
+.draggableO1 {
+  opacity: 0;
+  left: 34.046vw;
+  top: 20.173vw;
+  animation: glitchdrag_onload 0.3s 0.12s 1 forwards;
 }
 
 .draggableO2 {
   z-index: 3;
   opacity: 0;
-  left: 14.277vw;
-  top: 30.058vw;
+  left: 9.133vw;
+  top: 32.243vw;
   animation: glitchdrag_onload 0.4s 0.3s 1 forwards;
 }
 
 .draggableO3 {
   opacity: 0;
-  left: 46.763vw;
-  top: 14.335vw;
+  left: 52.023vw;
+  top: 37.179vw;
   animation: glitchdrag_onload 0.2s 0.2s 1 forwards;
 }
 
-.draggableO img {
+.draggableO4 {
+  opacity: 0;
+  left: 70.173vw;
+  top: 7.231vw;
+  animation: glitchdrag_onload 0.4s 0.1s 1 forwards;
+}
+
+
+.draggableO0 img {
+  width: 26.012vw;
+  height: 24.104vw;
+}
+
+.draggableO1 img {
   width: 38.324vw;
   height: 26.936vw;
 }
@@ -679,6 +869,11 @@ h2 {
 .draggableO3 img {
   width: 32.312vw;
   height: 24.046vw;
+}
+
+.draggableO4 img {
+  width: 26.069vw;
+  height: 20.173vw;
 }
 
 .draggableO {
@@ -1913,6 +2108,87 @@ a {
     padding-top: 6vw;
   }
 
+  #draggable0_1 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_2 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_3 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_4 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_5 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_6 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_7 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_8 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_9 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable0_10 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable0_11 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_12 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_13 {
+    top: 0;
+    left: 0;
+  }
+
+
+  #draggable0_14 {
+    top: 0;
+    left: 0;
+  }
+
   #draggable {
     top: 0;
     left: 0;
@@ -2067,6 +2343,80 @@ a {
     top: 0;
     left: 0;
   }
+
+  #draggable0_1 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_2 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_3 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_4 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_5 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_6 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_7 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_8 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_9 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_10 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable0_11 img {
+    width: 95vw;
+    height: auto;
+  }
+
+
+  #draggable0_12 img {
+    width: 95vw;
+    height: auto;
+  }
+
+
+  #draggable0_13 img {
+    width: 95vw;
+    height: auto;
+  }
+
+
+  #draggable0_14 img {
+    width: 95vw;
+    height: auto;
+  }
+
 
   #draggable img {
     width: 95vw;
@@ -2223,7 +2573,12 @@ a {
     height: auto;
   }
 
-  #draggableO {
+  #draggableO0 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggableO1 {
     top: 0;
     left: 0;
   }
@@ -2238,7 +2593,17 @@ a {
     left: 0;
   }
 
-  #draggableO img {
+  #draggableO4 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggableO0 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggableO1 img {
     width: 95vw;
     height: auto;
   }
@@ -2249,6 +2614,11 @@ a {
   }
 
   #draggableO3 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggableO4 img {
     width: 95vw;
     height: auto;
   }

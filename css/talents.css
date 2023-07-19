@@ -231,7 +231,7 @@ h5 {
 .talentCard7 {
   animation: glitcher 0.15s;
   left: 5.7vw;
-  top: 67.1vw;
+  top: 69.1vw;
 }
 
 .talentCard8 {
@@ -255,7 +255,7 @@ h5 {
 .talentCard11 {
   animation: glitcher 0.25s;
   left: 9.827vw;
-  top: 39vw;
+  top: 38vw;
 }
 
 
@@ -563,6 +563,11 @@ h5 {
 
 #sergey5 img {
   width: 37.688vw;
+  height: 16.243vw;
+}
+
+#christina0 img {
+  width: 23.931vw;
   height: 16.243vw;
 }
 
@@ -1338,6 +1343,11 @@ h5 {
   }
 
   #sergey5 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #christina0 img {
     width: 87.436vw;
     height: auto;
   }

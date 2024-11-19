@@ -156,11 +156,11 @@ h5 {
   height: 18.324vw;
 }
 
-.talentsRow1 {
+/* .talentsRow1 {
 }
 
 .talentsRow2 {
-}
+} */
 
 .talentPage {
   display: flex;
@@ -206,8 +206,8 @@ h5 {
 
 .talentCard3 {
   animation: glitcher 0.18s;
-  left: 49.48vw;
-  top: 27.023vw;
+  left: 5.7vw;
+  top: 69.1vw;
 }
 
 .talentCard4 {
@@ -230,20 +230,20 @@ h5 {
 
 .talentCard7 {
   animation: glitcher 0.15s;
-  left: 5.7vw;
-  top: 69.1vw;
+  left: 49.48vw;
+  top: 27.023vw;
 }
 
 .talentCard8 {
   animation: glitcher 0.3s;
-  left: 75.1vw;
-  top: 36.8vw;
+  left: 69vw;
+  top: 40.8vw;
 }
 
 .talentCard9 {
   animation: glitcher 0.25s;
   left: 64.4vw;
-  top: 62.6vw;
+  top: 68.6vw;
 }
 
 .talentCard10 {
@@ -275,7 +275,7 @@ h5 {
 }
 
 .talentCard4 img {
-  width: 19.422vw;
+  width: 19.207vw;
   height: auto;
 }
 
@@ -285,7 +285,7 @@ h5 {
 }
 
 .talentCard6 img {
-  width: 12.89vw;
+  width: 20.915vw;
   height: auto;
 }
 
@@ -295,7 +295,7 @@ h5 {
 }
 
 .talentCard8 img {
-  width: 12.543vw;
+  width: 16.463vw;
   height: auto;
 }
 
@@ -466,22 +466,37 @@ h5 {
   height: 16.243vw;
 }
 
-#klim1 img {
+#timur1 img {
   width: 25.723vw;
   height: 16.243vw;
 }
 
-#klim2 img {
+#timur2 img {
   width: 25.838vw;
   height: 16.243vw;
 }
 
-#klim3 img {
+#timur3 img {
   width: 33.931vw;
   height: 16.243vw;
 }
 
-#klim4 img {
+#timur4 img {
+  width: 20.231vw;
+  height: 16.243vw;
+}
+
+#timur5 img {
+  width: 29.878vw;
+  height: 16.243vw;
+}
+
+#timur6 img {
+  width: 25.838vw;
+  height: 16.243vw;
+}
+
+#timur7 img {
   width: 20.231vw;
   height: 16.243vw;
 }
@@ -1267,22 +1282,37 @@ h5 {
     height: auto;
   }
 
-  #klim1 img {
+  #timur1 img {
     width: 87.436vw;
     height: auto;
   }
 
-  #klim2 img {
+  #timur2 img {
     width: 87.436vw;
     height: auto;
   }
 
-  #klim3 img {
+  #timur3 img {
     width: 87.436vw;
     height: auto;
   }
 
-  #klim4 img {
+  #timur4 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #timur5 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #timur6 img {
+    width: 87.436vw;
+    height: auto;
+  }
+
+  #timur7 img {
     width: 87.436vw;
     height: auto;
   }

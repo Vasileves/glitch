@@ -279,7 +279,37 @@ window.onload = function(){
   
     });
 
+  $(function() {
+    $( "#draggable29" ).draggable({stack: 'div'});
+    $('#draggable29').addClass('shadow');
     
+    });
+
+  $(function() {
+    $( "#draggable30" ).draggable({stack: 'div'});
+    $('#draggable30').addClass('shadow');
+      
+    });
+
+  $(function() {
+    $( "#draggable31" ).draggable({stack: 'div'});
+    $('#draggable31').addClass('shadow');
+        
+    });
+    
+  $(function() {
+    $( "#draggable32" ).draggable({stack: 'div'});
+    $('#draggable32').addClass('shadow');
+          
+    });
+
+  $(function() {
+    $( "#draggable33" ).draggable({stack: 'div'});
+    $('#draggable33').addClass('shadow');
+          
+    });
+
+
   $(function() {
     $( "#draggableO1" ).draggable({stack: 'div'});
     $('#draggableO1').addClass('shadow');

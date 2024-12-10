@@ -190,7 +190,7 @@ h2 {
 
 .portfolio {
   position: relative;
-  height: 420vw;
+  height: 500vw;
 }
 
 .portfolio2 {
@@ -529,7 +529,7 @@ h2 {
 .draggable7 {
   opacity: 0;
   left: 37.578vw;
-  top: 208.642vw;
+  top: 224.642vw;
   /* animation: glitchdrag_onload 0.4s 0.2s 1 forwards; */
 }
 .draggable8 {
@@ -540,14 +540,15 @@ h2 {
 }
 .draggable9 {
   opacity: 0;
-  left: 26.017vw;
-  top: 225.237vw;
+  left: 2vw;
+  top: 255.237vw;
+  z-index: 3;
   /* animation: glitchdrag_onload 0.14s 0.15s 1 forwards; */
 }
 .draggable10 {
   opacity: 0;
   left: 61.855vw;
-  top: 219.919vw;
+  top: 221.919vw;
   /* animation: glitchdrag_onload 0.18s 0.3s 1 forwards; */
 }
 
@@ -556,8 +557,8 @@ h2 {
   top: 235.179vw;
 }
 .draggable12 {
-  left: 24.861vw;
-  top: 259.572vw;
+  left: 34.861vw;
+  top: 270vw;
 }
 .draggable13 {
   left: 46.942vw;
@@ -569,11 +570,11 @@ h2 {
 }
 .draggable15 {
   left: 64.861vw;
-  top: 288.694vw;
+  top: 298.694vw;
 }
 .draggable16 {
   left: 1.064vw;
-  top: 300.844vw;
+  top: 310.844vw;
 }
 .draggable17 {
   left: 23.63vw;
@@ -581,15 +582,15 @@ h2 {
 }
 .draggable18 {
   left: 48.445vw;
-  top: 303.85vw;
+  top: 340.85vw;
 }
 .draggable19 {
   left: 11.682vw;
   top: 337.029vw;
 }
 .draggable20 {
-  left: 44.977vw;
-  top: 345.41vw;
+  left: 0vw;
+  top: 412vw;
 }
 
 .draggable21 {
@@ -606,7 +607,7 @@ h2 {
 }
 .draggable24 {
   left: 52.954vw;
-  top: 350.208vw;
+  top: 360vw;
 }
 .draggable25 {
   left: 8.791vw;
@@ -614,12 +615,44 @@ h2 {
 }
 .draggable26 {
   left: 41.162vw;
-  top: 381.306vw;
+  top: 394vw;
 }
 .draggable27 {
   left: 61.855vw;
-  top: 370.497vw;
+  top: 384vw;
 }
+
+.draggable28 {
+  left: 28.902vw;
+  top: 415vw;
+}
+
+.draggable29 {
+  left: 39.11vw;
+  top: 443vw;
+  z-index: 2;
+}
+
+.draggable30 {
+  left: 72vw;
+  top: 425vw;
+}
+
+.draggable31 {
+  left: 12.183vw;
+  top: 457vw;
+}
+
+.draggable32 {
+  left: 6.585vw;
+  top: 437vw;
+}
+
+.draggable33{
+  left: 64.768vw;
+  top: 469vw;
+}
+
 
 .draggable0_1 img {
   width: 26.994vw;
@@ -711,6 +744,12 @@ h2 {
   width: 27.439vw;
   height: 25.427vw;
 }
+
+.draggable5 img {
+  width: 29.451vw;
+  height: 19.695vw;
+}
+
 .draggable6_0 img {
   width: 27.919vw;
   height: 18.671vw;
@@ -739,6 +778,7 @@ h2 {
   width: 25.607vw;
   height: 24.509vw;
 }
+
 .draggable10 img {
   width: 32.37vw;
   height: 19.711vw;
@@ -813,6 +853,37 @@ h2 {
   width: 32.37vw;
   height: 19.711vw;
 }
+
+.draggable28 img {
+  width: 27.861vw;
+  height: 19.191vw;
+}
+
+.draggable29 img {
+  width: 36.127vw;
+  height: 19.711vw;
+}
+
+.draggable30 img {
+  width: 18.208vw;
+  height: 25.780vw;
+}
+
+.draggable31 img {
+  width: 32.37vw;
+  height: 19.711vw;
+}
+
+.draggable32 img {
+  width: 18.266vw;
+  height: 18.266vw;
+}
+
+.draggable33 img {
+  width: 29.191vw;
+  height: 24.509vw;
+}
+
 
 .draggableO {
   opacity: 0;
@@ -2344,6 +2415,36 @@ a {
     left: 0;
   }
 
+  #draggable28 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable29 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable30 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable31 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable32 {
+    top: 0;
+    left: 0;
+  }
+
+  #draggable33 {
+    top: 0;
+    left: 0;
+  }
+
   #draggable0_1 img {
     width: 95vw;
     height: auto;
@@ -2569,6 +2670,36 @@ a {
   }
 
   #draggable27 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable28 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable29 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable30 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable31 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable32 img {
+    width: 95vw;
+    height: auto;
+  }
+
+  #draggable33 img {
     width: 95vw;
     height: auto;
   }
